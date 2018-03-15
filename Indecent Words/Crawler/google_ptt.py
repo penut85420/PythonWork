@@ -3,18 +3,19 @@
 Author: Penut
 Date: 2018/01/27
 """
-import re
 import os
+import re
+import sys
+import time
 import urllib
+
+import pandas as pd
 import requests
+
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 
-WARNING_TEXT = "我們的系統偵測到您的電腦網路送出的流量有異常情況。這頁是為了確認要求確實出自您本人，不是由自動程式發出。"
-COOKIES = {'over18': '1'}
-PTT_URL = re.compile("www.ptt.cc/.*html")
-PTT_CATEGORY = re.compile("www.ptt.cc/.*/")
 
 def ptt_requests(url, keyword):
     """ Get PTT article through requests """
@@ -41,7 +42,7 @@ def ptt_requests(url, keyword):
 def write_file(category, keyword, title, content):
     """ Write file """
     print(title)
-    file_path = "D:/PTT/" + keyword[1:-1] + "/" + category + "/"
+    file_path = WORK_DIR + "PTT/" + keyword[1:-1] + "/" + category + "/"
     if not os.path.exists(file_path):
         os.makedirs(file_path)
     fout = open(file_path + re.sub("[<>:\"/\\\\|?*]", "_", title) + ".txt", "w", encoding="UTF-8")
@@ -59,10 +60,13 @@ def ptt_scrawler(keyword):
     total = 0
     driver = webdriver.Firefox()
     keyword = '"' + keyword + '"'
-    driver.get("https://www.google.com.tw/search?q="
-               + urllib.parse.quote(keyword)
-               + "+site:www.ptt.cc&num=100&start=0"
-               + "&sa=N&biw=1304&bih=675")
+    url = ("https://www.google.com.tw/search?q="
+           + urllib.parse.quote(keyword)
+           + "+site:www.ptt.cc&num=100&start=0"
+           "&sa=N&biw=1304&bih=675")
+    if TS != "" : url += "&tbs=qdr:" + TS
+
+    driver.get(url)
     verify(driver)
 
     while True:
@@ -86,10 +90,40 @@ def ptt_scrawler(keyword):
     print("「%s」共搜尋到 %d 筆結果" % (keyword, total))
     driver.close()
 
-def __main__():
-    # Run to 賤貨
-    words_list = ["賤婊", "婊子", "破麻", "賤婊子", "淫蕩", "淫娃", "賤貨", "賤女人", "賤人", "賤"]
-    for w in words_list:
-        ptt_scrawler(w)
+WARNING_TEXT = "我們的系統偵測到您的電腦網路送出的流量有異常情況。這頁是為了確認要求確實出自您本人，不是由自動程式發出。"
+COOKIES = {'over18': '1'}
+PTT_URL = re.compile("www.ptt.cc/.*html")
+PTT_CATEGORY = re.compile("www.ptt.cc/.*/")
+FLAG = "-w"
+WORD_LIST = []
+TS = ""
+WORK_DIR = ""
 
-__main__()
+for arg in sys.argv[1:]:
+	if arg.startswith('-'): 
+		FLAG = arg
+		continue
+	
+	if FLAG == "-w":
+		WORD_LIST.append(arg)
+	elif FLAG == "-t":
+		TS = arg
+	elif FLAG == "-f":
+		WORK_DIR = arg
+
+if len(WORD_LIST) == 0: 
+    print("Error: No query words")
+    exit(1)
+
+if WORK_DIR == "": 
+    print("Error: No work directory assign")
+    exit(2)
+
+for w in WORD_LIST:
+    ptt_scrawler(w)
+
+"""
+&tbs=qdr: {h, d, w, m, y}
+&tbs=cdr%3A1%2Ccd_min%3A3%2F1%2F2018%2Ccd_max%3A3%2F14%2F2018
+                        3   1   2018            3   14   2018
+"""
