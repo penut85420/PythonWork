@@ -1,8 +1,10 @@
-# -*- coding: utf-8 -*-
+# Coding: UTF-8
+
 """
 Author: Penut
 Date: 2018/01/27
 """
+
 import os
 import re
 import sys
