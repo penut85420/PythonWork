@@ -1,10 +1,8 @@
-# Coding: UTF-8
-
+# -*- coding: utf-8 -*-
 """
 Author: Penut
 Date: 2018/01/27
 """
-
 import os
 import re
 import sys
@@ -28,6 +26,7 @@ def ptt_requests(url, keyword):
         article_title = soup.find_all("span", {"class": "article-meta-value"})[2].text
         title = article_title + PTT_URL.search(url).group()[11:-5]
         category = PTT_CATEGORY.search(url).group()[15:-1]
+        category = category[:category.find("/")]
 
         # Get article content
         divs = soup.find_all("div", {"id": "main-content"})
@@ -39,7 +38,7 @@ def ptt_requests(url, keyword):
         write_file(category, keyword, title, content)
 
     except IndexError:
-        print(url + " no article")
+        print(url + " has no article")
 
 def write_file(category, keyword, title, content):
     """ Write file """
