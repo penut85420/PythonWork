@@ -1,10 +1,12 @@
 import os
 
-dump_folder = "zhwiki_preserve_tw"
-output_folder = "zhwiki_preserve_plain"
+# dump_folder = "zhwiki_preserve_tw\\"
+# output_folder = "zhwiki_preserve_plain\\"
 
-# dump_folder = "zhwiki_sub_pre"
-# output_folder = "zhwiki_sub_plain"
+dump_folder = "zhwiki_sub_plain"
+output_folder = "zhwiki_sub_plain_preprocess"
+
+os.mkdir(output_folder)
 
 replace_dict = {"&lt;": "<",
 				"&quot;": "\"",
