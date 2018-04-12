@@ -37,8 +37,10 @@ def tag2_clear(content, tagName):
 		content = t1 + t2
 	return content
 
-dump_folder = "zhwiki_preserve_tw"
-output_folder = "zhwiki_preserve_plain\\"
+# dump_folder = "zhwiki_preserve_tw"
+# output_folder = "zhwiki_preserve_plain\\"
+dump_folder = r"D:\Research\Wikipedia\zhwiki_preserve_tw"
+output_folder = r"D:\Research\Wikipedia\zhwiki_preserve_plain" + "\\"
 
 replace_dict = {"&lt;": "<",
 				"&quot;": "\"",
@@ -51,30 +53,40 @@ for dirPath, dirNames, fileNames in os.walk(dump_folder):
 		fin = open(dirPath + "\\" + fileName, "r", encoding="UTF-8")
 		fout = open(output_folder + fileName, "w", encoding="UTF-8")
 		print(fileName)
+		content = ""
+		record = False
 		for line in fin:
 			if line == "\n": continue
 			for key in replace_dict:
 					line = line.replace(key, replace_dict[key])
-					
-			content = tag2_clear(line, "ref")
-			content = tag2_clear(content, "div")
-			content = tag_clear(content, "{{", "{", "}", 2)
-			content = tag_clear(content, "[[File:", "[", "]", 2)
-			content = tag_clear(content, "<!--", "<", ">", 1)
-			
-			while content.find("[[") != -1:
-				idx = content.find("[[")
-				t1 = content[:idx]
-				t2 = content[idx + 2:]
-				left = -1
-				right = 2
-				for i in range(len(t2)):
-					if t2[i] == "|": left = i
-					if t2[i] == "]": 
-						right = i
-						break
-				t2 = t2[left+1:right] + t2[right+2:]
-				content = t1 + t2
 
-			fout.write(content)
-			
+			if line.startswith("<preserve>"):
+				record = True
+			elif line.startswith("</preserve>"):
+				record = False
+
+				content = tag2_clear(content, "ref")
+				content = tag2_clear(content, "div")
+				content = tag_clear(content, "{{", "{", "}", 2)
+				content = tag_clear(content, "[[File:", "[", "]", 2)
+				content = tag_clear(content, "<!--", "<", ">", 1)
+				
+				while content.find("[[") != -1:
+					idx = content.find("[[")
+					t1 = content[:idx]
+					t2 = content[idx + 2:]
+					left = -1
+					right = 2
+					for i in range(len(t2)):
+						if t2[i] == "|": left = i
+						if t2[i] == "]": 
+							right = i
+							break
+					t2 = t2[left+1:right] + t2[right+2:]
+					content = t1 + t2
+				fout.write(content.strip() + "\n")
+				content = ""
+			elif record:
+				content += line
+				continue
+			fout.write(line)
