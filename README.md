@@ -16,4 +16,4 @@ My python projects here.
 
 ## WikipediaWork
 
-使用 MediaWiki API 對 Wikipedia Page 進行分析
+Wikipedia Page 抽出首段進行分析
