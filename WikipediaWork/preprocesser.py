@@ -6,8 +6,6 @@ import os
 dump_folder = "zhwiki_sub_plain"
 output_folder = "zhwiki_sub_plain_preprocess"
 
-os.mkdir(output_folder)
-
 replace_dict = {"&lt;": "<",
 				"&quot;": "\"",
 				"&gt;": ">", 
@@ -37,8 +35,8 @@ def tag2_clear(content, tagName):
 
 	while content.find(tag) != -1:
 		idx = content.find(tag)
-		t1 = content[:idx]
-		t2 = content[idx + len(tag):]
+		t1 = content[:idx] # Content before tag
+		t2 = content[idx + len(tag):] # Content after tagbegin
 		isSelfClose = False
 		for i in range(len(t2)):
 			if t2[i] == ">": break
