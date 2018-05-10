@@ -4,7 +4,7 @@ import os
 # output_folder = "zhwiki_preserve_plain\\"
 
 dump_folder = "zhwiki_sub_org"
-output_folder = "zhwiki_sub_plain_preprocess"
+output_folder = "zhwiki_sub_plain"
 
 replace_dict = {"&lt;": "<",
 				"&quot;": "\"",
@@ -81,11 +81,14 @@ for dirPath, dirName, fileNames in os.walk(dump_folder):
 		for line in fin:
 			if line.startswith("<preserve>"): 
 				log = True
+				fout.write(line)
+				continue
 			elif line.startswith("</preserve>"):
 				log = False
 				content = tag2_clear(content, "ref")
 				content = tag2_clear(content, "div")
 				content = tag_clear(content, "{{", "{", "}", 2)
+				content = tag_clear(content, "{", "{", "}", 1)
 				content = tag_clear(content, "[[File:", "[", "]", 2)
 				content = tag_clear(content, "<!--", "<", ">", 1)
 				while content.find("[[") != -1:
@@ -116,7 +119,8 @@ for dirPath, dirName, fileNames in os.walk(dump_folder):
 						t3 = content[content.find("}-")+2:]
 
 					content = t1 + t2 + t3
-
+				content = content.replace("</div>", "")
+				content = content.replace("\n\n", "")
 				fout.write(content.strip() + "\n")
 				content = ""
 			if log:
