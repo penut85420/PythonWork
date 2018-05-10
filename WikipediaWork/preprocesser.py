@@ -3,14 +3,15 @@ import os
 # dump_folder = "zhwiki_preserve_tw\\"
 # output_folder = "zhwiki_preserve_plain\\"
 
-dump_folder = "zhwiki_sub_plain"
+dump_folder = "zhwiki_sub_org"
 output_folder = "zhwiki_sub_plain_preprocess"
 
 replace_dict = {"&lt;": "<",
 				"&quot;": "\"",
 				"&gt;": ">", 
 				"'''": "", 
-				"''": ""}
+				"''": "",
+				"-{}-": ""}
 
 def tag_clear(content, tagTrigger, tagLeft, tagRight, d_left):
 	while content.find(tagTrigger) != -1:
@@ -69,38 +70,62 @@ def template_bd(txt):
 
 for dirPath, dirName, fileNames in os.walk(dump_folder):
 	for fileName in fileNames:
+		print(fileName)
+
+		fin = open(dirPath + "\\" + fileName, "r", encoding="UTF-8")
+		fout = open(output_folder + "\\" + fileName, "w", encoding = "UTF-8")		
+
+		log = False
 		content = ""
-		with open(dirPath + "\\" + fileName, "r", encoding="UTF-8") as fin:
-			print(fileName)
-			for line in fin:
-				s = line
+
+		for line in fin:
+			if line.startswith("<preserve>"): 
+				log = True
+			elif line.startswith("</preserve>"):
+				log = False
+				content = tag2_clear(content, "ref")
+				content = tag2_clear(content, "div")
+				content = tag_clear(content, "{{", "{", "}", 2)
+				content = tag_clear(content, "[[File:", "[", "]", 2)
+				content = tag_clear(content, "<!--", "<", ">", 1)
+				while content.find("[[") != -1:
+					idx = content.find("[[")
+					t1 = content[:idx]
+					t2 = content[idx+2:]
+					left = -1
+					right = 2
+					for i in range(len(t2)):
+						if t2[i] == "|": left = i
+						if t2[i] == "]": 
+							right = i
+							break
+
+					t2 = t2[left+1:right] + t2[right+2:]
+					content = t1 + t2
+
+				while content.find("-{") != -1:
+					idx = content.find("-{")
+					t1 = content[:idx]
+					t2 = content[idx+2:]
+					if t2.find("zh-hans:") != -1:
+						t2 = t2[t2.find("zh-hans:") + len("zh-hans:"):]
+						t3 = t2[t2.find("}-")+2:]
+						t2 = t2[:t2.find(";")]
+					else:
+						t2 = content[idx+2:content.find("}-")]
+						t3 = content[content.find("}-")+2:]
+
+					content = t1 + t2 + t3
+
+				fout.write(content.strip() + "\n")
+				content = ""
+			if log:
 				for key in replace_dict:
-					s = s.replace(key, replace_dict[key])
-				if s.strip() != '':
-					content += s.strip() + "\n"
+					line = line.replace(key, replace_dict[key])
+				if line.strip() != '':
+					content += line.strip() + "\n"
+			else: fout.write(line)
+		fin.close()
+		fout.close()
 
-		content = tag2_clear(content, "ref")
-		content = tag2_clear(content, "div")
-
-		# content = template_bd(content)
-		content = tag_clear(content, "{{", "{", "}", 2)
-		content = tag_clear(content, "[[File:", "[", "]", 2)
-		content = tag_clear(content, "<!--", "<", ">", 1)
-
-		while content.find("[[") != -1:
-			idx = content.find("[[")
-			t1 = content[:idx]
-			t2 = content[idx + 2:]
-			left = -1
-			right = 2
-			for i in range(len(t2)):
-				if t2[i] == "|": left = i
-				if t2[i] == "]": 
-					right = i
-					break
-
-			t2 = t2[left+1:right] + t2[right+2:]
-			content = t1 + t2
-
-		with open(output_folder + "\\" + fileName, "w", encoding = "UTF-8") as fout:
-			fout.write(content.strip())
+		
