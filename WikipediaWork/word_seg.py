@@ -106,7 +106,7 @@ class CharacterList:
 			i += 1
 			flag = False
 		if flag: return None
-		return s[:i]
+		return s[:i - 1]
 
 class WordSegmentor:
 	def __init__(self):
@@ -177,10 +177,14 @@ class WordSegmentor:
 		return r
 import os
 
+print("Building dictionary")
 w = WordSegmentor()
-print("Build Dict")
+
 input_dir = r"zhwiki_sub_plain"
 seg_dir = "zhwiki_sub_seg\\"
+
+# input_dir = "test_fin"
+# seg_dir = "test_fout\\"
 
 for dirPath, dirNames, fileNames in os.walk(input_dir):
 	for fileName in fileNames:

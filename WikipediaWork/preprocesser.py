@@ -1,10 +1,13 @@
-import os
+import os, re
 
-# dump_folder = "zhwiki_preserve_tw\\"
-# output_folder = "zhwiki_preserve_plain\\"
+dump_folder = "zhwiki_preserve_tw\\"
+output_folder = "zhwiki_preserve_plain\\"
 
 dump_folder = "zhwiki_sub_org"
 output_folder = "zhwiki_sub_plain"
+
+# dump_folder = "test_fin"
+# output_folder = "test_fout"
 
 replace_dict = {"&lt;": "<",
 				"&quot;": "\"",
@@ -85,12 +88,23 @@ for dirPath, dirName, fileNames in os.walk(dump_folder):
 				continue
 			elif line.startswith("</preserve>"):
 				log = False
+				content = re.sub("{{lang(?P<str>.*?)}}", lambda m: m.group("str")[m.group("str").rfind("|")+1:], content)
+				content = re.sub("(?s)<div.*</div>", "", content)
+				content = re.sub("<noinclude>.*?</noinclude>", "", content)
+				def zh_hans(m):
+					s = m.group(0)
+					s = s[s.find("zh_hans:") + 11:]
+					s = s[:s.find(";")]
+					return s
+				content = re.sub("-{.*?}-", zh_hans, content)
+				content = re.sub("-{T.*?}-", "", content)
+				content = re.sub("{{ruby-py\|(.*?)\|.*?}}", lambda m: m.group(1), content)
 				content = tag2_clear(content, "ref")
-				content = tag2_clear(content, "div")
 				content = tag_clear(content, "{{", "{", "}", 2)
 				content = tag_clear(content, "{", "{", "}", 1)
 				content = tag_clear(content, "[[File:", "[", "]", 2)
 				content = tag_clear(content, "<!--", "<", ">", 1)
+				content = re.compile("（.*?）").sub("", content)
 				while content.find("[[") != -1:
 					idx = content.find("[[")
 					t1 = content[:idx]
@@ -105,21 +119,6 @@ for dirPath, dirName, fileNames in os.walk(dump_folder):
 
 					t2 = t2[left+1:right] + t2[right+2:]
 					content = t1 + t2
-
-				while content.find("-{") != -1:
-					idx = content.find("-{")
-					t1 = content[:idx]
-					t2 = content[idx+2:]
-					if t2.find("zh-hans:") != -1:
-						t2 = t2[t2.find("zh-hans:") + len("zh-hans:"):]
-						t3 = t2[t2.find("}-")+2:]
-						t2 = t2[:t2.find(";")]
-					else:
-						t2 = content[idx+2:content.find("}-")]
-						t3 = content[content.find("}-")+2:]
-
-					content = t1 + t2 + t3
-				content = content.replace("</div>", "")
 				content = content.replace("\n\n", "")
 				fout.write(content.strip() + "\n")
 				content = ""
