@@ -1,0 +1,1757 @@
+
+D:\Documents\PythonWork\WikipediaWork>cd StanfordParser 
+
+D:\Documents\PythonWork\WikipediaWork\StanfordParser>cht.bat
+Parsing file: test/in.txt
+Parsing [sent. 1 len. 29]: 数学 是 利用 符号 语言 研究 数量 、 结构 、 变化 以及 空间 等 概念 的 一门 学科 ， 从 某种 角度 看 属于 形式科学 的 一 种 。
+Parsing [sent. 2 len. 30]: 哲学 是 对 普遍 的 和 基本 的 问题 的 研究 ， 这些 问题 通常 和 存在 、 知识 、 价值 、 理智 、 心灵 、 语言 等 有关 。
+Parsing [sent. 3 len. 16]: 文学 ， 在 最 广泛 的 意义 上 ， 是 任何 单一 的 书面 作品 。
+Parsing [sent. 4 len. 24]: 历史 ， 指 人类社会 过去 的 事件 和 行动 ， 以及 对 这些 事件 行为 有 系统 的 记录 、 诠释 和 研究 。
+Parsing [sent. 5 len. 24]: 计算机科学 是 系统性 研究 信息 与 计算 的 理论 基础 以及 它们 在 计算机系统 中 如何 与 应用 的实 用 技术 的 学科 。
+Parsing [sent. 6 len. 15]: 民族 ， 又称 人 ， 简称 民 、 族 ( 19 世纪末 以来 ) 。
+Parsing [sent. 7 len. 23]: 戏剧 是 演员 将 某个 故事 或 情境 ， 以 对话 、 歌唱 或 动作 等 方式 所 表演 出来 的 艺术 。
+Parsing [sent. 8 len. 32]: 电影 是 一 种 表演艺术 、 视觉艺术 及 听觉艺术 ， 利用 胶卷 、 录影带 或 数位媒体 将 影像 和声 音 捕捉 起来 ， 再 加上 后期 的 编辑 工作 而 成 。
+Parsing [sent. 9 len. 14]: 音乐 ， 广义 而言 ， 就是 指 任何 以 声音 组成 的 艺术 。
+Parsing [sent. 10 len. 18]: 经济学 是 一门 对 产品 和服 务 的 生产 、 分配 以及 消费 进行 研究 的 社会科学 。
+Parsing [sent. 11 len. 18]: 政治学 是 一门 以 研究 政治 行为 、 政治体制 以及 政治 相关 领域 为主 的 社会科学 学科 。
+Parsing [sent. 12 len. 18]: 法学 是 社会科学 中一 门 特殊 的 学科 ， 研究法 律 此 一 特定 社会现象 及其 规律 。
+Parsing [sent. 13 len. 14]: 社会学 起源 于 19 世纪末 期 ， 是 一门 研究 社会 的 学科 。
+Parsing [sent. 14 len. 12]: 军事学 与 甚 多 范畴 有关 ， 主要 与 战争 有关 。
+Parsing [sent. 15 len. 49]: 信息学 ， 又称 信息科学 、 资讯科学 ， 旧称 情报学 ， 主要 是 指 以 信息 为 研究 对象 ， 利用 计算机 及其 程序设计 等 技术 为 研究 工具 来 分析 问题 、 解决问题 的 学问 ， 是以 扩展 人类 的信 息 功能 为主 要目 标的 一门 综合性 学科 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 16 len. 19]: 物理学 是 研究 物质 、 能量 的 本质 与 性质 ， 以及 它们 彼此 之间 交互作用 的 自然科学 。
+Parsing [sent. 17 len. 46]: 天文学 是 一门 自然科学 ， 它 运用 数学 、 物理 和 化学 等 方法 来 解释 宇宙 间 的 天体 ， 包括 行星 、 卫星 、 彗星 、 恒星 、 星系 等等 ， 以及 各种 现象 ， 如 超新星 爆炸 、 伽玛射线暴 、 宇宙微波背景辐射 等等 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 18 len. 25]: 力学 是 物理学 的 一个 分支 ， 主要 研究 能量 和 力 以及 它们 与 物体 的 平衡 、 变形 或 运动 的 关系 。
+Parsing [sent. 19 len. 19]: 化学 是 一门 研究 物质 的 性质 、 组成 、 结构 、 以及 变化 规律 的 基础 自然科学 。
+Parsing [sent. 20 len. 13]: 地理学 是 关于 地球 及其 特徵 、 居民 和 现象 的 学问 。
+Parsing [sent. 21 len. 17]: 地质学 是 对 地球的起源 探讨 压力 与 时间 、 历史 和 结构 进行 研究 的 学科 。
+Parsing [sent. 22 len. 37]: 气象学 是 把 大气 当作 研究 的 客体 ， 从 定性 和 定量 两 方面 来说 明大 气 特徵 的 学科 ， 集中 研究 大气 的 天气 情况 和 变化 规律 和 对 天气 的 预报 。
+Parsing [sent. 23 len. 51]: 生物学 或 称 生物科学 、 生命科学 ， 是 自然科学 的 一 大门 类 ， 由 经验主义 出发 ， 广泛 研究生 命 的 所有 方面 ， 包括 生命起源 、 演化 、 分 佈 、 构造 、 发育 、 功能 、 行为 、 与 环境 的 互动 关系 ， 以及 生物分类学 等 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 24 len. 29]: 心理学 是 一门 研究 人类 以及 其他 动物 的 心理 现象 、 精神 功能 和 行为 的 科学 ， 既是 一门 理论 学科 ， 也是 一门 应用 学科 。
+Parsing [sent. 25 len. 24]: 中医学 是 一 种 起源 于 中国 ， 以 古代中国 医学 实践 为主 体 的 传统医学 ， 至今 已 有数 千年 的历 史 。
+Parsing [sent. 26 len. 20]: 海洋学 是 研究 海洋 的 自然现象 、 性质 及其 变化 规律 ， 以及 开发 利用 海洋 的知 识 体系 。
+Parsing [sent. 27 len. 8]: 水 复盖 了 70 % 的 地球表面 。
+Parsing [sent. 28 len. 38]: 测绘学 研究 测定 和 推算 地面 几何 位置 、 地球 形状 及 地球重力 场 ， 据此 测量 地球表面 自然 物体 和人 工 设施 的 几何 分布 ， 编制 各种 比例尺 地图 的 理论 和 技术 的 学科 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 29 len. 12]: 农业 是 第一级产业 ， 在 现代 有 广 狭 之 分 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 30 len. 9]: 统一资源定位符 ， 有时 也 被 俗称 为 网页地址 。
+Parsing [sent. 31 len. 30]: 计算 是 一 种 将 「 单一 或 多 个 的 输入 值 」 转换 为 「 单一 或 多 个 的 结果 」 的 一 种 思考 过程 。
+Parsing [sent. 32 len. 15]: 在 计算机科学 中 ， 数据结构 是 计算机 中 存储 、 组织 数据 的 方式 。
+Parsing [sent. 33 len. 37]: 设计模式 可以 指 ： * 建筑设计 模式 * 设计模式 ( 计算机 ) * 《 设计模式 》 ， 一本 有关 软体设计模式 的 书 中华人民共和国 ， 简称 中国 ， 是 位于 东亚 的 社会主义国家 ， 首都 位于 北京 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 34 len. 22]: 克利斯登·奈加特 ， 挪威 计算机科学家 ， 社会活动家 ， 图灵奖 和 冯·诺伊曼奖 获得 者 ， Simula 的 创始人 ， 面向对象 技术 的 先驱 。
+Parsing [sent. 35 len. 25]: Self 语言 ， 是 一 种 基于原型的面向对象程序设计语言 ， 于 1986 年 由 施乐帕洛阿尔托研究中心 的 David Ungar 和 Randy Smith 给出 了 最初 的 设计 。
+Parsing [sent. 36 len. 11]: Linux 内核 ， 是 一 种 开源 的 类Unix操作系统 宏内核 。
+Parsing [sent. 37 len. 46]: 林纳斯·本纳第克特·托瓦兹 ， 生于 芬兰 赫尔辛基 市 ， 拥有 美国国籍 ， Linux 内核 的 最 早 作者 ， 随后 发起 了 这个 开源 项目 ， 担任 Linux 内核 的 首要 架构 师 与 专案 协调 者 ， 是 当今世界 最 着名 的 电脑程序员 、 黑客 之一 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 38 len. 8]: 理查德·马修·斯托曼 ， 美国 程序员 ， 自由软体 活动家 。
+Parsing [sent. 39 len. 11]: 自由软体基金会 是 一个 致力于 推广 自由软体 的 美国 民间 非营利性组织 。
+Parsing [sent. 40 len. 55]: 2003 年 7 月 的 新闻 事件 ： 请 参看 ： * 香港基本法第23条 * 加拿大同性婚姻 * 猴痘 * 以巴冲突 * 中东 和平路 线图 * 欧盟扩大 * 北朝鲜核危机 * 恐怖主义 战争 * 阿富汗战争 * 美军佔领伊拉克 孙中山 ， 名 文 ， 幼名 帝 象 ， 谱名 德明 ， 字 载 之 ， 号 逸仙 、 日新 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 41 len. 18]: 操作系统 是 管理 计算机硬体 与 软体 资源 的 计算机程序 ， 同时 也是 计算机系统 的 核心 与 基石 。
+Parsing [sent. 42 len. 11]: Linux 是 一 种 自由 和 开放源码 的 类UNIX 作业系统 .
+Parsing [sent. 43 len. 16]: 该 操作系统 的 内核 由 林纳斯·托瓦兹 在 1991 年 10 月 5 日 首次 发布 。
+Parsing [sent. 44 len. 27]: GNU 计划 ， 又 译 为 革奴计划 ， 是 一个 自由软体 集体协作 计画 ， 1983 年 9 月 27 日 由 理查德·斯托曼 在 麻省理工学院 公开 发起 。
+Parsing [sent. 45 len. 21]: 自由软体运动 是 一个 推广 用户 有 使用 、 复制 、 研究 、 修改 和 分发 软体 等 权利 的 社会运动 。
+Parsing [sent. 46 len. 52]: s : 材料科学 材料科学 ， 又名 为 材料工程 ， 涉及 物质 的 性质 及其 在 各个 科学 和 工程学 领域 的 整合 应用 ， 是 一个 研究 材料 的 制备 或 加工 工艺 、 材料 的 微观 结构 与 材料 宏观 性能 三者 之间 的 相互 关系 的 跨 领域 学科 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 47 len. 17]: 诺贝尔奖 ， 是 根据 瑞典 化学家 阿尔弗雷德·诺贝尔 的 遗嘱 于 1901 年 开始 颁发 的 奖项 。
+Parsing [sent. 48 len. 33]: 植物学 是 一门 研究 植物 形态 解剖 、 生长 发育 、 生理 生态 、 系统 进化 、 分类 以及 与 人类 的 关系 的 综合性 科学 ， 是 生物学 的 分支 学科 。
+Parsing [sent. 49 len. 26]: 生命 泛指 一类 具有 稳定 的 物质 和 能量 代谢 现象 并且 能 回应 刺激 、 能 进行 自我 复制 的 半 开放 物质 系统 。
+Parsing [sent. 50 len. 25]: Wiki 是 一 种 在 全球资讯网 上 开放 且 可 供 多人 协同 创作 的 超文本系统 ， 由 沃德·坎宁安 于 1995 年首 先 开发 。
+Parsing [sent. 51 len. 21]: 电脑程序 设计 ， 或 称 程式设计 ， 是 给出 解决 特定 问题 程序 的 过程 ， 软体开发过程 中的 重要 步骤 。
+Parsing [sent. 52 len. 34]: 计算机程序 是 指 一 组 指示 计算机 或 其他 具有 讯息 处理 能力 装置 每 一步 动作 的 指令 ， 通常 用 某种 程序设计语言 编写 ， 运行 于 某种 目标 体 结构 上 。
+Parsing [sent. 53 len. 136]: # redirect Linux 内核 # REDIRECT Linux 中国历史 如果 从中 国 第一次 成 体系 甲骨文 或 陶文 的 文字 出现 的 商朝 中期 算 起 约 有 3 , 300 年 ； 从 考古学 上第 一个 王朝 二里头文化 算 起 约 有 3 , 700 年 ； 从 西周 文献 中传 说 中的 夏朝 算 起 约 有 4 , 100 年 ； 从 孔子 所说的 、 有着 三皇五帝 的 传说 时代 算 起 约 有 4 , 700 年 ； 从 盘古 、 上帝 、 女娲 等 不确定 的 神话时代 算 起 约 有 「 五 千年 」 ； 从 标志 着文 明 萌芽 的 新石器时代 磁山文化 算 起 约 有 10 , 000 年 ； 从人 类 开始 脱离 原始 生活 的 旧石器时代 蓝田猿人 文化 算 起 约 有 80 万年 的历 史 。
+
+*******************************************************
+***  WARNING!! OUT OF MEMORY! THERE WAS NOT ENOUGH  ***
+***  MEMORY TO RUN ALL PARSERS.  EITHER GIVE THE    ***
+***  JVM MORE MEMORY, SET THE MAXIMUM SENTENCE      ***
+***  LENGTH WITH -maxLength, OR PERHAPS YOU ARE     ***
+***  HAPPY TO HAVE THE PARSER FALL BACK TO USING    ***
+***  A SIMPLER PARSER FOR VERY LONG SENTENCES.      ***
+*******************************************************
+
+Sentence too long for dependency parser.  Falling back to PCFG parse...
+Parsing [sent. 54 len. 8]: 亳州市 是 中华人民共和国 安徽省 下辖 的 地级市 。
+Parsing [sent. 55 len. 48]: 计算机网路 ， 通常 也 简称 网路 ， 是 利用 通信 设备 和 线路 将 地理位置 不同 的 、 功能 独立 的 多 个 计算机系统 连接 起来 ， 以 功能 完善 的 网路 软体 实现 网路 的 硬体 、 软体 及 资源 共享 和信 息 传递 的 系统 。
+Parsing [sent. 56 len. 51]: 上海 ， 简称 沪 ， 别称 申 ， 是 中华人民共和国 的 一个 直辖市 ， 中国经济 最 发达 的 城市 ， 国际 金融 、 贸易 和 航运 中心 之一 ， 其 港口 为 全球 最 繁忙 的港 口 ； 主要 产业 包括 商贸 流通 、 金融 、 信息 、 制造 等 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 57 len. 31]: 历史学家 也 称 历史家 、 史学家 、 史家 ， 指 以 撰写 历史 着作 为 职业 或 对 历史学 的 创立 、 发展 与 应用 付出 努力 的知 识 分子 。
+Parsing [sent. 58 len. 19]: 开放原始码 描述 了 一 种 在 产品 的 出品 和 开发 中 提供 最终 源 材料 的 做法 。
+Parsing [sent. 59 len. 37]: 计算数学 是 数学 的 一个 分支 ， 研究 的 内容 包括 设计 和 分析 演算法 以及 数学建模 等 ， 目的 是 为了 在 实际 工程 中 利用 快速 稳定 的 演算法 得到 精确 值 的 近似值 。
+Parsing [sent. 60 len. 16]: 高德纳 ， 出生于 美国 密尔沃基 ， 着名 计算机科学家 ， 斯坦福大学 计算机 系 荣誉 退休 教授 。
+Parsing [sent. 61 len. 43]: 中国 是 位于 东亚 的 国家 或 地理区域 ， 此 名称 最 早 见于 西周 ， 用来 指 以 洛阳盆地 为 中心 的 中原地区 ， 与 四夷 相对 ， 之后 逐渐 用来 指称 从 夏朝 起 延续 传承 至今 的 各 政权 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 62 len. 54]: # 重定向 中国古籍 中华人民共和国 的历 史 始于 公元 1949 年 10 月 1 日 的 开国大典 ， 前后 以 1978 年 12 月中 国共 产 党 十一届三中全会 为 标志 ， 可 分为 以 社会主义 转型 及 阶级斗争 为主 题 的 毛泽东时代 、 与 以 现代化 建设 及 改革开放 为主 题 的 邓小平时代 至今 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 63 len. 42]: 中华民国 是 位于 东亚 的 民主共和国 ， 自 1912 年成 立 至 1971 年 退出 联合国 期间 是 中国 的 代表 政权 ， 之后 则 因 有效 管理 之 实际 领土 与 台海现状 而 在 国际 上 通称 「 台湾 」 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 64 len. 48]: 宗教 是 联系人 与 超自然 神明 或 超验主义 的 文化体系 ， 可 分为 多神论 、 泛神论 、 一神论 和 无神论 等 多种 体系 ， 包括 个人 行为 、 传统 仪式 、 价值观念 、 世界观 念 、 经典 作品 、 朝拜 圣地 、 道德规范 或 社会团体 等 形式 。
+Parsing [sent. 65 len. 36]: 图书馆学 是 一门 研究图书馆 收集 、 加工 、 整理 、 保藏 、 控制 、 传递 和 利用 文献 信息 的 理论 、 方法 以及 图书馆 事业 发展 规律 的 科学 ， 是 一门 综合性 学科 。
+Parsing [sent. 66 len. 7]: 《义勇军进行曲》 ， 是 中华人民共和国 的 国歌 。
+Parsing [sent. 67 len. 44]: 人物 可以 指 ： * 个人 ， 单独 的 人类 个体 * 角色 的 通称 * 人物 ( 杂志 ) ， 美国 杂志 * 人物 ( 电视节目 ) ， 中国中央电视台 的 一个 节目 教育 ， 通常 有 广义 和 狭义 两 种 概念 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 68 len. 36]: 计算语言学 ， 亦 称 电脑语言学 是 一门 跨学科 的 研究 领域 ， 试图 找出 自然语言 的 规律 ， 建立 运算 模型 ， 最终 让 电脑 能够 像 人类 般 分析 ， 理解 和 处理 自然语言 。
+Parsing [sent. 69 len. 12]: 语音合成 是 将 人类 语音 用人 工 的 方式 所 产生 。
+Parsing [sent. 70 len. 45]: 第二次世界大战 是 一 次 自 1939 年 至 1945 年所 爆发 的 全球性 军事冲突 ， 整 场 战争 涉及 到 全球 绝大多数 的 国家 ， 包括 所有 的 大国 ， 并 最终 分成 了 两 个 彼此 对立 的 军事同盟 ─ 同盟国 和 轴心国 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 71 len. 17]: 辽宁省 ， 简称 辽 ， 旧称 奉天省 ， 中国 的 一个 省 ， 省会 位于 沈阳市 。
+Parsing [sent. 72 len. 22]: 海外华人 泛指 自 19 世纪 从中 国 移民 到 世界 各地 的 华人 及其 后裔 ， 或 侨居 海外 的 华人 。
+Parsing [sent. 73 len. 18]: 人工智慧 亦 称 机器智能 ， 是 指 由人 制造 出来 的 机器 所 表现 出来 的 智能 。
+Parsing [sent. 74 len. 36]: 中华人民共和国国旗 ， 又称 五星红旗 ， 为 左上角 镶 有 五 颗 黄色 五角星 的 红色旗帜 ， 旗帜 图案 中的 四 颗 小五 角 星 环绕 在 一 颗 大五 角 星 右侧 呈 半环 形 。
+Parsing [sent. 75 len. 34]: 海上田园 是 一个 位于 中国 广东省 深圳市 西部 宝安区 沙井街道 的 海上 休閒 度假 及 生态旅遊 景区 ， 也是 深圳 是 深圳 最 大 的 一座 生态 文化 主题旅遊 景区 ， 面积 1 .
+Parsing [sent. 76 len. 17]: 73 平方公里 ， 西 临 珠江 出海口 ， 2001 年 9 月 29 日 开始 营业 。
+Parsing [sent. 77 len. 6]: 旅遊 就是 旅行 遊览 活动 。
+Parsing [sent. 78 len. 9]: 邓丽君 ， 本名 邓丽筠 ， 中华民国 流行音乐 歌手 。
+Parsing [sent. 79 len. 19]: 遊戏 ， 既 可以 指 人 的 一 种 娱乐 活动 ， 也可 以 指 这种 活动 过程 。
+Parsing [sent. 80 len. 51]: 自然数 ， 可以 是 指正 整数 < math > ( 1 , 2 , 3 , 4 , \ ldots ) < / math > ， 亦可 以是 非负整数 < math > ( 0 , 1 , 2 , 3 , 4 , \ ldots ) < / math > 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 81 len. 38]: 代数数域 是 数学 中 代数数论 的 基本 概念 ， 数域 的 一类 ， 有时 也 被 简称 为数 域 ， 指 有理数 域 < math > \ mathbb < / math > 的 有限扩张 形成 的 扩域 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 82 len. 17]: 数域 是 近世代数 学 中常 见 的 概念 ， 指 对 加减乘除 四则运算 封闭 的 代数系统 。
+Parsing [sent. 83 len. 13]: 数论 是 纯粹数学 的 分支 之一 ， 主要 研究 整数 的 性质 。
+Parsing [sent. 84 len. 13]: GNU 自由 文档 许可证 是 一个 版权属左 的 内容开放 的 版权 授权条款 。
+Parsing [sent. 85 len. 13]: 陈相屯镇 是 坐落 于 中国 辽宁省 沈阳市 苏家屯区 南郊 的 一个 镇 。
+Parsing [sent. 86 len. 19]: 中国共产党 ， 简称 中共 ， 在 中国大陆 常 简称 为 党 ， 目前 是 中华人民共和国 唯一 的 执政党 。
+Parsing [sent. 87 len. 17]: 亚洲历史 描述 一个 由 欧亚草原 连接 的 几个 不同 海岸 地区 的 集合 体 的历 史 。
+Parsing [sent. 88 len. 15]: 千纪 ， 又称 千年纪 、 千年 ， 是 跨越 一千 年 的 时间 跨度 。
+Parsing [sent. 89 len. 26]: 开放 内容 是 个 新名词 ， 于 1998 年 由 大卫 · 威立 创立 ， 系 指 他人 可以 复制 或 修改 的 原创 着作 。
+Parsing [sent. 90 len. 16]: ， 是 一个 由 美国 计算机 教授 高德纳 编写 的 功能 强大 的 排版 软体 。
+Parsing [sent. 91 len. 31]: # REDIRECT 中华人民共和国国旗 # REDIRECT 中华人民共和国国旗 世界政区索引 列出 世界 各个 国家 ， 不仅 包括 被 国际 普遍 承认 的 国家 ， 也 包括 未被国际普遍承认的国家 和 海外属地 与其 他 特殊 政区 。
+Parsing [sent. 92 len. 23]: 非洲 的历 史 悠久 ， 是 人类 的 发源地 ， 在 公元前 4000 年 的 埃及 有 非洲 最 早 的 文字记载 。
+Parsing [sent. 93 len. 12]: 阿尔巴尼亚共和国 是 一个 位于 欧洲 东南部 ， 巴尔干半岛 西南部 的 国家 。
+Parsing [sent. 94 len. 18]: 黑客 ， 通常 是 指 对 计算机科学 、 编程 和 设计 方面 具 高度 理解 的 人 。
+Parsing [sent. 95 len. 15]: 福建省 ， 简称 闽 ， 为 中华人民共和国 东南沿海 的 一个 省 ， 省会 福州 。
+Parsing [sent. 96 len. 15]: 安徽省 ， 简称 「 皖 」 ， 为 中华人民共和国 一级行政区 ， 省会 为 合肥市 。
+Parsing [sent. 97 len. 23]: 甘肃省 ， 简称 甘 或 陇 ， 是 中国 的 一个 省份 ， 位于 中国西北地区 、 黄河 上游 ， 省会 为 兰州市 。
+Parsing [sent. 98 len. 16]: 广东省 ， 简称 粤 ， 是 中华人民共和国 南端 沿海 的 一个 省份 ， 省会 广州 。
+Parsing [sent. 99 len. 18]: 贵州省 ， 简称 贵 或 黔 ， 是 中华人民共和国 西南地区 的 一个 省份 ， 位于 云贵高原 东部 。
+Parsing [sent. 100 len. 13]: 海南省 ， 简称 琼 ， 是 中华人民共和国 唯一 的 热带 海岛 省份 。
+Parsing [sent. 101 len. 16]: 河北省 ， 简称 冀 ， 因 其 地处 华北平原 ， 黄河 下游 北岸 而 名 。
+Parsing [sent. 102 len. 24]: 黑龙江省 ， 简称 黑 ， 位于 中国东北地区 北部 ， 是 全国 最 北 和 最 东 的 省份 ， 省会 驻地 为 哈尔滨 。
+Parsing [sent. 103 len. 11]: 河南省 简称 豫 ， 是 中华人民共和国 一级行政区 ， 省会 郑州市 。
+Parsing [sent. 104 len. 14]: 湖北省 ， 简称 「 鄂 」 ， 中华人民共和国 一级行政区 ， 省会 为 武汉市 。
+Parsing [sent. 105 len. 24]: 江苏 ， 简称 苏 ， 是 中华人民共和国 华东地区 的 一 省 ， 省 名为 江宁 和 苏州 的 合称 ， 省会 为 南京市 。
+Parsing [sent. 106 len. 33]: 江西省 ， 简称 赣 ， 是 中华人民共和国 一级行政区 ， 位于 长江中下游 南岸 ， 东 界 浙江 与 福建 、 北 邻 安徽 和 湖北 ， 西 连 湖南 ， 南 毗 广东 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 107 len. 52]: 吉林省 是 中国东北地区 中部 的 一个 省份 ， 东南 与 俄罗斯 、 朝鲜 交界 ， 北 、 西 、 南 与 黑龙江 、 内蒙古 、 辽宁 毗邻 ， 位 在 东经 121 ° 38 ' 至 131 ° 17 ' ， 北纬 40 ° 52 ' 至 46 ° 18 ' 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 108 len. 12]: 青海省 ， 简称 青 ， 为 中国一级行政区 ， 位于 青藏高原 东北部 。
+Parsing [sent. 109 len. 35]: 陕西 ， 简称 陕 或 秦 ， 又称 三秦 ， 是 中国西北地区 的 省份 ， 现 为 西北地区 工农业 最 发达 的 省份 ， 处于 黄河 中游 ， 是 现今 中国地理 版图 的 中心 。
+Parsing [sent. 110 len. 30]: 山东省 ， 简称 鲁 ， 位于 中华人民共和国 东部 沿海 、 黄河 下游 、 京杭大运河 的 中 北段 ， 是 华东地区 的 最 北端 省份 ， 省会 设 于 济南 。
+Parsing [sent. 111 len. 14]: 山西 ， 简称 晋 ， 中国 一 省 ， 地处 黄土高原 东 翼 。
+Parsing [sent. 112 len. 14]: 四川省 ， 是 中华人民共和国 西南地区 的 一个 省份 ， 省政府 中心 为 成都市 。
+Parsing [sent. 113 len. 19]: 云南省 ， 简称 云 或 滇 ， 是 中华人民共和国 西南部 边疆 地区 的 一个 省份 ， 省会 昆明 。
+Parsing [sent. 114 len. 10]: 浙江省 ， 是 一个 地处 中国 东南沿海 的 省份 。
+Parsing [sent. 115 len. 17]: 广西壮族自治区 ， 简称 桂 ， 是 中华人民共和国 的 5 个 自治区 之一 ， 首府 为 南宁市 。
+Parsing [sent. 116 len. 15]: 内蒙古自治区 ， 简称 内蒙古 ， 是 中华人民共和国 北部 的 一个 自治区 ， 首府 呼和浩特 。
+Parsing [sent. 117 len. 18]: 宁夏回族自治区 ， 简称 宁 ， 是 中国西北 的 民族自治 区 ， 位于 黄河 中游 、 蒙古高原 南部 。
+Parsing [sent. 118 len. 24]: 新疆维吾尔自治区 ， 通称 新疆 ， 简称 新 ， 是 中华人民共和国 西北部 的 一个 自治区 ， 也是 中国 陆地 面积 第一 大 的 省级行政区 。
+Parsing [sent. 119 len. 41]: 北京市 ， 简称 「 京 」 ， 是 中华人民共和国 首都 、 直辖市 、 中国 国家中心城市 和 京津冀城市群 的 重要 组成部分 ， 是 中国 的 政治 、 文化 、 科技 创新 和 国际 交往 中心 ， 具有 重要 的 国际 影响力 。
+Parsing [sent. 120 len. 26]: 重庆市 ， 简称 巴 、 渝 ， 别称 山城 、 渝 都 、 雾都 、 桥 都 ， 中华人民共和国 直辖市 、 首批 国家中心城市 、 超大城市 。
+Parsing [sent. 121 len. 17]: 天津市 ， 简称 津 ， 是 中华人民共和国 的 直辖市 、 国家中心城市 和 中国北方 最 大 沿海开放城市 。
+Parsing [sent. 122 len. 7]: 中国行政区划 ， 历代 多 有所 变更 。
+Parsing [sent. 123 len. 8]: 亚细亚洲 ， 简称 亚洲 ， 面积 4457 .
+Parsing [sent. 124 len. 10]: 9 万 平方公里 ， 复盖 地球 总面积 的 8 .
+Parsing [sent. 125 len. 16]: 6 % ； 人口 总数 约 为 40 亿 ， 佔 世界 总人口 约 60 .
+Parsing [sent. 126 len. 16]: 5 % ； 是 七大洲 中 面积 最 大 ， 人口 最多 的 一个 洲 。
+Parsing [sent. 127 len. 27]: 美利坚合众国 ， 通称 美国 ， 是 由 其 下辖 50 个 州 、 华盛顿哥伦比亚特区 、 五 个 自治领 土 及 外岛 共同 组成 的 联邦共和 国 。
+Parsing [sent. 128 len. 23]: 人民币 ， 是 指 中国人民银行 成立 后于 1948 年 12 月 1 日 首次 发行 的 货币 ， 是 中华人民共和国 的 法定货币 。
+Parsing [sent. 129 len. 19]: 孔丘 ， 子姓 后裔 ， 孔氏 ， 名 丘 ， 字 仲尼 ， 后代 敬称 孔子 或 孔夫子 。
+Parsing [sent. 130 len. 51]: 深圳市 ， 简称 深 ， 别称 鹏城 ， 是 位于 中华人民共和国 广东省 的 都市 ， 同时 是 副 省级 计划单列市 、 经济特区 及 国家综合配套改革试验区 ， 1979 年 1 月 在 原 宝安县 的 基础 上 设立 ， 为 中国 的 证券 资本市场 中心 、 以及 重要 的 国际 经济 中心 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 131 len. 16]: Wiki 引擎 ， 或 称为 Wiki 软体 ， 是 指 用来 架设 Wiki 的 软体 。
+Parsing [sent. 132 len. 36]: 王菲 ， 曾 用 艺名 王靖雯 ， 着名 华语 女歌手 、 演员 ， 出生于 中国北京 ， 1987 年 随 父亲 举家 移民 英属香港 ， 并 于 1989 年 以 粤语 专辑 《 王靖雯 》 出道 。
+Parsing [sent. 133 len. 45]: 运动 竞技 是 人们 遵循 人体 的 生长 发育 规律 和 身体 的 活动 规律 ， 通过 身体 锻炼 、 技术 、 训练 、 竞技 比赛 等 方式 达到 增强 体质 ， 提高 运动 技术 水平 ， 丰富 文化 生活 为 目的 的 社会活动 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 134 len. 24]: 埃里克·斯蒂芬·雷蒙 ， 是 一名 程序员 ， 《 大教堂与市集 》 的 作者 、 《 新 黑客 词典 》 的 维护 人 、 着名 黑客 。
+Parsing [sent. 135 len. 25]: 阿诺德·阿洛伊斯·施瓦辛格 ， 是 一 位 美国 男子 健身 运动员 、 演员 和政 治家 ， 生于 奥地利 ， 曾经 担任 第 38 任 美国 加利福尼亚州州长 。
+Parsing [sent. 136 len. 18]: 离散数学 是 数学 的 几个 分支 的 总称 ， 研究 基于 离散空间 而 不是 连续 的 数学结构 。
+Parsing [sent. 137 len. 10]: 抚顺市 ， 清代 及 满洲国 时期 亦 称 抚西 。
+Parsing [sent. 138 len. 39]: < math > P \ Rightarrow Q \ , < / math > 数理逻辑 是 数学 的 一个 分支 ， 其 研究 对象 是 对证 明和 计算 这 两 个 直观 概念 进行 符号 化 以后 的 形式系统 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 139 len. 17]: 逻辑 ， 又称 理则 、 论理 、 推理 、 推论 ， 是 有效 推论 的 哲学研究 。
+Parsing [sent. 140 len. 24]: 中国东北地区 ， 简称 中国东北 、 东北 、 东北地区 ， 是 中国 的 一个 地理 大区 ， 也 属于 第二 阶梯 的 经济 大区 。
+Parsing [sent. 141 len. 51]: 中华人民共和国元帅 依序 为 朱德 、 彭德怀 、 林彪 、 刘伯承 、 贺龙 、 陈毅 、 罗荣桓 、 徐向前 、 聂荣臻 及 叶剑英 十 人 ， 是 中华人民共和国 建立 后于 1955 年 授予 给 在 土地革命 、 抗日战争 、 第二次国共内战 中 贡献 良多 的 十位 中国共产党 军事 领导人 的 最高 军衔 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 142 len. 58]: # REDIRECT 孙中山 俄罗斯联邦 ， 又名 俄罗斯 ， 是 位于 欧亚大陆 北部 的 一个 国家 ， 横跨 欧亚 两 大洲 ， 作为 世界 上 土地 面积 最 大 的 国家 ， 俄罗斯 拥有 超过 1700 万 平方公里 的 面积 ， 佔地 球 陆地 面积 八分 之一 ； 它 也是 世界 上第 九大 人口 国家 ， 拥有 1 .
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 143 len. 15]: 47 亿 人口 ， 77 % 居住 于 其 较为 发达 的 欧洲 部分 。
+Parsing [sent. 144 len. 21]: 朱德 ， 原名 朱 代 珍 ， 曾用名 建德 ， 字 玉阶 ， 四川 仪陇 人 ， 祖籍 广东 韶关 。
+Parsing [sent. 145 len. 24]: 仓颉输入法 是 一 种 常用 的 中文输入法 ， 由 有 「 中文电脑 之 父 」 美誉 的 朱邦复 先生 于 1976 年 创制 。
+Parsing [sent. 146 len. 9]: 编程语言 ， 是 用来 定义 计算机程序 的 形式语言 。
+Parsing [sent. 147 len. 46]: 八王之乱 是 发生 于西 晋 末年 元康 元年 至 光熙 元年 间 的 政治 动乱 ， 是 一 场 由 西晋 皇族 为 争夺 中央政权 而 引发 的 动乱 ， 为 中国历史 上 一 场 极为 严重 的 皇族 内乱 ， 共 持续 16 年 。
+Parsing [sent. 148 len. 32]: # REDIRECT 陈相屯镇 纽西兰 ， 又 译 兰 ， 又称 奥特亚罗瓦 ， 是 位于 太平洋 西南部 的 一个 岛屿国家 ， 首都 为 惠灵顿 ， 但 最 大 的 城市 为 奥克兰都会区 。
+Parsing [sent. 149 len. 205]: - > | buc = M ì - g ĭ b á ik - ku ŏ | poj = U î - ki pah - kho | tl = U î - ki pah - kho | phfs = V ì - k î Pak - kh ô | mon = В и к и п е д и а | tib = ལ ྦ ེ ་ ཁ ེ ་ ར ི ག ་ མ ཛ ོ ད | uig = ۋ ى ك ى پ ې د ى ي ە | zha = Veizgiek Bakgoh / Baksaw Viki | sawndip = 维基百科 / 百 书 Viki | zha _ old = Vei ƨ giek Bakgo ƅ / Baksa ɯ Viki | hangul = 위 키 백 과 | hanja = 위 키 百科 | mr = Wikibaekkwa | rr = Wikibaekgwa | kanji = ウ ィ キ ペ デ ィ ア | kana = ウ ィ キ ペ デ ィ ア | romaji = Wikipedia | qn = Wikipedia | hn = 维基百科 | en = Wikipedia | rus = В и к и п е д и я } } 维基百科 是 一个 网路百科全书 项目 ， 特点 是 自由内容 、 自由 编辑 。
+Sentence has no parse using PCFG grammar (or no PCFG fallback).  Skipping...
+Exception in thread "main" java.lang.IllegalStateException: originalWords and sentence of different sizes: 205 vs. 32
+ Orig: - > | buc = M ? - g ? b ? ik - ku ? | poj = U ? - ki pah - kho | tl = U ? - ki pah - kho | phfs = V ? - k ? Pak - kh ? | mon = ? ? ? ? ? ? ? ? ? | tib = ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? | uig = ? ? ? ? ? ? ? ? ? ? | zha = Veizgiek Bakgoh / Baksaw Viki | sawndip = ?��ʬ� / �� ? Viki | zha _ old = Vei ? giek Bakgo ? / Baksa ? Viki | hangul = ? ? ? ? | hanja = ? ? �ʬ� | mr = Wikibaekkwa | rr = Wikibaekgwa | kanji = ? ? ? ? ? ? ? | kana = ? ? ? ? ? ? ? | romaji = Wikipedia | qn = Wikipedia | hn = ?��ʬ� | en = Wikipedia | rus = ? ? ? ? ? ? ? ? ? } } ?��ʬ� �O �@? �I���ʬ��? ?�� �A �S? �O �ۥ�?�e �B �ۥ� ?? �C
+ Pars: # REDIRECT ?�ۤ�? ?��? �A �S ? ? �A �S? ?�S??�� �A �O ��_ �ӥ��v ��n�� �� �@? ???�a �A ���� ? �f?? �A �� �� �j �� ���� ? ?�J?��?? �C
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParserQuery.restoreOriginalWords(LexicalizedParserQuery.java:317)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParserQuery.getBestDependencyParse(LexicalizedParserQuery.java:607)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParserQuery.getBestParse(LexicalizedParserQuery.java:401)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParserQuery.getBestParse(LexicalizedParserQuery.java:375)
+	at edu.stanford.nlp.parser.lexparser.ParseFiles.processResults(ParseFiles.java:272)
+	at edu.stanford.nlp.parser.lexparser.ParseFiles.parseFiles(ParseFiles.java:216)
+	at edu.stanford.nlp.parser.lexparser.ParseFiles.parseFiles(ParseFiles.java:75)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParser.main(LexicalizedParser.java:1518)
+
+D:\Documents\PythonWork\WikipediaWork>cd StanfordParser 
+
+D:\Documents\PythonWork\WikipediaWork\StanfordParser>cht.bat
+Parsing file: test/in.txt
+Parsing [sent. 1 len. 12]: 桂林市 是 中华人民共和国 广西壮族自治区 下辖 的 地级市 ， 位于 广西 东北部 。
+Parsing [sent. 2 len. 36]: 柳州市 是 中华人民共和国 广西壮族自治区 下辖 的 地级市 ， 位于 广西 中北部 ， 史 称 「 龙城 」 ， 地形 为 「 三江 四合 ， 抱 城 如 壶 」 ， 亦 称 「 壶城 」 。
+Parsing [sent. 3 len. 12]: 梧州市 是 中华人民共和国 广西壮族自治区 下辖 的 地级市 ， 位于 广西 东部 。
+Parsing [sent. 4 len. 15]: 北海市 是 中华人民共和国 广西壮族自治区 下辖 的 地级市 ， 位于 广西 南部 ， 北部湾 沿岸 。
+Parsing [sent. 5 len. 12]: 玉林市 是 中华人民共和国 广西壮族自治区 下辖 的 地级市 ， 位于 广西 东南部 。
+Parsing [sent. 6 len. 18]: # REDIRECT 黄玉 在 自动机理论 中 ， 下推自动机 是 使用 了 包含 数据 的 栈 的 有限自动机 。
+Parsing [sent. 7 len. 19]: 9 月 12 日 是 阳历年 的 第 255 天 ， 离 一年 的 结束 还有 110 天 。
+Parsing [sent. 8 len. 21]: 中华人民共和国中央军事委员会主席 ， 简称 国家军委主席 ， 是 中华人民共和国 国家 最高 军事 领导人 ， 是 中国 宪制 上 的 最高 军队 统帅 。
+Parsing [sent. 9 len. 23]: # REDIRECT 九一一袭击事件 岳 麓 山 位于 湖南省长 沙市 的 湘江 西岸 ， 最高峰 云 麓 峰 ， 又名 灵 麓 峰 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 10 len. 19]: 白沙古井 简称 白沙井 ， 位于 湖南省长 沙市 城南 ， 贺龙体育文化中心 西 测 ， 天心阁 东南 ， 临 白沙路 。
+Parsing [sent. 11 len. 27]: # REDIRECT 白沙古井 长沙 铜官窑 ， 又称 长沙窑 ， 唐 五代时期 南方 民 窑 ， 出产 青瓷 ， 同时 运用 多种 装饰 技法 ， 品类 繁多 。
+Parsing [sent. 12 len. 20]: 11 月 12 日 是 阳历 一年 中的 第 316 天 ， 离 全年 的 结束 还有 49 天 。
+Parsing [sent. 13 len. 17]: 渤海 是 中国 的 内海 ， 也是 西太平洋 的 一部分 ， 渤海 古称 沧海 、 北海 。
+Parsing [sent. 14 len. 58]: 电子佈告栏系统 是 一 种 网站 系统 ， 是 目前 流行网 路 论坛 的 前身 ， 它 允许 用户 使用 终端 程序 通过 数据机 拨接 或者 网际网路 来 进行 连接 ， BBS 站台 提供 佈 告 栏 、 分类 讨论区 、 新闻 阅读 、 软体 下载 与 上传 、 遊戏 、 与其 它 用户线 上 对话 等 功能 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 15 len. 36]: 北京大学 ， 简称 北大 ， 创建 于 1898 年 ， 初 名 京师大学堂 ， 成立 之 初 为 中国 最高学府 ， 同时 也是 国家 最高 教育行政 机关 ， 行使 教育部 职能 ， 统管 全国 教育 。
+Parsing [sent. 16 len. 63]: 西安交通大学 ， 是 位于 古都 西安 的 一 所 具有 理工 特色 ， 涵盖 理 、 工 、 医 、 经 、 管 、 文 、 法 等 10 个 学科门类 的 教育部 直属 综合性 全国重点大学 ， 是 全国 首批 七 所 211 工程院 校 之一 、 首批 九 所 985 工程院 校 之一 、 首批 八 所 111 计划 院校 之一 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 17 len. 19]: 9 月 13 日 是 阳历年 的 第 256 天 ， 离 一年 的 结束 还有 109 天 。
+Parsing [sent. 18 len. 19]: 9 月 14 日 是 阳历年 的 第 257 天 ， 离 一年 的 结束 还有 108 天 。
+Parsing [sent. 19 len. 19]: 绝对零度 是 热力学 的 最低 温度 ， 是 粒子 动能 低 到 量子力学 最低点 时 物质 的 温度 。
+Parsing [sent. 20 len. 24]: 洛阳市 是 中华人民共和国 河南省 下辖 的 地级市 ， 位于 中原地区 ， 中国四大古都 之一 ， 现 为 河南省 及 中原城市群 的 副 中心城 市 。
+Parsing [sent. 21 len. 17]: 方言 指 的是 一个 某种 语言的变体 ， 但有 时 也可 以 指 地方上 使用 的 语言 。
+Parsing [sent. 22 len. 19]: # REDIRECT 摄氏温标 摄氏温标 是 世界 上 普遍 使用 的 温标 ， 符号 为 °C ， 属于 公制单位 。
+Parsing [sent. 23 len. 11]: 温度计 ， 外圈 为 华氏温标 ， 内圈 则 为 摄氏温标 。
+Parsing [sent. 24 len. 27]: # REDIRECT 热力学温标 国际实用温标 ， 是 一个 国际 协议 性 温标 ， 它 与 热力学温标 相接 近 ， 而且 复 现 精度 高 ， 使用 方便 。
+Parsing [sent. 25 len. 19]: 温度 是 表示 物体 冷热 程度 的 物理量 ， 微观 上来 讲 是 物体 分子热运动 的 剧烈 程度 。
+Parsing [sent. 26 len. 28]: # REDIRECT 摄氏温标 # REDIRECT 国际实用温标 浏阳市 为 中国 湖南省 下辖 县级市 ， 位于 湖南 东北部 、 长沙市 东部 ， 毗邻 江西省 ， 由 长沙 地级市 代管 。
+Parsing [sent. 27 len. 49]: # REDIRECT 华氏温标 # REDIRECT 摄氏温标 # REDIRECT 华氏温标 天干 ， 是 中国古代 的 一 种 文字 计 序 符号 ， 共 10 个 字 : 甲 、 乙 、 丙 、 丁 、 戊 、 己 、 庚 、 辛 、 壬 、 癸 ， 循环 使用 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 28 len. 38]: 地支 是 指 木星 轨道 被 分成 的 十二 个 部分 ， 记 为 子 、 丑 、 寅 、 卯 、 辰 、 巳 、 午 、 未 、 申 、 酉 、 戌 、 亥 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 29 len. 20]: 节气 指 二十四时 节 和气 候 ， 是 中国古代 订立 的 一 种 用来 指导 农事 的 补充 历法 。
+Parsing [sent. 30 len. 24]: 太阳 或 日 是 位于 太阳系 中心 的 恒星 ， 它 几乎 是 热电 浆 与 磁场 交织 着 的 一个 理想 球体 。
+Parsing [sent. 31 len. 28]: 2004 年 美国总统选举 于 2004 年 11 月 2 日 举行 ， 时任 总统 乔治·沃克·布希 成功 连任 ， 这次 他 成功 同时 赢得 普选 票 及 选举人票 。
+Parsing [sent. 32 len. 21]: 汉语拼音 ， 在 中国大陆 常 简称 为 拼音 ， 是 一 种 以拉 丁字 母 作 普通话 标音 的 方案 。
+Parsing [sent. 33 len. 24]: # REDIRECT 汉语拼音 爆竹 又称 鞭炮 、 纸 炮 仔 、 炮仗 、 炮 仔 ， 起源 至今 有 2000 多年 的历 史 。
+Parsing [sent. 34 len. 43]: 烟火 ， 又称 烟花 、 花火 、 焰火 ， 是 一 种 以 火药 和 金属 的 粉末 制成 的 物体 ， 以 火点 燃 后 会 燃烧 、 爆炸 并 绽放 出声 音和 五颜六色 的 光线 ， 通常 在 户外 使用 。
+Parsing [sent. 35 len. 22]: 花炮 是 烟花 和 鞭炮 的 合称 ， 一般 为 为重 要 节日 或 庆祝 活动 施放 用以 庆祝 的 物品 。
+Parsing [sent. 36 len. 41]: # REDIRECT 爆竹 # REDIRECT 烟火 # REDIRECT 烟火 通用拼音 是 一 种 以拉 丁字 母 作 汉字 标音 的 方案 ， 包含 了 「 华语 通用拼音 」 、 「 台语通用拼音 」 、 「 客语通用拼音 」 三 种 拼音 方案 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 37 len. 14]: 贺龙 ， 原名 贺文 常 ， 字 云 卿 ， 湖南省 桑植县 人 。
+Parsing [sent. 38 len. 9]: 聂荣臻 ， 字 福 骈 ， 小名 双全 。
+Parsing [sent. 39 len. 23]: 陈毅 ， 原名 陈世俊 ， 字 仲 弘 ； 四川 乐至 人 ； 中国共产党 革命家 、 中国人民解放军军事家 、 中华人民共和国十大元帅 之一 ， 诗人 。
+Parsing [sent. 40 len. 26]: 湘绣 起源 于 湖南省长 沙 民间 刺绣 ， 属 中国四大 民间 刺绣 之一 ， 为 以 长沙市 为 中心 的 手工艺 产品 刺绣 的 总称 。
+Parsing [sent. 41 len. 38]: 朱镕基 ， 乳名 长庚 ， 中国 湖南 长沙 人 ， 祖籍 安徽 凤阳 ， 中国共产党 和 中华人民共和国 前 主要 领导人 之一 ， 曾 先后 任 中华人民共和国国务院副总理 、 国务院总理 ， 中共 第十 四 届 和 十五 届 中央政治局常委 。
+Parsing [sent. 42 len. 43]: 印度尼西亚共和国 ， 简称 印度尼西亚 或 印尼 ， 为 东南亚 国家 ； 约 由 17 , 508 个 岛屿 组成 ， 是 世界 上 最 大 的 群岛 国家 ， 疆域 横跨 亚洲 及 大洋洲 ， 别称 「 万 岛 之 国 」 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 43 len. 13]: 哈勃超深空 是以 可见光 拍摄 的 最 深远 的 宇宙 影 象 之一 。
+Parsing [sent. 44 len. 25]: 大不列颠王国 ， 曾 为 英国历史 上 的 正式 国名 ， 位于 西欧 大不列颠岛 及其 附属 岛屿 ， 存在 于 1707 年 至 1800 年 。
+Parsing [sent. 45 len. 11]: 黑麋峰 位于 湖南省长 沙市 望城区 东北角 ， 主峰 海拔 590 .
+Parsing [sent. 46 len. 9]: 5 米 ， 为 望城 境内 第一 高峰 。
+Parsing [sent. 47 len. 19]: 9 月 15 日 是 阳历年 的 第 258 天 ， 离 一年 的 结束 还有 107 天 。
+Parsing [sent. 48 len. 19]: 9 月 16 日 是 阳历年 的 第 259 天 ， 离 一年 的 结束 还有 106 天 。
+Parsing [sent. 49 len. 12]: 伊拉克共和国 ， 简称 伊拉克 ， 位于 亚洲 西南部 中东地区 的 国家 。
+Parsing [sent. 50 len. 18]: # REDIRECT 台湾蓝鹊 燃素说 ， 一个 已 被 取代 的 化学 理论 ， 起源 于 17 世纪 。
+Parsing [sent. 51 len. 42]: 北京大学医学部 ， 简称 「 北医 」 ， 英文 简称 「 PUHSC 」 ， 是 北京 一 所以 医药 卫生 为主 的 高等院校 ， 位于 北京市 海淀区 学院路 38 号 ， 原名 北京医科大学 ， 2000 年 5 月 4 日 并入 北京大学 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 52 len. 46]: 一塌糊涂BBS ， 是 一个 完全 民间 性质 的 BBS 站点 ， 1999 年 9 月 17 日 开设 ， 曾 是 中国大陆 非常 具有 影响力 的 一个 BBS ， 在 2004 年 9 月 关 站前 也是 教育网 内平 均 在线 人数 最多 的 BBS 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 53 len. 38]: # redirect 一塌糊涂BBS # REDIRECT 繁体字 # REDIRECT 繁体字 # REDIRECT 繁体字 # REDIRECT 繁体字 # REDIRECT 繁体字 # REDIRECT 简体中文 # 重定向 简化字 # REDIRECT 简体中文 语文 ， 包括 语 和文 ， 即 口头语 和 书面语 。
+Parsing [sent. 54 len. 19]: 9 月 17 日 是 阳历年 的 第 260 天 ， 离 一年 的 结束 还有 105 天 。
+Parsing [sent. 55 len. 20]: 毕氏定理 又称 商高定理 、 毕达哥拉斯定理 、 定理 、 百牛定理 ， 是 平面几何 中一 个 基本 而 重要 的 定理 。
+Parsing [sent. 56 len. 33]: # REDIRECT 余弦定理 # REDIRECT 勾股定理 大英博物馆 是 一座 于 英国 伦敦 的 综合 博物馆 ， 也是 世界 上规模 最 大 、 最 着名 的 博物馆 之一 ， 成立 于 1753 年 。
+Parsing [sent. 57 len. 18]: 华北官话 ， 相较 于西 北 官话 ， 是 汉语官话 分区 方式 中分 出的 官话 的 一个 分支 。
+Parsing [sent. 58 len. 25]: 闽语 ， 在 中国大陆 俗称 福建话 ， 即 汉藏语系 汉语族 闽语支 ， 为 传统 的 「 汉语族 七大 语言 」 架构 中的 语言 之一 。
+Parsing [sent. 59 len. 20]: 河阴之变 是 北魏 权臣 太原王 尔朱荣 策划 并 实施 的 一起 针对 皇族 和 百官 公卿 的 屠杀 事件 。
+Parsing [sent. 60 len. 44]: # REDIRECT 黄河 # REDIRECT 甘肃省 # REDIRECT 电脑记忆体 合金 ， 就是 两 种 或 两 种 以上 化学物质 混合 而 成 具有 金属 特性 的 物质 ， 一般 由 各 组分 熔 合成 均匀 的 液体 ， 再 经 冷凝 而 得 。
+Parsing [sent. 61 len. 31]: 卡尔·马克思 ， 早期 在 中国 被 译 为 麦喀士 ， 是 犹太裔 德国哲学家 、 经济学家 、 社会学家 、 政治学家 、 革命 理论家 、 新闻 从业员 、 历史学者 、 革命社会主义 者 。
+Parsing [sent. 62 len. 16]: 伦敦地铁 是 英国 伦敦 的 城市轨道交通系统 ， 于 1863 年 1 月 10 日 通车 。
+Parsing [sent. 63 len. 9]: 世界观 意思 是 「 着眼 世界 之上 」 。
+Parsing [sent. 64 len. 17]: # REDIRECT 甘肃省 # REDIRECT 卡尔·马克思 萨克森自由州 是 德意志联邦共和国 的 一个 联邦州 ， 位于 德国 东部 。
+Parsing [sent. 65 len. 22]: # REDIRECT 群体遗传学 9 月 18 日 是 阳历年 的 第 261 天 ， 离 一年 的 结束 还有 104 天 。
+Parsing [sent. 66 len. 45]: 是 一部 贺岁 喜剧片 ， 1992 年 于 香港 上映 ， 导演 为 高志森 ， 由 黄百鸣 、 周星驰 、 张国荣 、 张曼玉 、 吴君如 及 毛舜筠 领衔 主演 ， 总 票房 48 , 992 , 188 港元 ， 刷新 了当 时 香港 票房纪录 。
+Parsing [sent. 67 len. 62]: 河北工业大学 是 中国 的 一 所以 工学 为主 、 综合 多 学科 的 公立大学 ， 其 前身 为 中国 最 早 的 工科 院校 —— 1903 年 创办 于 天津 的 北洋工艺学堂 ， 是 国家级 「 211 工程 」 重点大学 ， 最 早 提出 了 「 工学 并举 」 的 办学 理念 并 创办 了 中国高校 最 早 的 校办 工厂 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 68 len. 28]: 高分子材料学 是 一个 交叉学科 ， 把 材料科学 、 化学工程学 科 等 学科 相结 合 ， 并进 行 有机 交叉 式 高分子材料 与 工程 专业 的 发展 方向 。
+Parsing [sent. 69 len. 38]: 邯郸市 是 中华人民共和国 河北省 下辖 的 地级市 ， 经国 务 院 批准 拥有 地方 立法权 的 较大的市 ， 位于 河北省 最 南端 ， 因 邯山 至此 尽 而 得名 ， 有 「 河北 南大门 」 之 称 。
+Parsing [sent. 70 len. 16]: 岩手县 是日 本本 州 东北地方 东北部 的 一个 县 ， 其 总面积 15 , 278 .
+Parsing [sent. 71 len. 23]: 88 平方公里 ， 在 全日 本 的 都道府县 之中 排行 第二 ， 仅次于 北海道 ， 是日 本 面积 最 大 的 县 。
+Parsing [sent. 72 len. 26]: 图论 是 数学 的 一个 分支 ， 它 以 图 为 研究 对象 ， 研究 顶点 和 边 组成 的 图形 的 数学理论 和 方法 。
+Parsing [sent. 73 len. 16]: 胚胎学 是 研究 活着 的 有机体 的 形成 、 早期 发育 和 发育生物学 的 分支 。
+Parsing [sent. 74 len. 36]: 黄海海战 可以 指 ： * 黄海海战 ( 1894 年 ) - 甲午战争 期间 ， 1894 年 9 月 17 日 ， 清朝 北洋水师 与 日本联合舰队 在 黄海 大东 沟 海域 发生 的 一 次 海战 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 75 len. 50]: # REDIRECT 一关市 # 重定向 易经 255px 抗原 为 任何 可 诱发 免疫反应 的 物质 ， 不只 是 从 病原体 那里 取得 ， 一般来说 体内 发现 分子 够 大 的 有机物 就 有 可能 作为 一个 适合 的 抗原 ， 这样 也 就 会 导致 例如 过敏 等 问题 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 76 len. 54]: 黄道带 ， 是 天文学 的 名词 ， 指 的是 在 黄道 上 的 星座 组成 的 环 带 ， 不仅 是 太阳 每年 在 天球 上 所 行经 的 路径 ， 月球 和 行星 的 路径 也 大略 都 在 黄道 的 附近 ， 因此 也 全部 都 在 黄道带 的 星座 内 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 77 len. 17]: 黄道 是 太阳 在 天球 上 的 视 运动 轨迹 ， 它 是 黄道坐标系 的 基准 。
+Parsing [sent. 78 len. 54]: 拉赫 曼 · 阿 卜 杜勒 · 拉 乌 夫 · 阿拉法特 · 古德 瓦 · 侯 赛 尼 ， 通称 亚西尔·阿拉法特 或 他 的 暱称 阿布 · 阿马尔 ， 巴勒斯坦解放运动 领袖 ， 巴勒斯坦 领导人 ， 巴勒斯坦解放组织 主席 及 巴解组织 最 大 派别 法塔赫 的 领导人 ， 1994 年 巴勒斯坦民族权力机构 成立 后任 主席 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 79 len. 29]: 日本都道府县 人口 列表 ， 是 根据 日本 总务省 统计局 公布 的 国势调查 等 数据 ， 按照 人口 多少 顺序 对 日本 47 个 都道府县 进行 排序 的 列表 。
+Parsing [sent. 80 len. 286]: obox CnCity | name = 杭州市 | pinyin = H á ngzh ō u sh ì | shortname = 杭 | nickname = | usedname = 临安 、 钱塘 、 武林 | nameorigin = | image _ city = Hangzhou montage .png | image _ caption = 杭州市 风光 ： < br / > 上 ： 西湖 苏堤 < br / > 中 ： 六和塔 、 杨公堤 、 胡雪巖 故居 < br / > 下 ： 集贤 亭 | image _ map = ChinaZhejiangHangzhou .png | map _ caption = 杭州市 在 浙江省 的 地理位置 | class = 省会 、 副省级城市 | admini _ division _ code = 3301 | divisions = 10 市辖区 、 1 县级市 、 2 县 | location = 江干区 解放 东路 18 号 | neighbor = 浙江省 嘉兴市 、 湖州市 、 绍兴市 、 衢州市 、 金华市 < br / > 安徽省 黄山市 、 宣城市 | spirit = | subdivision _ type1 = 省 | subdivision _ name1 = 浙江省 | leader _ title = 市委书记 | leader _ name = 赵一德 | leader _ title1 = 市长 | leader _ name1 = 徐立 毅 | established _ title = 设置 | established _ date = 前222年 | position = 长三角 南翼 中心城 市 | coordinate = | area _ total = 16 , 596 | area _ total _ rank = | area _ ratio = | area _ urban = 8 , 000 | area _ builtup = 561 | area _ builtup _ as _ of = 2016 年市 区 | area _ land = 15 , 268 | area _ water = 1 , 328 | area _ metropolitan = 34585 | area _ metrobuilt = 1235 .
+
+*******************************************************
+***  WARNING!! OUT OF MEMORY! THERE WAS NOT ENOUGH  ***
+***  MEMORY TO RUN ALL PARSERS.  EITHER GIVE THE    ***
+***  JVM MORE MEMORY, SET THE MAXIMUM SENTENCE      ***
+***  LENGTH WITH -maxLength, OR PERHAPS YOU ARE     ***
+***  HAPPY TO HAVE THE PARSER FALL BACK TO USING    ***
+***  A SIMPLER PARSER FOR VERY LONG SENTENCES.      ***
+*******************************************************
+
+Sentence has no parse using PCFG grammar (or no PCFG fallback).  Skipping...
+Exception in thread "main" java.lang.IllegalStateException: originalWords and sentence of different sizes: 286 vs. 29
+ Orig: obox CnCity | name = �C�{�� | pinyin = H ? ngzh ? u sh ? | shortname = �C | nickname = | usedname = ?�w �B ?�� �B �Z�L | nameorigin = | image _ city = Hangzhou montage .png | image _ caption = �C�{�� ?�� �G < br / > �W �G ��� ?�� < br / > �� �G ���M�� �B ?���� �B �J���� �G�~ < br / > �U �G ��? �F | image _ map = ChinaZhejiangHangzhou .png | map _ caption = �C�{�� �b ������ �� �a�z��m | class = ��? �B �Ƭ�?���� | admini _ division _ code = 3301 | divisions = 10 ��?? �B 1 ??�� �B 2 ? | location = ���z? �ѩ� ?�� 18 ? | neighbor = ������ ��?�� �B ��{�� �B ??�� �B ���{�� �B ��?�� < br / > �w���� ?�s�� �B �ū��� | spirit = | subdivision _ type1 = �� | subdivision _ name1 = ������ | leader _ title = ���e?? | leader _ name = ?�@�w | leader _ title1 = ��? | leader _ name1 = �}�� �� | established _ title = ?�m | established _ date = �e222�~ | position = ?�T�� �n�l ���߫� �� | coordinate = | area _ total = 16 , 596 | area _ total _ rank = | area _ ratio = | area _ urban = 8 , 000 | area _ builtup = 561 | area _ builtup _ as _ of = 2016 �~�� ? | area _ land = 15 , 268 | area _ water = 1 , 328 | area _ metropolitan = 34585 | area _ metrobuilt = 1235 .
+ Pars: �饻���D��? �H�f �C�� �A �O ���u �饻 ??�� ??�� ���� �� ???�d �� ?�u �A ���� �H�f �h�� ?�� ? �饻 47 ? ���D��? ?�� �Ƨ� �� �C�� �C
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParserQuery.restoreOriginalWords(LexicalizedParserQuery.java:317)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParserQuery.getBestDependencyParse(LexicalizedParserQuery.java:607)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParserQuery.getBestParse(LexicalizedParserQuery.java:401)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParserQuery.getBestParse(LexicalizedParserQuery.java:375)
+	at edu.stanford.nlp.parser.lexparser.ParseFiles.processResults(ParseFiles.java:272)
+	at edu.stanford.nlp.parser.lexparser.ParseFiles.parseFiles(ParseFiles.java:216)
+	at edu.stanford.nlp.parser.lexparser.ParseFiles.parseFiles(ParseFiles.java:75)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParser.main(LexicalizedParser.java:1518)
+
+D:\Documents\PythonWork\WikipediaWork>cd StanfordParser 
+
+D:\Documents\PythonWork\WikipediaWork\StanfordParser>cht.bat
+Parsing file: test/in.txt
+Parsing [sent. 1 len. 32]: 民主 ， 其 本义 是 「 人民 的 统治 」 ， 即 「 主权在民 」 ， 是 一 种 现代 的 国家 制度 ， 国家权力 由 公民 直接 或 间接 行使 。
+Parsing [sent. 2 len. 27]: # REDIRECT 娼妓 长城 ， 是 古代中国 为 抵御 不同 时期 塞北 游牧部落 联盟 的 侵袭 ， 修筑 规模 浩大 的 隔离墙 或 军事工程 的 统称 。
+Parsing [sent. 3 len. 22]: 哈德良长城 ， 是 一 条 由 石头 和 泥土 构成 的 横断 大不列颠岛 的 防御工事 ， 由 罗马帝国君主 哈德良 所 兴建 。
+Parsing [sent. 4 len. 6]: 芳香环 是 一类 有机 芳香化合物 。
+Parsing [sent. 5 len. 26]: 高锟 爵士 ， 香港 电机工程学 家 ， 2009 年 获 诺贝尔物理学奖 以 表扬 「 在 光 传输 于 纤维 的 光学通信 领域 突破性 成就 」 。
+Parsing [sent. 6 len. 19]: 何大一 ， 生于 台湾 台中市 ， 祖籍 江西省 新余市 ， 美籍华裔 科学家 ， 是 爱滋病 鸡尾酒疗法 的 发明人 。
+Parsing [sent. 7 len. 18]: # 重定向 匈牙利 1956 年 革命 # REDIRECT 斯蒂芬·金 班彪 ， 字 叔 皮 ， 东汉 史学家 。
+Parsing [sent. 8 len. 9]: 孔明 是 三国时代 蜀汉 丞相 诸葛亮 的 表字 。
+Parsing [sent. 9 len. 23]: # REDIRECT 诸葛亮 那加兰邦 是 印度 的 一个 邦 ， 位于 印度东北部 的 喜马拉亚山脉 ， 西 连 阿萨姆邦 ， 南 接 曼尼普尔邦 。
+Parsing [sent. 10 len. 64]: 嶽麓书院 位于 中国 湖南省长 沙市 嶽麓山 东 麓 ， 是 中国古代 四大书院 之一 ， 始建 于 北宋 开宝 九年 ， 历经 宋 、 元 、 明 、 清 各个 朝代 ， 迨 及 晚清 ( 1903 年 ) 改为 湖南高等学堂 ， 至今 仍 为 湖南大学 下属 的 办学 机构 ， 历史 已 逾 千年 ， 是 世 所 罕见 的 「 千年学府 」 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 11 len. 55]: # 重定向 全国重点文物保护单位 Poisson 分布 ， 译名 有分 布 、 分布 、 分 佈 、 分 佈 、 分 佈 、 分 佈 、 卜氏分配 等 ， 又称 帕 松 小数 法则 ， 是 一 种 统计 与 概率学 里 常见 到 的 离散 机率分佈 ， 由 法国 数学家 西莫恩·德尼·泊松 在 1838 年时 发表 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 12 len. 11]: 秦朝 ， 是 中国历史 上首 个 大一统 中央集权 的 帝国 。
+Parsing [sent. 13 len. 10]: 夏目漱石 ， 日本 作家 、 评论家 、 英文 学者 。
+Parsing [sent. 14 len. 23]: 黄兴 ， 字 克 强 ， 湖南 长沙 人 ， 中国近代 民主革命 家 ， 中华民国 开国 元 勳 ， 着名 的 革命家 。
+Parsing [sent. 15 len. 22]: # redirect 黄兴 三岛由纪夫 ， 本名 平冈公威 ， 日本 小说家 、 剧作家 、 记者 、 电影制作人 、 电影演员 与 日本民族主义 者 。
+Parsing [sent. 16 len. 20]: 1 月 11 日 是 公历 年 的 第 11 天 ， 离 一年 的 结束 还有 354 天 。
+Parsing [sent. 17 len. 21]: 泰王国 ， 通称 泰国 ， 旧称 暹罗 ， 是 东南亚 的 君主立宪制 国家 ， 首都 及 最 大城市 为 曼谷 。
+Parsing [sent. 18 len. 18]: # REDIRECT 金门县 自然科学 是 研究 大自然 中有 机 或 无机 的 事物 和 现象 的 科学 。
+Parsing [sent. 19 len. 8]: 漫画杂志 是 登载 漫画 为主 的 杂志 。
+Parsing [sent. 20 len. 26]: # REDIRECT 漫画杂志 是 小学馆 发行 的 日本漫画杂志 ， 创刊 1977 年 5 月 15 日 ， 是 一本 为 小学生 编制 的 漫画 月刊 。
+Parsing [sent. 21 len. 15]: # REDIRECT 全国重点大学 《 週刊少年Sunday 》 是日 本 小学馆 发行 的 综合性 少年漫画 杂志 。
+Parsing [sent. 22 len. 9]: # REDIRECT 壮文 安达充 ， 日本 男性 漫画家 。
+Parsing [sent. 23 len. 12]: # REDIRECT 中国科学 史 村上春树 ， 日本 小说家 、 美国文学 翻译家 。
+Parsing [sent. 24 len. 23]: # REDIRECT 村上春树 1 月 4 日 是 公历 年 的 第 4 天 ， 离 一年 的 结束 还有 361 天 。
+Parsing [sent. 25 len. 19]: 8 月 12 日 是 阳历年 的 第 224 天 ， 离 一年 的 结束 还有 141 天 。
+Parsing [sent. 26 len. 19]: 8 月 13 日 是 阳历年 的 第 225 天 ， 离 一年 的 结束 还有 140 天 。
+Parsing [sent. 27 len. 12]: 无线个人网 提供 了 一 种 小 范围 内 无线通信 的 手段 。
+Parsing [sent. 28 len. 9]: 三皇五帝 是 中国 传说 中的 「 帝王 」 。
+Parsing [sent. 29 len. 20]: # REDIRECT 有熊 # REDIRECT 舜 黄帝 ， 远古时期 中国神话人物 ， 为 《 史记 》 中的 五帝 之 首 。
+Parsing [sent. 30 len. 23]: 明宣宗 朱瞻基 ， 或 称 宣德帝 ， 明仁宗 皇 长子 ， 永乐 九年 立 为 皇太孙 ， 数 度 随 成祖 讨 。
+Parsing [sent. 31 len. 37]: 明英宗 朱祁镇 ， 或 称 正统帝 和 天顺帝 ， 谥号 「 法天立道仁明诚敬昭文宪武至德广孝睿皇帝 」 ， 是 明朝 的 第 6 代 与 第 8 代 皇帝 ； 最初 使用 正统 年号 ， 复位 后 使用 天顺 年号 。
+Parsing [sent. 32 len. 23]: # 重定向 景泰帝 明宪宗 朱 见 濡 ， 或 称 成化帝 ， 为 明英宗 皇 长子 ， 明朝 第 9 代 皇帝 。
+Parsing [sent. 33 len. 16]: 明孝宗 朱祐樘 ， 或 称 弘治帝 ， 年号 弘治 ， 是 明宪宗 皇 三 子 。
+Parsing [sent. 34 len. 18]: 明武宗 朱厚照 ， 或 称 正德帝 ， 明朝 第 11 代 皇帝 ， 年号 「 正德 」 。
+Parsing [sent. 35 len. 38]: 明世宗 朱厚熜 ， 或 称 嘉靖帝 ， 明朝 第 12 位 皇帝 ， 庙号 世宗 ， 年号 嘉靖 ， 諡号 「 钦 天 履 道 英毅 神圣 宣 文 广武 洪 仁 大 孝 肃 皇帝 」 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 36 len. 29]: 明穆宗 朱载垕 ， 或 称 隆庆帝 ， 一说 名 朱 载 坖 ， 明朝 第 13 位 皇帝 ， 庙号 「 穆宗 」 ， 諡号 「 契天隆道渊懿宽仁显文光武纯德弘孝庄皇帝 」 。
+Parsing [sent. 37 len. 26]: 明光宗 朱常洛 ， 或 称 泰昌帝 ， 明朝 第 15 代 皇帝 ， 年号 泰昌 ， 庙号 「 光宗 」 ， 諡号 「 崇天契道英睿恭纯宪文景武渊仁懿孝贞皇帝 」 。
+Parsing [sent. 38 len. 17]: 明熹宗 朱由校 ， 或 称 天启帝 ， 光宗 长子 ， 中国 明朝 第 16 代 皇帝 。
+Parsing [sent. 39 len. 21]: # 重定向 崇祯帝 1 月 12 日 是 公历 年 的 第12天 ， 离 一年 的 结束 还有 353 天 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 40 len. 26]: 阿嘉莎 · 玛丽 · 克莱 丽莎 · 克 莉 丝 蒂 女爵士 ， DBE ， 另外 又称 马洛温 爵士 夫人 ， 是 英国 侦探小说 作家 。
+Parsing [sent. 41 len. 7]: 刘贺 ， 西汉 第九 位 皇帝 。
+Parsing [sent. 42 len. 20]: 1 月 13 日 是 公历 年 的 第 13 天 ， 离 一年 的 结束 还有 352 天 。
+Parsing [sent. 43 len. 21]: 奥兰多 · 强 纳 森 · 布兰 查 · 布鲁姆 生于 英国 英格兰 坎特伯雷 ， 是 一 位 英国 演员 。
+Parsing [sent. 44 len. 118]: | p = N í ngb ō | w = Ning - po | j = ning < sup > 4 < / sup > bo < sup > 1 < / sup > | wuu = nyin < sup > 平 < / sup > pou < sup > 平 < / sup > < br / > | poj = L ê ng - pho | h = N è n - p ô | l = 海 定则 波 宁 | showflag = wuu } } 宁波市 ， 简称 甬 ， 有时 亦 简称 宁 ， 是 中华人民共和国 东南沿海 重要 的港 口 城市 、 浙江 第二 大城市 、 长江三角洲 南翼 经济 中心 和 国家历史文化名城 。
+
+*******************************************************
+***  WARNING!! OUT OF MEMORY! THERE WAS NOT ENOUGH  ***
+***  MEMORY TO RUN ALL PARSERS.  EITHER GIVE THE    ***
+***  JVM MORE MEMORY, SET THE MAXIMUM SENTENCE      ***
+***  LENGTH WITH -maxLength, OR PERHAPS YOU ARE     ***
+***  HAPPY TO HAVE THE PARSER FALL BACK TO USING    ***
+***  A SIMPLER PARSER FOR VERY LONG SENTENCES.      ***
+*******************************************************
+
+Sentence too long for dependency parser.  Falling back to PCFG parse...
+Parsing [sent. 45 len. 47]: ISM 频段 ， 中文 意思 分别 是 工业 的 ( Industrial ) 、 科学 的 ( Scientific ) 和 医学 的 ( Medical ) ， 因此 顾名思义 ISM 频段 就是 各国 挪 出 某 一段 频段 主要 开放 给 工业 ， 科学 和 医学 机构 使用 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 46 len. 31]: 分贝毫瓦 ( dBm ， 全 写 为 「 decibel relative to one milliwatt 」 ) 为 一个 指代 功率 的 绝对值 ， 而 不同 于 dB 只是 一个 相对 值 。
+Parsing [sent. 47 len. 39]: # REDIRECT 纳尼亚传奇 # REDIRECT C · S · 路易斯 # REDIRECT 分贝毫瓦 蜉蝣目 通称 「 蜉蝣 」 ， 又名 螶 𧎾 ， 具有 古老 而 特殊 的 体型 结构 ， 是 最 原始 的 有 翅 昆虫 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 48 len. 38]: 200px 基督 来自 于 希腊语 Χ ρ ι σ τ ό ς 或 Christos ， 是 亚伯拉罕诸教 中的 术语 ， 原意 是 「 受膏者 」 ， 也 等同于 希伯来语 中的 弥赛亚 ， 意思 为 「 受膏者 」 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 49 len. 20]: 互联网协议族 是 一个 网路 通讯 模型 ， 以及 一 整个 网路传输协议 家族 ， 为 网际网路 的 基础 通讯 架构 。
+Parsing [sent. 50 len. 25]: 赛金花 ， 据 瓦德西 回忆录 ， 并 无赛 金花 一人 ， 其它 联军 回忆 有 赛金花 做 过 八国联军 低级 军官 妓女 的 记载 。
+Parsing [sent. 51 len. 29]: 无线区域网 是 不 使用 任何 导线 或 传输 电缆 连接 的 区域网 ， 而 使用 无线电波 作为 数据 传送 的 媒介 ， 传送 距离 一般 只有 几 十米 。
+Parsing [sent. 52 len. 23]: # REDIRECT 泰国 叙拉古 是 位于 义大利 西西里岛 上 的 一座 沿海 古城 ， 位于 岛 的 东岸 ， 约 有 12 .
+Parsing [sent. 53 len. 4]: 5 万 居民 。
+Parsing [sent. 54 len. 31]: # 重定向 TCP / IP 协议 族 # TCP / IP 参考 模型 OilEd 是 一个 本体论 编辑 器 ， 它 可以 帮助 用户 用 DAML + OIL 建立 本体 。
+Parsing [sent. 55 len. 20]: 1 月 14 日 是 公历 年 的 第 14 天 ， 离 一年 的 结束 还有 351 天 。
+Parsing [sent. 56 len. 19]: 中华人民共和国卫生部 曾经 是 中华人民共和国国务院 主管 卫生 工作 的 组成 部门 ， 是 中华人民共和国成立 最 早 的 政府部门 之一 。
+Parsing [sent. 57 len. 18]: 卫生部 ， 在 一个 政府 之中 负责制 定 卫生 政策 ， 以及 处理 相关 事宜 的 部门 。
+Parsing [sent. 58 len. 17]: 苏联共产党 是 原苏联 的 唯一 合法 执政党 ， 也是 世界 上 最 大 的 共产主义政党 之一 。
+Parsing [sent. 59 len. 15]: # REDIRECT 蓝牙 艾国祥 ， 湖南 益阳 人 ， 中国 天体物理学 家 ， 中国科学院院士 。
+Parsing [sent. 60 len. 35]: 白薇 可能 指 的是 ： * 白薇 ( 植物 ) ： 萝藦科 植物 ， 可以 作为 草药 ， 在 中药 里 被 认为 具有 清热 、 凉血 、 利尿 的 功用 ， 味 苦 。
+Parsing [sent. 61 len. 30]: 网际协议 版本 4 ， 又称 网际网路 通讯协定 第四 版 ， 是 网际协议 开发 过程 中的 第四 个 修订版 本 ， 也是 此 协议 第一个 被 广泛 部署 的 版本 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 62 len. 19]: # REDIRECT 网际协议 网际协议 ， 又 译 互联网协议 ， 是 用于 封包交换 数据 网路 的 一 种 协议 。
+Parsing [sent. 63 len. 17]: 白杨 ， 女 ， 原名 杨成芳 ， 中国电影 表演艺术家 ， 生于 北京 ， 湖南 湘阴 人 。
+Parsing [sent. 64 len. 22]: # redirect 白杨 # 重定向 埃及神祇列表 元谋人 或 元谋 直立人 ， 又称 元谋猿人 ， 是 在 中国 发现 的 直立人 化石 。
+Parsing [sent. 65 len. 34]: 托特 ， 又 译 透特 或 图特 ， 是 古埃及 神话 的 智慧 之 神 ， 同时 也是 月亮 、 数学 、 医药 之 神 ， 负责 守护 文艺 和 书记 的 工作 。
+Parsing [sent. 66 len. 29]: 正多边形 是 所有 角都 相等 、 并且 所有 边 都 相等 的 简单 多边形 ， 简单 多边形 是 指 在任 何 位置 都 不与 自身 相交 的 多边形 。
+Parsing [sent. 67 len. 38]: 国号 是 源自 中华文化 所 特有 的 ， 类似 于 中国 古人 的 别名 习惯 的 一个 政治 领域 的 辞汇 ， 等同于 现在 社会 中 ， 一个 国家 的 相关 法定 政权 的 正式 官方 名称 。
+Parsing [sent. 68 len. 22]: 苏联共产党第二十八次代表大会 ， 简称 苏共 二十八 大 ， 于 1990 年 7 月 2 日至 7 月 13 日 在 莫斯科 举行 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 69 len. 23]: 苏联共产党第二十七次代表大会 ， 简称 苏共 二十七 大 ， 于 1986 年 2 月 25 日至 3 月 6 日 在 苏联 莫斯科 举行 。
+Parsing [sent. 70 len. 13]: # REDIRECT 文学奖列表 ， 通常 用作 计算机 信息 计量单位 ， 不分 数据类型 。
+Parsing [sent. 71 len. 37]: 格鲁派 ， 为 藏传佛教 四大 派 之一 ， 由 西藏 班智达 － 宗喀巴 罗桑 札 巴 大师 于 十四世纪 所 创立 ， 为 阿底峡 尊者 噶当派 的 后裔 之一 ， 故 又称 作 噶 丹 派 。
+Parsing [sent. 72 len. 27]: # REDIRECT 位元组 「 二拍 」 即 《 初刻拍案惊奇 》 、 《 二刻拍案惊奇 》 的 合称 ， 刊 于 明代 崇祯 年间 ， 作者 是 凌濛初 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 73 len. 26]: 三言 是 明代 小说家 冯梦龙 编纂 的 三 部 文言 短篇小说 集 《 喻世明言 》 、 《 警世通言 》 和 《 醒世恒言 》 的 合称 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 74 len. 20]: 1 月 15 日 是 公历 年 的 第 15 天 ， 离 一年 的 结束 还有 350 天 。
+Parsing [sent. 75 len. 20]: 1 月 16 日 是 公历 年 的 第 16 天 ， 离 一年 的 结束 还有 349 天 。
+Parsing [sent. 76 len. 15]: 处女 指 从未 有 性行为 的 女性 ， 处子 则 涵盖 了 处男 在内 。
+Parsing [sent. 77 len. 14]: 果子狸 又名 花面狸 、 白鼻心 、 果子 ， 一 种 灵猫科 的 哺乳动物 。
+Parsing [sent. 78 len. 40]: 中华民国 之 政府 始建 于 1912 年 ， 期间 在 大陆 时期 经历 了 南京临时政府 、 北洋政府 和 国民政府 ， 并 在行 宪 后于 1948 年 正式 改组 为 中华民国政府 ， 1950 年 迁 至 台湾地区 后 运作 至今 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 79 len. 43]: # REDIRECT 严重急性呼吸系统综合症 《 儒林外史 》 ， 中国 清代 章回小说 、 长篇 讽刺 小说 ， 作者 吴敬梓 ， 全书 共 五十六 回 ， 约 40 万字 ， 描写 了 近 二百 个人 物 ， 花 了 他 十 几年 的 时间 完成 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 80 len. 12]: 数学 中 ， 位 是 指数 字 的 位置 或 长度 。
+Parsing [sent. 81 len. 54]: 《 说岳全传 》 全名 《 精 忠 演义 说 本 岳王 全传 》 ， 描写 了 宋代 抗 金朝 名将 岳飞 率领 宋 军 抗击 北方 金人 南下 入侵 的 英勇 事迹 ， 由 清代 的 作家 钱 彩 、 金 丰 在 各类 「 岳传 」 的 基础 上 增订 而 成 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 82 len. 17]: 《 镜花缘 》 是 一部 长篇 神魔小说 ， 全书 一百 回 ， 由 清代 李汝珍 创作 。
+Parsing [sent. 83 len. 59]: 西伯利亚 ， 古称 「 鲜卑 利亚 」 或 「 锡伯利亚 」 ， 是 俄罗斯 及 蒙古国 北部 的 一片 非常 大 的 地域 ， 佔有 整个 北亚 ， 面积 约 1 , 276 万 平方公里 ， 范围 西 至 乌拉山脉 、 东至 太平洋 ； 北至 北冰洋 ， 南至 哈萨克 的 中北部 ， 以及 蒙古国 和 中国 的 边境 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 84 len. 15]: # REDIRECT 农业 长号 ， 又称 伸缩号 或 伸缩喇叭 ， 是 一 种 铜管乐器 。
+Parsing [sent. 85 len. 6]: # REDIRECT 尤利乌斯·凯撒 IEEE 802 .
+Parsing [sent. 86 len. 22]: 2 ， 一 种 工业 标准 ， 被 包含 在 IEEE 802 标准 之中 ， 是 电脑网路 中的 软体 元件 标准 。
+Parsing [sent. 87 len. 5]: # 重定向 正教会 IEEE802 .
+Parsing [sent. 88 len. 7]: 1 为 IEEE 的 一个 工作组 。
+Parsing [sent. 89 len. 10]: # REDIRECT 乙太网 令牌环 是 定义 在 IEEE 802 .
+Parsing [sent. 90 len. 9]: 5 标准 中的 一 种 区域网 接入 方式 。
+Parsing [sent. 91 len. 19]: 4 月 6 日 是 阳历年 的 第 96 天 ， 离 一年 的 结束 还有 269 天 。
+Parsing [sent. 92 len. 16]: # REDIRECT 泰国 # REDIRECT 令牌环 都会 网域 指大 型 的 计算机网路 ， 属于 IEEE802 .
+Parsing [sent. 93 len. 18]: 6 标准 ， 是 介于 LAN 和 WAN 之间 能 传输 语音 与 资料 的 公用 网路 。
+Parsing [sent. 94 len. 9]: 广域网 ， 又称 广域网路 、 外网 、 公网 。
+Parsing [sent. 95 len. 13]: 个人区域网路 ， 指 个人 范围 的 计算 设备 组成 的 通信网 路 。
+Parsing [sent. 96 len. 24]: 传输控制协议 是 一 种 面向 连接 的 、 可靠 的 、 基于 位元组流 的 传输层 通信协议 ， 由 IETF 的 RFC 793 定义 。
+Parsing [sent. 97 len. 43]: # REDIRECT 万维网 「 LAN 」 可以 指 以下 相关 的 条目 ： * 区域网 * 智利国家航空 ， 一间 以 智利 为 基地 的 航空公司 ， 下设 其他 航空公司 ： * * 秘鲁国 家 航空 ， 以 秘鲁 为 基地 的 航空公司 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 98 len. 26]: MAN 这个 名称 ， 可能 意指 下列 几 种 事物 ： * 男人 * 全人类 * 城域网 - 这 是 一 种 大型 的 计算机网路 。
+Parsing [sent. 99 len. 20]: 3 月 5 日 是 公历 一年 中的 第 64 天 ， 离 全年 的 结束 还有 301 天 。
+Parsing [sent. 100 len. 12]: 在 计算机科学 中 ， 分布式计算 ， 又 译 为 式 计算 。
+Parsing [sent. 101 len. 37]: 世界音乐 ， 大致 可 分为 两 种 ： 广义 的 世界音乐 ， 泛指 世界各国 的 民族音乐 ； 另 一 种 是 狭义 的 概念 ， 即 民族音乐 、 传统音乐 与 流行音乐 相结 合 的 混合 体 。
+Parsing [sent. 102 len. 22]: 国人暴动 ， 也 称 彘之乱 ， 是 中国 西周 时期 一 次 以 首都 镐京 四郊 平民 为主 体 的 暴动 。
+Parsing [sent. 103 len. 20]: 纳木措 位于 中国西藏 中部 ， 现 为 西藏 第二 大 的 湖泊 ， 也是 中国 第三 大 的 咸水湖 。
+Parsing [sent. 104 len. 11]: 管乐器 是 泛指 以 管 作为 共鸣 体 的 乐器 。
+Parsing [sent. 105 len. 10]: IRC 是 一 种 透过 网路 的 即时聊天 方式 。
+Parsing [sent. 106 len. 10]: 电磁学 是 研究 电磁力 的 物理学 的 一个 分支 。
+Parsing [sent. 107 len. 28]: 诺贝尔和平奖 ， 是 由 瑞典 发明家 阿尔弗雷德·诺贝尔 于 1895 年所 创立 的 诺贝尔奖 中 之一 ， 由 挪威诺贝尔委员会 选出 得主 ， 每年 12 月 10 日 颁发 。
+Parsing [sent. 108 len. 8]: 藤田和日郎 ， ） ， 日本 男性 漫画家 。
+Parsing [sent. 109 len. 14]: 《 西遊记 》 ， 中国 古典 神怪小说 ， 中国 「 四大名着 」 之一 。
+Parsing [sent. 110 len. 11]: 孙悟空 ， 是 小说 《 西遊记 》 中 主要角色 之一 。
+Parsing [sent. 111 len. 21]: 宇宙微波背景图 是 人类 使用 地面 的 或 卫星 的 仪器 绘制 的 全天 的 或 局部 的 宇宙微波背景辐射 的 图 。
+Parsing [sent. 112 len. 19]: 安庆市 ， 又名 宜城 ， 是 中华人民共和国 安徽省 下辖 的 地级市 ， 位于 安徽省 西南部 ， 长江下游 北岸 。
+Parsing [sent. 113 len. 35]: 小思 ， 原名 卢玮銮 ， 笔名 「 小思 」 、 「 明 川 」 、 「 卢 颿 」 ， 生于 香港 ， 籍贯 广东 番禺 ， 香港 当代 着名 散文 作家 、 教育家 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 114 len. 23]: # 重定向 尼基塔·谢尔盖耶维奇·赫鲁晓夫 2 月 14 日 是 阳历 一年 中的 第 45 天 ， 离 全年 的 结束 还有 320 天 。
+Parsing [sent. 115 len. 21]: 《 仙剑奇侠传 》 是 由 台湾大 宇 资讯 开发 ， 并 于 1995 年 7 月出 品 的 DOS 电子角色扮演遊戏 。
+Parsing [sent. 116 len. 16]: 世界电玩大赛 ， 英文 缩写 为 WCG ， 是 一个 已 停办 的 全球性 电子竞技 赛事 。
+Parsing [sent. 117 len. 22]: # 重定向 约瑟夫·维萨里奥诺维奇·斯大林 1 月 19 日 是 阳历年 的 第 19 天 ， 离 一年 的 结束 还有 346 天 。
+Parsing [sent. 118 len. 8]: 宪法 ， 是 一个 国家 的 根本法 。
+Parsing [sent. 119 len. 20]: 1 月 17 日 是 公历 年 的 第 17 天 ， 离 一年 的 结束 还有 348 天 。
+Parsing [sent. 120 len. 21]: 《 苏维埃社会主义共和国联盟 国歌 》 是 苏联 的 国歌 ， 其中 文 非正式 名称 依 首 句 称为 《 牢不可破的联盟 》 。
+Parsing [sent. 121 len. 51]: 黄梅戏 ， 旧称 黄梅调 或 采茶戏 ， 是 中国 五大 剧种 之一 ， 也是 安徽省 的 主要 戏曲 剧种 ， 在 湖北 、 江西 、 福建 、 浙江 、 江苏 、 香港特区 等地 以及 台湾 亦 有 黄梅戏 的 专业 或 业余 的 演出团 体 ， 受到 广泛 的 欢迎 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 122 len. 23]: WCG 可以 指 ： * 世界合唱比赛 * 世界电子竞技大赛 ， 一个 全球性 的 电子竞技 赛事 ， 是 全球 三 大 电子竞技 赛事 之一 。
+Parsing [sent. 123 len. 7]: 威廉·詹姆士 ， 美国 哲学家 与 心理学家 。
+Parsing [sent. 124 len. 25]: 禽流感 ， 全名 鸟 禽类 流行性感冒 ， 是 由 病毒 引起 的 动物传染病 ， 通常 只 感染 鸟类 ， 少见 情况 会 感染 猪 。
+Parsing [sent. 125 len. 25]: # REDIRECT 东亚 # redirect 角色扮演遊戏 1 月 20 日 是 阳历年 的 第 20 天 ， 离 一年 的 结束 还有 345 天 。
+Parsing [sent. 126 len. 42]: 发展方程 是 应用数学 的 一 种 偏微分方程 ， 主要 分为 以下 三类 ： * 线性 发展方程 * 分数 阶 发展方程 * 非线性 发展方程 而 从 方程 的 结果 来 分类 ， 发展方程 亦可 分为 分散 及 非分 散 两 个 类型 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 127 len. 7]: 蓝田人 是 中国 的 直立人 化石 。
+Parsing [sent. 128 len. 10]: 闵智亭 ， 河南省 南召县 人 ， 号 玉溪 道人 。
+Parsing [sent. 129 len. 23]: # REDIRECT 北京人 全真道 也 称 全真教 ， 中国 道教 的 重要 派别 ， 于 金代 由 王重阳 于 山东宁海 所 创 。
+Parsing [sent. 130 len. 15]: # REDIRECT 北七真 乒乓球 是 一 种 在世 界上 许多 地方 流行 的 球类运动 。
+Parsing [sent. 131 len. 64]: 安德鲁·杰克森 ， 美国军 人 、 政治人物 ， 第 7 任 美国总统 、 首任 佛罗里达州 州长 、 纽奥良之役 战争英雄 、 官拜 少将 ， 并 为 民主党 创建者 之一 ， 在 美国政治 史 上 ， 1820 年代 起 至 1860 年 的 第二 党 体系 以 他 为 象徵 ， 他 也是 美国 早年 的 民粹主义 倡导者 ， 杰克 森 民主 因 他 而 得名 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 132 len. 12]: 马丁·范布伦 ， 美国 第 八 任 副总统 及第 八 任 总统 。
+Parsing [sent. 133 len. 17]: 石器 是以 石头 为 原料 制成 的 工具 ， 是 人类 最 早 使用 的 生产工具 。
+Parsing [sent. 134 len. 19]: 心宿二 ， 是 在 银河系 的 一 颗 红超巨星 ， 也是 夜空 中 第 14 亮 的 星 。
+Parsing [sent. 135 len. 19]: 君 特 · 威廉 · 格拉斯 ， 德国 作家 ， 出生于 但泽自由市 ， 也是 1999 年 诺贝尔文学奖 得主 。
+Parsing [sent. 136 len. 16]: 在 民俗学 上 ， 神话 是 指 关于 人类 和 世界 变迁 的 神圣 故事 。
+Parsing [sent. 137 len. 17]: 李鹏 ， 原名 李远 芃 ， 四川 庆符 人 ， 祖籍 湖北 麻城 ， 出生于 上海法租界 。
+Parsing [sent. 138 len. 21]: # REDIRECT 京剧 凯文 · 米高 · 科斯 纳 是 一 位 美国 男演员 、 监制 、 导演 和歌 手 。
+Parsing [sent. 139 len. 53]: 戊戌变法 ， 又名 百日维新 、 戊戌维新 、 维新变法 ， 是 中国 清朝 光绪二十四年 间 的 短暂 政治 改革 运动 ， 变法 量 初 由 慈禧太后 默许 、 光绪帝 领导 ， 深入 经济 、 教育 、 军事 、 政治 及 官僚制度 等 多 个 层面 ， 希 祈 中国 走上 君主立宪 的 道路 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 140 len. 16]: # 重定向 格林尼治标准时间 # Redirect 袁世凯 伊塔罗·卡尔维诺 ， 生于 古巴哈 瓦 那 ， 义大利 作家 。
+Parsing [sent. 141 len. 11]: 提刑 ， 官名 ， 是 「 提点刑狱公事 」 的 简称 。
+Parsing [sent. 142 len. 65]: 雷尔运动 是 由 雷尔 于 公元 1973 年所 创立 的 一个 无神论 及 外星 宗教组织 ， 主张 地球 生命 是 由 拥有 高科技 与 高度 智慧 的 外星生命 所 造 ， 名为 耶洛因 ， 耶洛因 要求 雷尔 将 「 讯息 」 传播 给 全世界 、 以及 建造 「 耶洛因 大使馆 」 ， 届时 耶洛因 将 传授 领先 人类 2 万 5 千年 的 文明 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 143 len. 17]: 格斗遊戏 是 电子遊戏类型 之一 ， 玩家 操纵 萤幕 上 的 自己 角色 和 对手 进行 近身格斗 。
+Parsing [sent. 144 len. 35]: 图灵测试 是 图灵 于 1950 年 提出 的 一个 关于 判断 机器 是否 能够 思考 的 着名 试验 ， 测试 某 机器 是否 能 表现 出 与 人 等价 或 无法 区分 的 智能 。
+Parsing [sent. 145 len. 43]: # REDIRECT 蓝屏死机 # REDIRECT 伊塔罗·卡尔维诺 山海关 ， 位于 河北省 最 东部 与 辽宁省 接壤 处 ， 秦皇岛市 山海关区 境内 ， 且 地 居 燕山 与 渤海 之间 ， 故 得 「 山 」 、 「 海 」 二 字 而 命名 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 146 len. 19]: Adobe Photoshop ， 简称 「 PS 」 ， 是 一个 由 Adobe 开发 和 发行 的 图像处理 软体 。
+Parsing [sent. 147 len. 15]: 乔治 · 尚 · 雷 蒙 · 庞毕度 ， 法国政治 家 ， 前任 法国总统 。
+Parsing [sent. 148 len. 15]: 音乐家 是 个 广泛 的 名词 ， 就是 专注 于 音乐 领域 中的 艺术家 。
+Parsing [sent. 149 len. 22]: # REDIRECT 电吉他 4 月 15 日 是 阳历年 的 第 105 天 ， 离 一年 的 结束 还有 260 天 。
+Parsing [sent. 150 len. 10]: # REDIRECT 列奥纳多·达·芬奇 西西里 是 义大利南部 的 一个 自治区 。
+Parsing [sent. 151 len. 42]: 夏尔 · 安德烈 · 约瑟夫 · 马里 · 戴高乐 是 法国军事 家 、 政治家 ， 曾 在 第二次世界大战 期间 领导 自由法国运动 ， 战后 短暂 出任 临时总统 ， 后 由于 左派 政党 反对 他 要求 加强 总统 权力 的 宪法 被迫 辞职 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 152 len. 60]: 学习障碍 或 学习 困难 ， 又称 特殊 学习 需要 ， 是 指 尽管 智商 没有 问题 ， 也 没有 发展 迟缓 ， 但是 在 听力 、 会话 能力 、 阅读 能力 、 书写 能力 、 计算 能力 、 推理 和 推论 能力 这些 特定 领域 上 ， 学习 或 使用 上 却 出现 明显 问题 而 引致 学习 困难 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 153 len. 15]: # REDIRECT 全真道 # 重定向 人 人属 是 灵长目 、 人科 中的 一个 属 。
+Parsing [sent. 154 len. 11]: 「 基督教 」 在 中国 有 两 个 意 涵 。
+Parsing [sent. 155 len. 15]: # REDIRECT 四念住 # REDIRECT 四念住 广州美术学院 是 广东省 所属 的 高等 美术 学府 。
+Parsing [sent. 156 len. 49]: 影像诊断学 是 通过 特殊 手段 ， 展示 患者 身体 内部 结构 的 影像 ， 揭示 有 无 病变 及 对 病变 进行 定性 和 / 或 定量分析 ， 是 现代医学 极其 重要 的 一个 分支 ， 也是 现代医学 中 发展 最 快 ， 取得 成就 最多 的 一部分 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 157 len. 29]: 爱情 和 恋爱 是 一 种 与 爱 相关 的 ， 被 强烈 吸引 的 一 种 具 表现力 ， 带 甜 附 涩 且 快乐 的 情感 。
+Parsing [sent. 158 len. 20]: # REDIRECT 爱情 政党 是以 执政 或 促进 和 保障 特定 政治思想 、 政治 利益 为 目标 的 团体 。
+Parsing [sent. 159 len. 26]: 病态生理学 是 一门 相对 比较 新 的 医学 科目 ， 结合 了 病理学 和 生理学 ， 专门 研究 疾病 发生 发展 及其 规律 的 科学 。
+Parsing [sent. 160 len. 37]: 罗尔 德 · 恩格尔 布雷希特 · 格拉 范 林 · 阿蒙森 是 一 位 挪威 极地 探险家 ， 于 1911 年 至 1912 年 ， 他 领导 的 探险队 为 第一 支 到达 南极 的 探险队 。
+Parsing [sent. 161 len. 34]: # 重定向 互联网 用语 # REDIRECT 心理史学 理论地理学 是 关于 地理 现象 和 地理 过程 的 模式 的 学说 ， 它 从 机理 角度 阐述 地理 现象 的 发生 、 发展 和 演变 。
+Parsing [sent. 162 len. 20]: 苏格拉底 ， 古希腊哲学家 ， 和 其 学生 柏拉图 及 柏拉图 的 学生 亚里士多德 被 并称 为 希腊 三 贤 。
+Parsing [sent. 163 len. 27]: # REDIRECT 中文输入法 中文输入法 是 指 为了 将 汉字 输入 计算机 或 手机 等电子 设备 而 采用 的 编码 方法 ， 是 中文信息处理 的 重要 技术 。
+Parsing [sent. 164 len. 12]: 郁慕明 ， 生于 上海市 ， 中华民国政治 人物 ， 为 新党 党主席 。
+Parsing [sent. 165 len. 20]: 陈水扁 ， 暱称 阿扁 ， 生于 中华民国 台湾省 台南县 官田乡 西庄村 ， 律师 出身 ， 台湾 民主进步党 籍 政治人物 。
+Parsing [sent. 166 len. 20]: # REDIRECT 朝鲜汉字 # REDIRECT 中文输入法 维也纳学派 ， 1920 年代 发展 出来 的 一个 自然科学 和 哲学 的 学派 。
+Parsing [sent. 167 len. 27]: 《 等待果陀 》 是 萨缪尔·贝克特 创作 的 一 齣 荒诞派戏剧 ， 讲述 了 弗拉 季 米尔 和 爱斯特 拉冈 二 人 徒劳 地 等待果陀 的 到来 。
+Parsing [sent. 168 len. 35]: 社会 交换 理论 是 在 五 六十年代 美国社会 学家 霍 曼 斯 的 着作 中 诞生 的 ， 同 冲突理论 一样 ， 交换 理论 也是 作为 对 功能主义 的 反驳 而 发展 起来 的 。
+Parsing [sent. 169 len. 27]: # REDIRECT 太公望 超音波 ， 又称 超声波 ， 是 指 任何 声波 或 振动 ， 其 频率 超过 人类 耳朵 可以 听到 的 最高 阈值 20kHz 。
+Parsing [sent. 170 len. 19]: 6 月 4 日 是 公历 一年 中的 第 155 天 ， 离 全年 结束 还有 210 天 。
+Parsing [sent. 171 len. 32]: # REDIRECT 华德福教育 华德福教育 是 一 种人 性 化 的 教育 方法 ， 以 自然 教育 为主 ， 它 基于 创立 人智学 的 奥地利 哲学家 鲁道夫·斯坦纳 的 一 种 教育哲学 理念 。
+Parsing [sent. 172 len. 51]: 1949 年 1 月 20 日 美国总统 哈利·S·杜鲁门 在 其 就职 典礼 的 讲话 中上 宣布 对 「 发展中国家 」 进行 技术 援助 的的 「 第四点计划 」 ， 并 因为 本 计划 是 该 次 讲话 中 所 提及 的 第四 点 外交政策 目标 ， 所以 得名 「 第四点计划 」 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 173 len. 45]: # REDIRECT 第四点计划 西伯利亚汗国 ， 又 译 失比 尔 汗国 ， 是 15 世纪末 至 16 世纪末 时 位于 亚洲 西伯利亚 的 一个 汗国 ， 由 昔班 家族 的 后裔 所 建立 ， 这个 汗国 大概 位置 是 在 鄂毕河 中游 与 托博尔河 之间 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 174 len. 2]: < !
+Parsing [sent. 175 len. 10]: 平方度 是 一个 量度 立体角 的 非 国际单位制 单位 。
+Parsing [sent. 176 len. 42]: 新四军 全称 是 「 国民革命军陆军新编第四军 」 ， 是 第二次国共合作 期间 由 第五次反围剿 失败 后 留 在 南方 八 省 进行 游击战争 的 中国工农红军 和 游击队 根据 国共两党 谈判 达成 的 协议 于 1937 年 10 月 改编 而 成 的 军队 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 177 len. 35]: # redirect 天花 # 病毒 概论 # REDIRECT 德怀特·艾森豪威尔 哈里·S·杜鲁门 ， 美国民主党 政治家 ， 第 34 任 副总统 ， 随后 接替 因 病逝 世 的 富兰克林·罗斯福 总统 ， 成为 了 第 33 任 美国总统 。
+Parsing [sent. 178 len. 27]: 《 纯情房东俏房客 》 是 由 日本漫画家 赤松健 创作 、 描述 一名 考生 为 完成 约定 而 四 次 报考 东京大学 的 爱情喜剧 、 后宫 型 漫画 。
+Parsing [sent. 179 len. 45]: # REDIRECT 遊戏 决斗 通常 是 指 两 个人 之间 使用 相似 的 武器 或 徒手 ， 在 并非 比赛 的场 合下 ， 以 武力 较量 分 胜负 来 赢取 对方 的 降伏 ， 甚至 想 证明 自己 的信 念 正确 或 无辜 等 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 180 len. 16]: 亚历山大·谢尔盖耶维奇·普希金 俄国 诗人 ， 剧作家 ， 小说家 ， 文学批评家 和 理论家 ， 历史学家 ， 政论家 。
+Parsing [sent. 181 len. 26]: # REDIRECT 亚历山大·谢尔盖耶维奇·普希金 # REDIRECT 艺术 金泳三 ， 字 巨山 ， 第 14 任 大韩民国总统 ， 亦 是 韩国 民主化 后 的 首位 文人 总统 。
+Parsing [sent. 182 len. 30]: 电子政治 是 一 种 利用 电子通信 媒体 ， 特别是 网际网路 上 的 留言版 或 新闻组 来 进行 信息 交流 ， 从而 在 选举 胜出 的 一 种 政治 策略 。
+Parsing [sent. 183 len. 33]: 马来 社会 对 社会贤达 及 王 亲贵 族 的 称号 复杂 ， 所 影响 的 地区 不只 马来西亚 ， 也 包括 汶莱 、 菲律宾 南部 的 棉兰老岛 以及 印尼 的 几个 省份 。
+Parsing [sent. 184 len. 17]: 孩之宝 公司 ， 简称 孩之宝 ， 是 一家 美国 的 跨国 玩具 和棋 类 遊戏 公司 。
+Parsing [sent. 185 len. 27]: 嘉庆 为 满洲 清朝 第七 位 皇帝 清仁宗 颙琰 的 年号 ， 公元 1796 年 37 岁 ( 虚岁 ) 即位 ， 前后 共 二十五 年 。
+Parsing [sent. 186 len. 22]: # REDIRECT 嘉庆帝 # REDIRECT 干隆帝 # REDIRECT 道光帝 操作系统 的历 史 在 某种 意义 上来 说 也是 计算机 的历 史 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 187 len. 6]: 白崇禧 ， 字 健 生 。
+Parsing [sent. 188 len. 16]: 数值分析 ， 是 指 在 数学分析 问题 中 ， 对 使用 数值 近似演算法 的 研究 。
+Parsing [sent. 189 len. 23]: 中国共产党第一次全国代表大会 ， 简称 中共一大 ， 于 1921 年 7 月 23 日至 7 月 30 日 以及 在 上海 和 嘉兴 举行 。
+Parsing [sent. 190 len. 15]: # REDIRECT 中小型企业 # REDIRECT 秦始皇 本条 目 是 有关 伊拉克 的 通讯 状况 。
+Parsing [sent. 191 len. 71]: # REDIRECT 法学 # REDIRECT IBM 甲骨文 ， 又称 契文 、 甲骨卜辞 、 或 龟甲兽骨文 ， 主要 指 中国 商朝 晚期 王室 用于 占卜 记事 而 在 龟甲 或 兽 骨 上契 刻 的 文字 ， 是 中国 及 东亚 已 知 最 早 的 成 体系 的 文字 形式 ， 它 上 承 原始 刻 绘 符号 ， 下 启 青铜 铭文 ， 是 汉字 发展 的 关键 形态 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 192 len. 28]: 卢泰愚 ， 大韩民国 大邱 出生 ， 祖籍 中国 山东 ， 是 韩国政治 人物 及 韩国陆军 退役 将领 ， 曾 于 1988 年 至 1993 年间 任 大韩民国总统 。
+Parsing [sent. 193 len. 26]: 算筹 或 称 筭 子 、 算子 ， 是 中国 、 日本 、 朝鲜半岛 、 越南 ( 乃至 汉字文化圈 ) 古代 一 种 十进位 计算工具 。
+Parsing [sent. 194 len. 33]: 《 夏小正 》 为 中国 现存 最 早 的 科学 文献 之一 ， 也是 中国 现存 最 早 的 一部 农事 历书 ， 原 为 《 大戴礼记 》 中的 第 47 篇 。
+Parsing [sent. 195 len. 9]: 旬 是 中国 一 种 传统 的 时间单位 。
+Parsing [sent. 196 len. 28]: # REDIRECT 旬 # REDIRECT 旬 # REDIRECT 旬 10 月 7 日 是 阳历年 的 第 280 天 ， 离 一年 的 结束 还有 85 天 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 197 len. 20]: 10 月 10 日 是 阳历 一年 中的 第 283 天 ， 离 全年 的 结束 还有 82 天 。
+Parsing [sent. 198 len. 20]: 10 月 28 日 是 阳历 一年 中的 第 301 天 ， 离 全年 的 结束 还有 64 天 。
+Parsing [sent. 199 len. 49]: 秦岭 是 横贯 中国中部 的 一座 褶皱山 脉 ， 西 起 甘肃 临洮 ， 东 到 河南省 的 崤山 、 熊耳山 - 嵩山 和 伏牛山 地区 ， 主体 位于 陕西省 中南部 ， 是 陕西省 关中地区 与 陕南 地区 的 分界线 ， 呈 东西 走向 ， 长 1600 公里 。
+Parsing [sent. 200 len. 11]: 颜回 ， 字 子 渊 ， 又称 颜子 、 颜渊 。
+Parsing [sent. 201 len. 26]: # REDIRECT 武则天 # REDIRECT 政治学 10 月 18 日 是 阳历 一年 中的 第 291 天 ， 离 全年 的 结束 还有 74 天 。
+Parsing [sent. 202 len. 29]: # REDIRECT 奥斯卡 孔鲤 ， 子姓 ， 孔氏 ， 名 鲤 ， 字 伯鱼 ， 孔子 与 亓 官 氏 的 儿子 ， 述 圣孔 伋 之 父 。
+Parsing [sent. 203 len. 12]: 美国人口调查局 是 美国商务部 经济 和 统计 管理局 下属 的 一个 机关 。
+Parsing [sent. 204 len. 3]: 瓦西里二世·瓦西里耶维奇 莫斯科大公 。
+Parsing [sent. 205 len. 3]: 瓦西里一世·德米特里耶维奇 莫斯科大公 。
+Parsing [sent. 206 len. 21]: # 重定向 德米特里·顿斯科伊 伊凡二世 ， 全名 为 伊凡 · 伊凡 诺维奇 是 莫斯科大公 ， 伊凡一世 之子 、 谢苗·伊万诺维奇 的 弟弟 。
+Parsing [sent. 207 len. 17]: 谢苗一世 · 伊万诺维奇 ， 外号 「 骄傲的谢苗 」 ， 莫斯科大公 ， 1341 年 获得 弗拉基米尔大公 封诰 。
+Parsing [sent. 208 len. 13]: 尤里·达尼洛维奇 是 第二 任 莫斯科大公 ， 是 莫斯科大公国 政策 的 初创 者 。
+Parsing [sent. 209 len. 12]: # REDIRECT 指环王：护戒使者 信仰之爱 是 爱 的 一 种 特殊 形式 。
+Parsing [sent. 210 len. 40]: 性工作者 有 两 重 意思 ： 狭义 的 性工作者 是 指 为 不特 定 对象 提供 性服务 以 获得 报酬 的 人 ； 广义 的 性工作者 则 包含 在 色情产业 中表 演 性行为 的 人 ， 例如 某些 色情演员 。
+Parsing [sent. 211 len. 25]: 人口普查 是 近代 统计 国家 人口 的 重要 工具 ， 具体 全面 抽样 方式 调查 全国 人口 、 住房 以及 相关 的 重要 事项 。
+Parsing [sent. 212 len. 32]: # 重定向 德米特里·顿斯科伊 哺乳动物 是 指 脊椎动物亚门 下 哺乳纲 的 一类 用 肺呼吸 空气 的 温 血 脊椎动物 ， 因 能 通过 乳腺 分泌 乳汁 来 给 幼体 哺乳 而 得名 。
+Parsing [sent. 213 len. 33]: Vivisimo 是 一个 搜索引擎 ， 建立 于 2000 年 6 月 ， 最 大 的 特色 就是 会 对 搜索 结果 自动 分类 ， 从而 让 搜索者 能够 对 搜索 结果 一目了然 。
+Parsing [sent. 214 len. 8]: 书法 是 一 种 书写 的 艺术 。
+Parsing [sent. 215 len. 27]: 让-雅克·卢梭 是 启蒙时代 的 瑞士 裔 法国 思想家 、 哲学家 、 政治理论 家 和 作曲家 ， 与 伏尔泰 、 孟德斯鸠 合称 「 法兰西 启蒙运动 三剑侠 」 。
+Parsing [sent. 216 len. 19]: 2 月 2 日 是 阳历年 的 第 33 天 ， 离 一年 的 结束 还有 332 天 。
+Parsing [sent. 217 len. 17]: 铁幕 指 的是 冷战时期 将 欧洲 分为 两 个 受 不同 政治 影响 区域 的 界线 。
+Parsing [sent. 218 len. 11]: 马烽 ， 原名 马 书铭 ， 山西省 孝义 县 人 。
+Parsing [sent. 219 len. 19]: 何叫天 ， 原名 何 万泰 ， 艺名 十 岁 红 ， 中国 淮剧 表演艺术家 ， 江苏 建湖 人 。
+Parsing [sent. 220 len. 15]: 水粉画 是以 水 调和 不 透明 的 粉 质 颜料 绘 成 的 画 。
+Parsing [sent. 221 len. 5]: # redirect 空想社会主义 < !
+Parsing [sent. 222 len. 29]: 过敏性鼻炎 ， 又称 为 鼻敏感 、 干草 热 、 花粉热 、 花粉症 或 季节性 过敏性鼻炎 ， 是因为 免疫系统 受到 空气 中的 过敏原 影响 而 导致 的 鼻炎 症状 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 223 len. 45]: # REDIRECT 过敏性鼻炎 胡耀邦 ， 字 国光 ， 祖籍 中国 江西 高安市 华林 山 镇 胡氏 古 村 ， 生于 湖南 浏阳 西岭镇 中和乡 苍 坊 村 ， 中国共产党 和 中华人民共和国 的 第二代 主要 领导人 之一 ， 曾任 中共中央 秘书长 、 中国共产党中央委员会主席 和 中国共产党中央委员会总书记 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 224 len. 24]: 摇滚 是 一 种 音乐类型 ， 起源 于 1940 年代 末期 的 美国 ， 1950 年代 早期 开始 流行 ， 迅速 风靡 全球 。
+Parsing [sent. 225 len. 76]: # REDIRECT 医学 六十甲子 可以 指 ： * 干支 ， 天干 与 地支 搭配 成 六十 对 ， 称 「 六十甲子 」 * 甲子 ( 循环 ) ， 干支 60 年循环 一 次 称 「 六十甲子 」 # REDIRECT 摇滚乐 耳鼻喉科学 是 一门 医学 专科 ， 专门 研究 耳 、 鼻 、 喉 病变 的 诊断 及 治疗 ， 近来 除了 颅骨 、 脑部 及 牙齿 以外 的 外科 领域 也 被 归入 这个 专科 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 226 len. 32]: 回归年 ， 也 称为 太阳年 ， 是 由 地球 上 观察 ， 太阳 平黄经 变化 360 ° ， 即 太阳 再 回到 黄道 上相 同 的 点 所 经历 的 时间 。
+Parsing [sent. 227 len. 28]: # REDIRECT 耳鼻喉科学 # 重定向 回归年 新星 是 激变变星 的 一类 ， 是 由 吸积 在 白矮星 表面 的 氢 造成 剧烈 的 核子 爆炸 的 现象 。
+Parsing [sent. 228 len. 12]: 细胞生物物理学 是 生物物理学 中 仅次于 分子生物 物理学 的 一个 重要 部分 。
+Parsing [sent. 229 len. 9]: 《 天使爱美丽 》 ， 是 一部 法国 浪漫喜剧电影 。
+Parsing [sent. 230 len. 38]: 新世纪音乐 又 译作 新纪元音乐 ， 是 一 种 在 1970 年代 出现 的 一 种 音乐形式 ， 最 早 用于 帮助 冥思 及 洁 浄 心灵 ， 但 许多 后期 的 创作者 已 不再 抱有 这种 出发点 。
+Parsing [sent. 231 len. 44]: 镇 是 中华人民共和国 介于 县 与 村 之间 ， 与 「 乡 」 同 层次 的 行政区划 单位 ， 现 为 乡级 区划 主要 类型 ， 常 与 同 层次 区划 单位 「 乡 」 一起 使用 ， 合称 为 「 乡镇 」 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 232 len. 46]: 《 魔戒首部曲：魔戒现身 》 ， 是 一部 于 2001 年 上映 的 美国 与 纽西兰 合拍 的 奇幻 史诗电影 ， 由 彼得·杰克逊 执导 ， 为 自 J · R · R · 托尔金 的 奇幻小说 《 魔戒 》 改编 的 《 魔戒电影三部曲 》 中的 第一 部 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 233 len. 12]: 需求 可以 指 ： * 需求定律 ： 一 条 经济学 定律 。
+Parsing [sent. 234 len. 10]: # REDIRECT 供给和需求 陈独秀 ， 安徽省 怀宁县 十里铺 人 。
+Parsing [sent. 235 len. 26]: 《 新青年 》 是 在 1910 年代 末期 中国 一份 具有 影响力 的 革命 杂志 ， 是 五四运动 ， 在 五四运动 期间 起到 重要 作用 。
+Parsing [sent. 236 len. 11]: 长孙皇后 ， 河南郡 洛阳县 人 ， 中国 唐朝 唐太宗李世民 皇后 。
+Parsing [sent. 237 len. 19]: 2 月 3 日 是 阳历年 的 第 34 天 ， 离 一年 的 结束 还有 331 天 。
+Parsing [sent. 238 len. 22]: 新时代运动 ， 是 一 种 去中心化 的 社会现象 ， 起源 于 1970 至 80 年 西方 的 社会 与 宗教 运动 。
+Parsing [sent. 239 len. 37]: 苏联解体 以 发生 在 1991 年 12 月 25 日 的 苏联总统 戈尔巴乔夫 辞职 为 标志 ， 苏联最高苏维埃 于 次日 通过 决议 宣 佈 苏联 停止 存在 ， 立国 69 年 的 苏联 从此 正式 解体 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 240 len. 29]: 狭义相对论 是 由 爱因斯坦 、 洛仑兹 和 庞加莱 等人 创立 的 ， 应用 在 惯性参考系 下的 时空 理论 ， 是 对 牛顿 时空 观 的 拓展 和 修正 。
+Parsing [sent. 241 len. 46]: # redirect 广义相对论 数位研究公司 ， 简称 DR 或 DRI ， 是 一家 以为 迷你电脑 「 PDP -1 1 」 编写 作业系统 而 起家 的 电脑 公司 ， 总部 位于 美国 加州 蒙特雷县 太平洋丛林 市 ， 1974 年 创立 ， 1991 年 被 Novell 公司 收购 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 242 len. 41]: 英格兰 ， 又称 作 英国 、 英伦 ， 是 大不列颠及北爱尔兰联合王国 的 一个 构成国 ， 位于 大不列颠岛 的 东南方 ， 苏格兰 以南 ， 威尔士 以东 ， 是 英国 面积 最 大 ， 人口 最多 ， 经济 最 发达 的 一个 部分 。
+Parsing [sent. 243 len. 49]: # REDIRECT 英格兰 威尔士 ， 又 译 斯 ， 港澳 旧 译 威 路 士 ， 位于 大不列颠岛 西南部 ， 为 大不列颠与北爱尔兰联合王国 构成国 之一 ， 东 界 英格兰 ， 西 临 圣乔治 海峡 ， 南面 布里斯托尔湾 ， 北 靠 爱尔兰海 ， 卡迪夫 是 其 首都 与 最 大城市 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 244 len. 10]: 金边 旧 译 百囊奔 ， 是 柬埔寨 的 首都 。
+Parsing [sent. 245 len. 12]: 井田制 是 中国 春秋 以前 土地公 有 制 的实 现形 式 。
+Parsing [sent. 246 len. 31]: 古琴 ， 原 称 琴 ， 又称 瑶琴 、 玉琴 、 五弦琴 和 七弦琴 ， 是 中国 的 拨弦乐器 ， 有 三 千年 以上 历史 ， 属于 八音 中的 丝 。
+Parsing [sent. 247 len. 31]: 春秋五霸 ， 「 五霸 」 又 作 「 五伯 」 ， 是 指 东周 春秋时期 相继 称霸 主 的 五 个 诸侯 ， 其 说 首 见于 《 左传 》 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 248 len. 17]: 琼瑶 ， 本名 陈喆 ， 是 中华民国 言情小说 作家 、 影视 制作人 、 华语歌 曲 作词人 。
+Parsing [sent. 249 len. 18]: # REDIRECT 琼瑶 阿拉伯半岛 位于 亚洲 和 非洲 之间 ， 它 从中 东向 东南方 伸 入 印度洋 。
+Parsing [sent. 250 len. 19]: 2 月 4 日 是 阳历年 的 第 35 天 ， 离 一年 的 结束 还有 330 天 。
+Parsing [sent. 251 len. 20]: 10 月 12 日 是 阳历 一年 中的 第 285 天 ， 离 全年 的 结束 还有 80 天 。
+Parsing [sent. 252 len. 20]: 10 月 19 日 是 阳历 一年 中的 第 292 天 ， 离 全年 的 结束 还有 73 天 。
+Parsing [sent. 253 len. 9]: 木管乐器 大多数 由 坚实 耐用 的 木材 制作 。
+Parsing [sent. 254 len. 22]: # REDIRECT 木管乐器 红十字会与红新月会国际联合会 是 一个 国际人 道 主义 组织 ， 与 红十字国际委员会 、 各国 家 协会 共同 组成 了 国际红十字与红新月运动 。
+Parsing [sent. 255 len. 35]: 马里兰州 ， 是 美国 的 一 州 ， 属于 美国 中大 西洋 地区 ， 其 西边 与 南边 与 西维吉尼亚州 、 维吉尼亚州 、 华盛顿哥伦比亚特区 接壤 ， 北方 是 宾夕法尼亚州 ， 东 邻 为 德拉瓦州 。
+Parsing [sent. 256 len. 6]: 糖尿病视网膜病变 是 糖尿病 的 并发症 。
+Parsing [sent. 257 len. 15]: 安丰塘 ， 古称 芍陂 ， 中国古代 淮河流域 水利工程 ， 位于 今 安徽 寿县 南 。
+Parsing [sent. 258 len. 25]: # REDIRECT 芍陂 都江堰 是 中国古代 建设 并 使用 至今 的 大型 水利工程 ， 位于 四川省 都江堰市 城西 ， 岷江 上游 340 公里 处 。
+Parsing [sent. 259 len. 10]: 邗沟 是 联结 沂沭泗河水系 和 淮河 的 中国古代 运河 。
+Parsing [sent. 260 len. 8]: 鸿沟 是 中国 的 古 运河 名 。
+Parsing [sent. 261 len. 25]: 《 山海经 》 ， 中国 先秦 古籍 ， 是 一本 载有 怪 奇 悠谬 之 说 ， 荟萃 珍奇 博物 的 地理 风俗 志 。
+Parsing [sent. 262 len. 19]: 天球赤道 是 在 天球 上 的 一个 大圆 ， 它 与 地球 的 赤道 是 同一 个 平面 。
+Parsing [sent. 263 len. 23]: right 二十八宿 ， 又称 二十八舍 或 二十八星 ， 是 古代中国 将 黄道 和 天赤道 附近 的 天 区划 分为 二十八 个 区域 。
+Parsing [sent. 264 len. 18]: 电话卡 是 一个 简称 ， 它 可以 是 : * 手机 充 值 卡 ， 即 预付卡 。
+Parsing [sent. 265 len. 23]: 新闻组 是 一个 通常 在 Usenet 中用 于 存储 来自 不同 地区 的 用户 所 发表 的信 息 的 「 仓库 」 。
+Parsing [sent. 266 len. 32]: 吴作栋 ， 新加坡华人 ， 是 继 李光耀 之后 的 第二 任 新加坡总理 ， 1990 年 起 接任 李光耀 任 总理 、 1992 年 起 担任 新加坡人民行动党 秘书长 至 2004 年 为止 。
+Parsing [sent. 267 len. 29]: 在 欧洲历史 上 ， 一般来说 ， 「 中世纪 」 指 公元 5 世纪 到 15 世纪 ， 自 西罗马帝国 的 崩溃 到 文艺复兴运动 和 大航海时代 之间 的 时期 。
+Parsing [sent. 268 len. 10]: 虚数 ， 即 实数 部分 为 0 的 复数 。
+Parsing [sent. 269 len. 20]: 毫克 或 称 公丝 ， 符号 为 mg ， 质量单位 ， 是 克 的 1 / 1 , 000 。
+Parsing [sent. 270 len. 36]: # REDIRECT 质量单位 天气 是 大气 状态 的 一 种 表徵 ， 反映 大气 是 冷 还是 热 、 是 干 还是 湿 、 是 平静 还是 狂暴 、 是 晴朗 还是 多 云 等等 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 271 len. 22]: # REDIRECT 帝力 2 月 5 日 是 阳历年 的 第 36 天 ， 离 一年 的 结束 还有 329 天 。
+Parsing [sent. 272 len. 39]: 2004 年 1 月 的 新闻 事件 ： 请 参看 ： * 火星探测 计划 * 中东 和平路 线图 * 欧盟扩大 * 北朝鲜核危机 * 恐怖主义 * 美军佔领伊拉克 * 钓鱼岛 * 中华人民共和国宪法 修正案 网域名称系统 是 互联网 的 一 项 服务 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 273 len. 22]: 但以理 ， 天主教 圣经 译作 达尼尔 ， 巴比伦 名字 是 伯 提 沙 撒 ， 圣经 中说 是 犹大国 的 希伯来人 。
+Parsing [sent. 274 len. 19]: 张衡 可以 是 下列 人物 ： * 张衡 ： 中国 东汉 科学家 、 文学家 、 政治家 和 画家 。
+Parsing [sent. 275 len. 23]: 艾琳·艾德勒 ， 是 亚瑟·柯南·道尔 的 侦探小说 《 福尔摩斯 》 故事 中的 虚构人物 ， 是 位 美国 歌剧 演员 ， 也是 名 诈欺师 。
+Parsing [sent. 276 len. 25]: 迪吉多 是 成立 于 1957 年 的 一家 美国 老牌 电脑 公司 ， 发明 了 Alpha 微处理器 ， 后于 1998 年 被 康柏电脑 收购 。
+Parsing [sent. 277 len. 35]: 保罗·莫卡派乔斯 ( Paul Mockapetris ) 域名系统 的 发明者 ， 他 在 1983 年 的 第 882 和 在 南加州大学 里 资讯科学研究院 所 提出 的 883 号 因特网 标准 草案 中 提出 DNS 的 架构 。
+Parsing [sent. 278 len. 12]: 八路军 ， 全称 国民革命军第八路军 ， 是 中国人民解放军 的 主要 前身 之一 。
+Parsing [sent. 279 len. 26]: 杰罗姆 · 大卫 · 「 J · D 」 · 沙林 格 是 一 位 美国 作家 ， 以 着作 《 麦田捕手 》 而 闻名 。
+Parsing [sent. 280 len. 24]: 工农红军 ， 通称 苏联红军 ， 是 俄罗斯苏维埃联邦社会主义共和国 和 之后 1922 年成 立 的 苏维埃社会主义共和国联盟 的 武装力量 ， 其 下 包括 陆军 和 空军 。
+Parsing [sent. 281 len. 66]: # 重定向 麦金塔 # REDIRECT 红军 民建联 可以 指 ： * 民主建港协进联盟 ， 香港政党 * 民众建澳联盟 ， 澳门政治社团 贱 格 # redirect 民主建港协进联盟 # REDIRECT 香港特别行政区基本法第二十三条 李汉俊 ， 本名 李 书 诗 ， 又名 李 厶 杰 ， 1890 年 出生于 湖北省 潜江 ， 是 中国 1920 年代 的 思想家 和政 治家 ， 中国共产党 建党 人 之一 ， 有 马克思主义 的 播 火者 之 称 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 282 len. 29]: # REDIRECT 八路军 # REDIRECT 杰罗姆·大卫·塞林格 红军 可以 指 ： 2 月 6 日 是 阳历年 的 第 37 天 ， 离 一年 的 结束 还有 328 天 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 283 len. 28]: 马泰 奥 · 里奇 ， 汉名 利玛窦 ， 号 西 泰 ， 又 号 清泰 、 西江 ， 天主教 耶稣会 义大利 籍 神父 、 传教士 、 学者 。
+Parsing [sent. 284 len. 11]: 太阳神 的 传说 见于 世界 上 许多 的 古老 民族 。
+Parsing [sent. 285 len. 49]: # redirect 史丹佛大学 眼科 门诊部 的 眼睛 检查 眼科学 是 医学 上 研究 眼部 疾患 一个 分支 ， 研究 发生 在 视觉系统 ， 包括 可 侵犯 眼部 的 病理 及 眼 内科 和 外科 处理 ， 眼球 及 与其 相关 联 的 组织 有关 疾病 皆 含括 在内 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 286 len. 10]: 结膜炎 ， 俗称 [ https : / / blog .
+Parsing [sent. 287 len. 35]: swisscoat .com / tc / % E7 % B4 % 85 % E7 % 9C % BC % E7 % 97 % 87 / 红眼症 ] ， 是 最 常见 的 眼部 传染病 之一 。
+Parsing [sent. 288 len. 6]: 钟惠澜 ， 热带 病 学家 。
+Parsing [sent. 289 len. 17]: # REDIRECT 结膜炎 北京大学人民医院 是 位于 中国北京市 西城区 的 三级甲等医院 ， 为 北京大学 的 附属 医院 。
+Parsing [sent. 290 len. 28]: 年 又称 年份 、 地球年 、 太阳年 ， 符号 为 year ， 是 与 地球 在 轨道 上 绕 太阳 公转 有关 事件 再现 之间 的 时间单位 。
+Parsing [sent. 291 len. 10]: 臧克家 ( ) ， 山东 诸城 人 ， 中国现代诗人 。
+Parsing [sent. 292 len. 9]: 中国的姓氏 ， 一般 是以 一个 汉字 为 姓 。
+Parsing [sent. 293 len. 39]: 《 共产党宣言 》 是 国际共产主义运动 的 经典 文献 之一 ， 最 早 由 卡尔·马克思 和 弗里德里希·恩格斯 写 于 1847 年 12 月 至 1848 年 1 月 ， 1848 年 2 月 21 日 在 英国 伦敦 发表 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 294 len. 56]: 四圣谛 ， 四 种 神圣 的 谛 ， 即 苦 圣 谛 、 苦 集 圣 谛 、 苦 灭 圣 谛 和 苦 灭 道 迹 圣 谛 ， 简称 为 苦谛 、 集谛 、 灭谛 和 道谛 ， 是 佛陀 之 基本 教法 ， 历史 上部 派 佛教 和 现代 上座部佛教 的 基本教义 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 295 len. 42]: # REDIRECT 四谛 # REDIRECT 四谛 盛宣怀 ， 字 杏 荪 、 幼 勖 ， 号 补 楼 愚 斋 、 次 沂 、 止 叟 等 ， 出生于 江苏 常州府 武进县 龙溪 ， 清末 政治家 ， 洋务运动 的 代表 人物 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 296 len. 41]: 爱德华 · 瓦迪 厄 · 萨义德 ， 国际 着名 文学理论 家 与 批评家 ， 后 殖民 理论 的 创始人 ， 也是 巴勒斯坦 建国 运动 的 活跃 分子 ， 由此 也 成为 了 美国 最 具 争议 的 学院派 学者 之一 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 297 len. 32]: # REDIRECT 爱德华·萨义德 星 型 拓扑 是 指 网路 中的 各 节点 设备 通过 一个 网路 集中 设备 连接 在一起 ， 各 节点 呈 星 状 分布 的 网路 连接 方式 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 298 len. 26]: 「 白目 」 一 词 ， 源自 于 台湾 俚语 ， 是 形容 搞 不清楚 状况 、 不识相 、 乱说 话 、 自作聪明 的 人 。
+Parsing [sent. 299 len. 17]: 盖茨氏蚜蝇 是 一 种 在 哥斯大黎加 的 昆虫 ， 在 哥斯大黎加 高山 的 森林 内 发现 。
+Parsing [sent. 300 len. 30]: # REDIRECT 节肢动物 经济法 是 公法 ， 是 调整 国家 对 市场经济 活动 实行 干预 、 管理 、 调控 所 产生 的 经济 关系 的 法律 规范 的 总称 。
+Parsing [sent. 301 len. 45]: # redirect 霰粒肿 # 治疗 # REDIRECT 眼 # 人类 眼球 的 结构 双绞线 是 由 两 条 相互 绝缘 的 导线 按照 一定 的 规格 互相 缠绕 在一起 而 制成 的 一 种 通用 配 线 ， 属于 信息 通信网 路 传输 介质 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 302 len. 11]: 资料 ， 是 指 未经 过处 理 的 原始 记录 。
+Parsing [sent. 303 len. 27]: # 重定向 模拟信号 # redirect 数据 赵紫阳 ， 原名 赵修业 ， 中国 河南省 滑县 人 ， 政治家 ， 中国共产党 和 中华人民共和国 的 第二代 主要 领导人 之一 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 304 len. 16]: 资料连结层 是 OSI 参考 模型 ] ] 第二 层 ， 位于 物理层 与 网路层 之间 。
+Parsing [sent. 305 len. 17]: 班固 人 ， 东汉 史学家 班彪 之子 ， 东汉 历史学家 ， 《 汉书 》 的 作者 。
+Parsing [sent. 306 len. 41]: 段祺瑞 ， 原名 启 瑞 ， 字 芝 泉 ， 中国 安徽 合肥 人 ， 为 中华民国政治 家 ， 皖系军阀 首领 ， 曾三 次 出任 国务总理 ， 1916 年 至 1920 年 为 北洋政府 的实 际 掌权 者 和 领导人 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 307 len. 5]: 罗荣焜 ， 艺名 罗山 。
+Parsing [sent. 308 len. 29]: 东区 可以 指 ： * 台湾 地名 ： * * 台北东区 ， 位 在 台北市 ， 泛指 忠孝东路 一带 相对 较 新 的 市区 ， 非行 政区 划 。
+Parsing [sent. 309 len. 26]: # REDIRECT 第二次世界大战 中华民国北京政府 是 指 中华民国 建国 初期 以北 京 为首 都 的 中央政府 ， 因 北洋 系 人士 掌权 ， 故而 称为 北洋政府 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 310 len. 8]: 网路层 是 OSI 模型 中的 第三 层 。
+Parsing [sent. 311 len. 9]: 吴文俊 ， 浙江 嘉兴 人 ， 出生于 中国上海 。
+Parsing [sent. 312 len. 23]: 肿瘤学 是 一 种 研究 肿瘤 的 病因 、 预防 、 诊断 、 治疗 以及 基础研究 的 综合性 、 独立性 医学 二级学科 。
+Parsing [sent. 313 len. 23]: 死亡 是 相对 于生 命 体 存在 的 生命现象 ， 指 维持 一个 生物 存活 的 所有 生物学 功能 的 永久 终止 。
+Parsing [sent. 314 len. 24]: 脑死 ， 作为 死亡 判定 的 准则 之一 ， 通常 指 包括 脑干 在内 的 全 脑部 功能 丧失 的 不可逆转 的 状态 。
+Parsing [sent. 315 len. 16]: # redirect 癌症 电磁场 是 由 带电粒子 的 运动 而 产生 的 一 种 物理场 。
+Parsing [sent. 316 len. 22]: 严 吴 婵 ' ， 香港儿童文学作家 ， 也是 新 雅 文化事业 有限公司 董事总经理 兼 总编辑 及 香港 亲子 阅读 书会 会长 。
+Parsing [sent. 317 len. 14]: 比哈尔邦 是 印度东北 的 一个 邦 ， 传说 是 佛教 的 起源 地 。
+Parsing [sent. 318 len. 9]: 戎殿新 ， 中国经济 学家 ， 河北省 正定县 人 。
+Parsing [sent. 319 len. 24]: # REDIRECT 中国姓氏 在 计算机网路 中 ， 传输层 互联网协议套件 与 网路 堆栈 中 协议 的 分层 结构 中的 方法 的 一个 概念 划分 。
+Parsing [sent. 320 len. 38]: 天心阁 ， 位于 中国 湖南省长 沙市 城南 ， 地处 贺龙体育文化中心 西北 面 ， 紧邻 蔡锷 南 路 和 城南 路 ， 阁楼 与 城墙 、 天心 公园 及其 他 建筑 融为一体 ， 为 长沙 重要 古建筑 之一 。
+Parsing [sent. 321 len. 28]: 会话层 ， 位于 OSI 模型 的 第 5 层 ， 主要 为 两 个 会话层 实体 进行 会话 ， 而 进行 的 对话 连接 的 管理 服务 。
+Parsing [sent. 322 len. 21]: 表示层 ( Presentation ) 为 不同 终端 的 上层 用户 提供 数据 和信 息 正确 的 语法 表示 变换 方法 。
+Parsing [sent. 323 len. 10]: 应用层 是 七 层 OSI 模型 的 第七 层 。
+Parsing [sent. 324 len. 28]: 人名 ， 是 人类 为 区分 个体 ， 给 每个 个体 给定 的 特定 名称 符号 ， 是 通过 语言文字 信息 区别 人群 个体 差异 的 标志 。
+Parsing [sent. 325 len. 11]: 汉族人 名 多 由姓 和名 组成 ， 以 汉字 表示 。
+Parsing [sent. 326 len. 33]: 朝鲜族人名 ， 或 称 朝鲜族姓名 ， 即 朝鲜族 使用 的 姓名 ， 由 一个 汉字姓氏 及 一个 名字 构成 ， 通常 也 称 「 韩文 名 」 或 「 朝鲜 名 」 。
+Parsing [sent. 327 len. 17]: 表字 ， 又称 字 ， 是 汉字文化圈 传统 上 在 本名 之外 的 一个 正式 代称 。
+Parsing [sent. 328 len. 74]: 方太 可以 指 ： * 方太 ( 五代 ) ， 五代时期 的 人物 * 方太 厨具 ， 浙江 的 厨房 产品 生产商 * 方太乡 ， 中国 江西省 兴国县 下辖 的 一个 乡镇 级 行政 单位 * 方任利莎 ， 着名 烹饪 专家 ， 人称 「 方太 」 避讳 是 中国历史 上 ， 必须 迴避 君主 、 尊长 的 「 名讳 」 的 一 种 要求 ， 通常 只限 于 君主 、 尊长 之 本名 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 329 len. 42]: 称谓 广义 上 可以 指名 称 ； 狭义 上 指 人 交往 当中 彼此 的 称呼 ， 这种 称呼 通常 基于 血缘关系 、 职业 特性 、 宗教信仰 、 社会地位 等等 因素 ， 有时 也可 以 指 人 的 姓氏 、 名字 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 330 len. 34]: 网路遊戏 ， 也 称 线上遊戏 ， 一般 指 多 名 玩家 透过 计算机网 际 网路 进行 互动 娱乐 的 电子遊戏 ， 以 遊戏 运行 软体 分类 一般 是 指 客户端 下载 的 大型多人线上遊戏 。
+Parsing [sent. 331 len. 29]: Visual Basic for Applications 是 一 种 Visual Basic 的 一 种 巨集 语言 ， 主要 能 用来 扩展 Windows 的 应用程式 功能 ， 特别是 Microsoft Office 软体 。
+Parsing [sent. 332 len. 34]: 中国同盟会 ， 亦 称为 中国革命同盟会 ， 是 中国 清朝 末年 由 兴中会 、 华兴会 、 光复会 等 多 个 团体 集合 而 成 的 革命 组织 ， 1905 年成 立 于 日本 东京 。
+Parsing [sent. 333 len. 64]: 西安电子科技大学 是 中华人民共和国教育部 与 工业和信息化部 共建 的 一 所 教育部 直属 普通高等学校 ， 国家 首批 「 211 工程 」 和 优势学科创新平台项目 重点 建设 高校 ， 「 111 计划 」 重点 建设 高校 ， 入选 「 2011 计划 」 ， 是 中国 最 早 的 2 所 国防工业 重点 军校 之一 ， 是 中国 电子 信息 领域 科学研究 和人 才 培养 的 核心 基地 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 334 len. 19]: 2 月 10 日 是 公历 一年 中的 第 41 天 ， 离 全年 结束 还有 324 天 。
+Parsing [sent. 335 len. 11]: 斯洛维尼亚 是 一个 位于 东南欧 ， 毗邻 阿尔卑斯山 的 小国 。
+Parsing [sent. 336 len. 17]: 伊斯坦堡 是 土耳其 最 大城市 ， 亦 是 该国 的 经济 、 文化 和历 史 中心 。
+Parsing [sent. 337 len. 16]: # redirect 保定陆军军官学校 癌 ， 有 翻译 为 恶性上皮细胞肿瘤 ， 是 癌症 的 一 种 。
+Parsing [sent. 338 len. 18]: # REDIRECT 蓝牙 电子遊戏 ， 是 指 所有 依讬 于 电子媒体 平台 而 运行 的 交互 遊戏 。
+Parsing [sent. 339 len. 19]: 遊戏四分类法 是 法国 社会学家 罗杰 · 凯约 华 提出 的 对 遊戏 进行 分类 的 一 种 方法 。
+Parsing [sent. 340 len. 25]: 费奥多尔·米哈伊洛维奇·陀思妥耶夫斯基 ， 俄国作家 ， 陀思妥耶夫斯基 在 20 岁 左右 开始 写作 ， 第一 本 长篇小说 《》 在 1846 年 出版 ， 当时 25 岁 。
+Parsing [sent. 341 len. 41]: 战争遊戏 ， 或 称 战棋遊戏 ， 是 一个 或 多 个 玩家 对 一 场 战役 或 整个 战争 进行 模拟 的 一 种 遊戏 或 军事演习 ， 深深 影响 后来 的 军事 与 遊戏 ， 甚至 连 包括 即时战略遊戏 。
+Parsing [sent. 342 len. 15]: 干眼症 ， 又名 干 性 角 结膜炎 ， 是 一 种 眼睛 的 状态 。
+Parsing [sent. 343 len. 22]: 罗伯特 · 詹姆斯 · 李 · 「 鲍 勃 」 · 霍克 ， 前任 澳大利亚总理 、 1956 年 的 澳洲 罗德学者 。
+Parsing [sent. 344 len. 33]: 《 人民日报 》 是 中国共产党中央委员会 的 机关报 ， 与 新华社 及 中国中央电视台 ， 并列 为 中国共产党 和 中华人民共和国政府 官方 三 大 传媒 机构 ， 为 中华人民共和国 第一 大报 ， 有 广泛 影响力 。
+Parsing [sent. 345 len. 96]: 厦门市 < / sub > ， 邮政式拼音 ： Amoy < sub > < / sub > ） ， 别称 鹭岛 ， 简称 鹭 ， 是 中华人民共和国 15 个 副省级城市 之一 ， 五 个 计划单列市 之一 ； 是 中国 最 早 实行 对外开放政策 的 四 个 经济特区 之一 ， 五 个 开发 开放 类 国家综合配套改革试验区 之一 ； 厦门 片区 纳入 中国 最 早 的 四 个 自由贸易 试验区 之一 「 中国自由贸易试验区 」 ， 为 两岸 新兴 产业 和 现代 服务业 合作 示范区 、 东南 国际 航运 中心 、 两岸 区域性 金融服务 中心 和 两岸 贸易 中心 。
+Sentence too long for dependency parser.  Falling back to PCFG parse...
+Parsing [sent. 346 len. 36]: 凯撒电影奖 是 每年 于 法国 举办 的 电影奖 项 ， 主要 是 表彰 前 一年 度 杰出 的 法国电影 ， 被 认为 是 法国 国内 电影 的 最高 荣誉 ， 地位 等同于 美国 的 奥斯卡奖 。
+Parsing [sent. 347 len. 24]: - - - - 角膜后沉积物 ( keratic precipitate ) ， 在 角膜 内 表面 的 点 状 沉积物 ， 可以 通过 裂隙灯 看到 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 348 len. 21]: 陈慧娴 ， 香港 着名 实力派 女歌手 ， 于 1980 年代 及 1990 年代 红极一时 ， 为 香港乐坛 「 天后 」 。
+Parsing [sent. 349 len. 19]: 2 月 11 日 是 公历 一年 中的 第 42 天 ， 离 全年 结束 还有 323 天 。
+Parsing [sent. 350 len. 7]: 或 布希 ， 是 一个 姓氏 。
+Parsing [sent. 351 len. 48]: 先行者 最 早 由 位于 中国 湖南省长 沙市 的 国防科学技术大学 开发 ， 设计 灵感 来自 于 1985 年 日本 茨城县 筑波 的 万国博览会 所 展示 之 美 日 两国 机器人 ， 最后 于 2000 年 11 月 29 日 推出 的 两 足 步行 原始人 形 机器人 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 352 len. 14]: 杜派指数 是 用于 在 战争遊戏 中 确定 各项 数值 的 一 种 方法 。
+Parsing [sent. 353 len. 52]: MUD ( / ˈ m ʌ d / ; 原 指 Multi - User Dungeon 多使用者 迷宫 ， 后 又 被 称为 Multi - User Dimension 多使用者 空间 与 Multi - User Domain 多使用者 领土 ) < sub > ， < / sub > 台湾 使用者 通常 直接 称呼 为 MUD 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 354 len. 60]: 灵魂 ， 在 从古至今 的 宗教 、 哲学 和 神话 中 ， 被 描述 为 决定 前生 今世 的 无形 精髓 ， 居于 人 或 其他 物质 躯体 之内 并 对 之 起 主宰 作用 ， 是 一 种 非 物理学 现象 ； 亦可 脱离 这些 躯体 而 独立 存在 ， 也 有 认为 灵魂 是 永恒 不灭 的 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 355 len. 23]: # REDIRECT MAC # REDIRECT 麦金塔 霍雷肖·霍恩布洛尔 是 塞西 尔 · 史考特 · 福雷斯特 创作 的 十一 部 系列 小说 的 主人公 。
+Parsing [sent. 356 len. 12]: 翼状胬肉手术 或 翼状胬肉 切除 术 是 针对 翼状胬肉 做 的 手术 。
+Parsing [sent. 357 len. 35]: 轮迴 ， 作为 一 种 思想 理论 ， 佛教 被 认为 发展 和 引申 了 其 定义 ， 认为 生命 会 以 不同 的 面貌 和 形式 ， 不断 在 六道 出生 、 死亡 。
+Parsing [sent. 358 len. 26]: # REDIRECT 麦金塔 南非共和国 ， 简称 南非 、 斐 ， 是 位于 南部非洲 的 非洲 国家 ， 有 「 彩虹 之 国 」 之 誉 。
+Parsing [sent. 359 len. 14]: 1UP 是 电子遊戏 中 ， 尤其 是 动作遊戏 中的 一个 常见 的 术语 。
+Parsing [sent. 360 len. 43]: 通信协议 或 简称 为 传输 协议 在 电信 中 ， 是 指 在任 何物 理 介质 中允 许 两 个 或 多 个 在 中的 终端 之间 传播 信息 的 系统 标准 ， 也是 指 计算机 通信 或 网路 设备 的 共同语言 。
+Parsing [sent. 361 len. 18]: # REDIRECT 丽水市 动作冒险遊戏 : 是 冒险遊戏 的 分支 ， 它 融合 了 动作遊戏 的 一些 特徵 。
+Parsing [sent. 362 len. 18]: 动作遊戏 是 电子遊戏类型 的 一 种 ， 它 强调 玩家 的 反应 能力 和 手眼 的 配合 。
+Parsing [sent. 363 len. 10]: 冒险遊戏 是 电子遊戏 中的 最 早 的 类型 之一 。
+Parsing [sent. 364 len. 36]: 街机 亦 称 大型电玩 是 放置 于 公共 娱乐场所 营业 的 遊戏机 ， 最 早 的 街机 雏型 于 1971 年 诞生 于 美国 的 电脑 实验室 中 ， 当时 常 放置 于 酒吧 内 。
+Parsing [sent. 365 len. 35]: 程序错误 ， 是 程序设计 中的 术语 ， 是 指 在 软体 运行 中 因为 程序 本身 有 错误 而 造成 的 功能 不正 常 、 死机 、 数据 丢失 、 非正常 中断 等 现象 。
+Parsing [sent. 366 len. 15]: # REDIRECT 程序错误 唯读记忆光碟 ， 是 一 种 在 电脑 上 使用 的 光碟 。
+Parsing [sent. 367 len. 37]: 秘技 ， 又称 秘 笈 、 秘籍 、 密技 ， 是 指 在 电子遊戏 中 所 使用 的 非正规 的 遊戏 方法 ， 比如 增加 生命值 或 续 关 数 、 敌方 攻击 无效 化 等 。
+Parsing [sent. 368 len. 26]: # REDIRECT 哺乳动物 # REDIRECT 生肖 许慎 ， 字 叔 重 ， 东汉 汝南 召陵 人 ， 有 「 五经 无双 许叔重 」 之 讚赏 。
+Parsing [sent. 369 len. 22]: 沙埗 ， 位于 广东省 东莞市 沙坪镇 的 村落 ， 属 永安 管理区 辖 ， 有 广湛公路 及 江 肇 公路 经过 。
+Parsing [sent. 370 len. 24]: 东莞市 ， 简称 莞 ， 是 中华人民共和国 广东省 下辖 的 地级市 ， 西 临 珠江口 ， 与 广州市 、 深圳市 、 惠州市 接壤 。
+Parsing [sent. 371 len. 13]: 太阳光 ， 广义 的 定义 是 来自 太阳 所有 频谱 的 电磁辐射 。
+Parsing [sent. 372 len. 17]: 盐田区 是 中国 广东省 深圳市 下辖 的 一个 市辖区 ， 是 深圳经济特区 的 四 区 之一 。
+Parsing [sent. 373 len. 22]: # REDIRECT 国际标准化组织 国际标准化组织 成立 于 1947 年 2 月 23 日 ， 定 全世界 工商业 国际标准 的 国际标准 建立 机构 。
+Parsing [sent. 374 len. 25]: 荷兰皇家壳牌 ， 又 译 - hans : 蚬壳 ， 是 世界 第二 大石 油公司 ， 公司 在 英国 注册 ， 总部 位于 荷兰 海牙 。
+Parsing [sent. 375 len. 49]: 七姊妹 指 的是 在 标准石油 于 1906 年 被 美国法院 判决 应分 割 成 二十 家公 司 之后 ， 所 形成 的 三家 较 大 的 石油 公司 与 另外 四 家 石油 公司 所 组成 的 垄断性 企业 联盟 ， 曾对 世界 石油 市场 影响 甚 巨 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 376 len. 17]: # REDIRECT 国际标准化组织 国际标准化组织 的 ISO 5218 国际标准 以 一 位数 定义 人类 性别 表示 法 。
+Parsing [sent. 377 len. 32]: 湖南省长沙市第一中学 位于 长沙市 开福区 清水塘 路 81 号 ， 是 湖南省教育厅 直属 中学 、 湖南省 示范性 普通 高级中学 ， 湖南省 文明 单位 、 教育部 现代教育 技术 实验 学校 ， 长沙四大名校 之一 。
+Parsing [sent. 378 len. 12]: 凯特·布兰切特 ， 生于 澳洲 墨尔本 ， 知名 澳大利亚电影 及 舞台剧 女演员 。
+Parsing [sent. 379 len. 20]: # REDIRECT 汉语拼音 三垣 为 中国古代 划分 星空 的 星官 之一 ， 与 黄道带 上 之 二十八宿 合称 三垣二十八宿 。
+Parsing [sent. 380 len. 42]: 伦理学 也 称为 道德哲学 或 道德学 ， 是 对 人类 道德 生活 进行 系统性 思考 和 研究 的 学科 ； 在 此 ， 「 道德 」 被 定义 为 一群 人 或 一 种 文化 所 认可 的 所有 行为 准则 。
+Parsing [sent. 381 len. 27]: 公共财政 ， 或 政府财政 ， 指 政府 的 收入 和 支出 ， 是 政府 实现 经济政策 目标 、 提供 公共产品 与 服务 的 主要 途径 之一 。
+Parsing [sent. 382 len. 40]: # REDIRECT 节气 太初历 是 中国历史 上 曾经 使用 过 的 一 种 历法 ， 亦 是 中国历史 上第 一部 完整 统一 ， 而且 有明 确 文字记载 的 历法 ， 在 天文学 发展 历史 上 具有 划时代 的 意义 。
+Parsing [sent. 383 len. 19]: 互联网 用语 ， 是 由 网民 创造 、 于 网路 交流 中使 用 的 一 种 媒体 语言 。
+Parsing [sent. 384 len. 24]: # 重定向 GNU Hurd 2 月 13 日 在 公历 当中 是 第 44 天 ， 距离 一年 的 结束 还有 321 天 。
+Parsing [sent. 385 len. 17]: 大明历 可能 指 ： * 大明历 ( 祖冲之 ) ， 由 南北朝时期 祖冲之 创制 的 历法 。
+Parsing [sent. 386 len. 39]: 《 授时历 》 是 中国古代 曾经 使用 过 的 一 种 历法 ， 为 元代 郭守敬 、 王恂 、 许衡 等人 创制 ， 因 古语 「 敬授人时 」 而 得名 ， 从 元朝 至元 十八 年 开始 实行 。
+Parsing [sent. 387 len. 18]: # REDIRECT 中国行政区划 中国历史地理学 是 研究 中国历史 上 的 地理 现象 及其 演变 规律 的 一门 学科 。
+Parsing [sent. 388 len. 13]: 国际单位制导出单位 是 国际单位制 的 一部 份 ， 从 七 个 国际单位制基本单位 导出 。
+Parsing [sent. 389 len. 39]: # REDIRECT 亲民党 # redirect 国内生产总值 威斯敏斯特 圣彼得 协同教堂 ， 通称 敏 斯 特 修道院 ， 是 一座 位于 伦敦市中心 西敏市 区 的 大型 哥特式建筑 风格 的 教堂 ， 一直 是 英国君主 安葬 或 加冕 登基 的 地点 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 390 len. 29]: 启明 可能 指 以下 其中 一 项 ： # 金星 的 别名 ； # 爱新觉罗 · 启明 ； # 启明 软体 公司 ， 现任 CEO 为 王德 铭 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 391 len. 27]: # REDIRECT 长庚 简·奥斯汀 是 一 位 英国 小说家 ， 她 的 五 部 主要 作品 诠释 评论 了 18 世纪末 英国 地主 乡绅 的 生活 。
+Parsing [sent. 392 len. 19]: # REDIRECT 威廉一世 ( 英格兰 ) # REDIRECT 信息学 章子怡 ， 生于 中国北京 ， 中国大陆 女演员 和 制片人 。
+Parsing [sent. 393 len. 32]: 少数民族 ， 是 实行 主体 民族 与 少数民族 区别 对待 政策 的 国家 的 差别用语 ， 是 民族主义 国家 中 主体 民族 以外 的 民族 群体 ， 人口 比例 佔 少数 。
+Parsing [sent. 394 len. 10]: 道德 ， 指 衡量 行为 正当 的 观念 标准 。
+Parsing [sent. 395 len. 25]: 伊顿公学 ， 全名 为 温莎 宫 畔 伊顿 圣母 英皇书院 ， 是 英国 着名 的 男子 公学 ， 位于 英格兰 温莎 ， 泰晤士河 边 。
+Parsing [sent. 396 len. 33]: TCP 可能 指 ： 庇理罗士女子中学 是 一 所 位于 香港港 岛 东区 北角 的 官立 女子中学 ， 是 由 前 香港上海汇丰银行 董事 、 着名 的 犹太裔 慈善家 庇理罗士 在 19 世纪末 创立 。
+Parsing [sent. 397 len. 23]: # REDIRECT Microsoft _ Windows 的历 史 64 位操作 系统 是 指 特别 为 64 位 架构 计算机系统 而 设计 的 操作系统 。
+Parsing [sent. 398 len. 10]: # REDIRECT 伦理学 是 中世纪 奇幻 风格 的 大型多人线上角色扮演遊戏 。
+Parsing [sent. 399 len. 14]: 绥靖天皇 日本 传说 中的 二代 天皇 ， 也是 欠史八代 中的 第一 位 天皇 。
+Parsing [sent. 400 len. 40]: 大乘 ， 亦 称 「 大乘教 」 ， 梵文 音译 「 摩诃 衍 那 」 、 「 摩诃 衍 」 等 ， 佛教 两 大 教派 传统 之一 ， 大乘佛教 贬低 不想 成佛 的 声闻乘 和 独觉乘 为 小乘 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 401 len. 14]: # REDIRECT 台湾团结联盟 情人节 ， 在 每年 的 公历 2 月 14 日 。
+Parsing [sent. 402 len. 17]: 亚历山大·伊萨耶维奇·索尔仁尼琴 ， 苏联 — 俄罗斯 的 杰出 作家 ， 苏联 时期 最 着名 的 持不同政见者 之一 。
+Parsing [sent. 403 len. 36]: 青黴素 是 指 分子 中 含有 青黴 烷 、 能 破坏 细菌 的 细胞壁 并 在 细菌 细胞 的 繁殖 期 起 杀菌 作用 的 一类 抗生素 ， 是 由 青黴菌 中 提炼 出的 抗生素 。
+Parsing [sent. 404 len. 28]: # REDIRECT 极高频 约旦哈希姆王国 是 中东 的 国家 ， 它 北 临 叙利亚 ， 东 临 伊拉克 ， 东南 临 沙乌地阿拉伯 ， 西 临 以色列 和 巴勒斯坦 。
+Parsing [sent. 405 len. 8]: 微米 是 长度单位 ， 符号 µ m 。
+Parsing [sent. 406 len. 43]: # REDIRECT Windows _ Server _ 2003 朝鲜核问题 ， 是 指 自 1990 年代 朝鲜民主主义人民共和国 开发 核 应用 能力 而 引起 的 地区 安全 和 外交 等 一系列 问题 ， 相关 方 为 美国 、 韩国 、 中国 、 俄罗斯 和 日本 。
+Parsing [sent. 407 len. 38]: 朝鲜问题 可能 是 指 ： * 朝鲜半岛统一问题 * 朝鲜核问题 Category : 四 字 消 歧义 伺服器 指 ： * 一个 管理 资源 并 为 用户 提供 服务 的 计算机软体 ， 通常 分为 文件伺服器 ， 资料库伺服器 和 应用程序伺服器 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 408 len. 19]: 虚拟演播室 是以 虚拟 场景 为主 体 的 电视 演播室 ， 给 视频 制作 带来 很 大 的 方便 。
+Parsing [sent. 409 len. 68]: # REDIRECT 港元 哈尔滨工业大学 ， 简称 哈工大 ， 创建 于 1920 年 ， 隶属 中华人民共和国工业和信息化部 ， 是 一 所以 理工 为主 ， 理 、 工 、 文 、 管 、 生命 相结 合 ， 多 学科 、 开放式 的 研究型 高校 ， 为 中国 C9 联盟 成员 之一 ， 是 首批 中国 「 211 工程 」 、 首批 九 所 985 工程 重点 建设 的 院校 之一 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 410 len. 22]: MSN 是 由 微软公司 在 1995 年 8 月 24 日 成立 的 网际网路服务供应商 ， 并 随着 Windows 95 一起 发布 。
+Parsing [sent. 411 len. 12]: Messenger 是 一个 由 微软公司 开发 的 即时通讯 和 出席 系统 。
+Parsing [sent. 412 len. 16]: Windows Messenger 是 微软公司 开发 的 即时消息 客户端 软体 ， 内 建于 Windows XP 中 。
+Parsing [sent. 413 len. 15]: Windows Live Messenger ， 是 微软 开发 的 即时通讯软体 ， 现已 经 结束 服务 。
+Parsing [sent. 414 len. 18]: 雕塑 是 一 种 造型艺术 ， 以 物质 材料 和 手段 制作 的 三维空间 形象 的 视觉艺术 。
+Parsing [sent. 415 len. 31]: 布达佩斯 是 匈牙利 首都 ， 也是 该国 主要 的 政治 、 商业 、 运输 中心 和 最 大 的 城市 ， 也 被 认为 是 东欧 一个 重要 的 中继站 。
+Parsing [sent. 416 len. 37]: 标准通用标记语言 是 现时 常用 的 超文本 格式 的 最高 层次 标准 ， 是 可以 定义 标记语言 的 元语言 ， 甚至 可以 定义 不必 采用 < nowiki > < > < / nowiki > 的 常规 方式 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 417 len. 16]: 联合国讬管理事会 是 联合国 负责 监督 讬管 领土 行政管理 的 机构 ， 成立 于 1945 年 。
+Parsing [sent. 418 len. 16]: 刚果 可以 指 ： 哈勃太空望远镜 ， 是以 天文学家 爱德温·哈伯 为名 ， 在 地球轨道 的 望远镜 。
+Parsing [sent. 419 len. 48]: # 重定向 亚历山大·伊萨耶维奇·索尔仁尼琴 # 重定向 亚历山大·伊萨耶维奇·索尔仁尼琴 } 阿莫西林 ， 又 译 安莫西林 或 安默西林 ， 本名 羟氨苄青黴素 ， 是 一 种 常用 的 口服 性 广 谱 β - 内醯胺 类 抗生素 ， 具 溶 菌 作用 ， 主治 易 感 微生物所 引起 的 细菌 性感 染 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 420 len. 36]: # REDIRECT 吐瓦鲁 # REDIRECT 天堂 _ ( 遊戏 ) # REDIRECT 湖南省长沙市第一中学 粉岭公立学校 是 香港新界 北区 粉岭 的 一 所 津贴 小学 ， 创立 于 1936 年 ， 位于 粉岭 村 ， 邻近 粉岭站 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 421 len. 13]: 印度人口 的 结构 主要 以 语言 、 宗教 以及 种姓 来 划分 。
+Parsing [sent. 422 len. 32]: # REDIRECT 国歌 新加坡教育 是 由 新加坡教育 部 所 管理 ， 该 部门 管理 那些 接受 政府 资助 的 国立学校 的 发展 ， 但 也 对 私立学校 进行 谘询 和 监督 。
+Parsing [sent. 423 len. 147]: ISO 可以 有 下列 解释 ： * 国际标准化组织 ： 一 种 国际化 的 标准制 定 组织 * 国际科学奥林匹克 * Kinston Regional Jetport ， IATA 机场代码 简写 为 ISO * 电影 《 创：光速战记 》 中的 智慧人种 * 纯长打率 ： 棒球 术语 ， 简称 IsoP 或 ISO * ISO 映像 有时 以下 国际标准 只 简称 为 ISO ： * ISO 5800 ， 胶片 、 相机 的 感光度 * ISO 9000 ， 品质管理 系统 * ISO 9660 ， 电脑 光碟 的 一 种 文件系统 * ISO 9660 ， 标准 的 .is o 镜像 文件 腾讯QQ ， 是 腾讯公司 于 1999 年 2 月 11 日 推出 的 一 款 的 多 平台 即时通信软体 ， 从 支持 文字 、 语音 和 视频 聊天 ， 发展 到 带有 文件 共享 、 网路硬碟 、 邮箱 、 遊戏 、 论坛 ， 甚至 是 网购 、 租房 与 找工作 等等 广泛 服务 的 平台 。
+Sentence has no parse using PCFG grammar (or no PCFG fallback).  Skipping...
+Exception in thread "main" java.lang.IllegalStateException: originalWords and sentence of different sizes: 147 vs. 32
+ Orig: ISO �i�H �� �U�C ��? �G * ???���?? �G �@ �� ??�� �� ?��� �w ?? * ??��??�L�ǧJ * Kinston Regional Jetport �A IATA ��?�N? ?? ? ISO * ?�v �m ?�G���t?? �n ���� ���z�H�� * ??���v �G �βy ?? �A ?? IsoP �� ISO * ISO �M�� ��? �H�U ???�� �u ?? ? ISO �G * ISO 5800 �A ?�� �B ���� �� �P���� * ISO 9000 �A �~?�޲z �t? * ISO 9660 �A ?? ���� �� �@ �� ���t? * ISO 9660 �A ?�� �� .is o ?�� ��� ??QQ �A �O ??���q �_ 1999 �~ 2 �� 11 �� ���X �� �@ �� �� �h ���x �Y?�q�H?�^ �A ? ��� ��r �B ?�� �M ?? ��� �A ?�i �� ?�� ��� �@�� �B �I���w�� �B ?�c �B �C? �B ?? �A �Ʀ� �O �I? �B ���� �O ��u�@ ���� ?�x �A? �� ���x �C
+ Pars: # REDIRECT ?�q �s�[�Y�Ш| �O �� �s�[�Y�Ш| �� �� �޲z �A ? ��? �޲z ���� ���� �F�� ?�U �� ?��?�� �� ?�i �A �� �] ? �p��?�� ?�� ?? �M ?�� �C
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParserQuery.restoreOriginalWords(LexicalizedParserQuery.java:317)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParserQuery.getBestDependencyParse(LexicalizedParserQuery.java:607)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParserQuery.getBestParse(LexicalizedParserQuery.java:401)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParserQuery.getBestParse(LexicalizedParserQuery.java:375)
+	at edu.stanford.nlp.parser.lexparser.ParseFiles.processResults(ParseFiles.java:272)
+	at edu.stanford.nlp.parser.lexparser.ParseFiles.parseFiles(ParseFiles.java:216)
+	at edu.stanford.nlp.parser.lexparser.ParseFiles.parseFiles(ParseFiles.java:75)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParser.main(LexicalizedParser.java:1518)
+
+D:\Documents\PythonWork\WikipediaWork>cd StanfordParser 
+
+D:\Documents\PythonWork\WikipediaWork\StanfordParser>cht.bat
+Parsing file: test/in.txt
+Parsing [sent. 1 len. 53]: 上座部佛教 ， 佛教宗派 ， 现今 流行 于斯 里 兰卡 、 缅甸 、 泰国 、 柬埔寨 、 寮国 等地 ， 还有 一些 古印度 传承 残存 在 孟加拉 吉大港 山区 ( 以及 尼泊尔 和 印度 米佐拉姆邦 ， 藏南地区 泰人 聚居区 ) ， 与 大乘佛教 并列 为 现存 佛教 最 基本 的 两 大 派别 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 2 len. 24]: 小说 是 文学 的 一 种 样式 ， 一般 描写 人物 故事 ， 塑造 多种多样 的 人物 形象 ， 但 亦 有 例外 。
+Parsing [sent. 3 len. 27]: 草海 又名 松 坡 湖 、 南海子 、 八仙 湖 ， 位于 中国 贵州省 威宁彝族回族苗族自治县 县城 西南 隅 ， 因 湖中 水草 繁茂 ， 故 名 。
+Parsing [sent. 4 len. 31]: 两个凡是 是 中国共产党 自 1942 年 延安整风 以来 沿袭 下来 的 一个 思想体系 ， 在 文化大革命 中表 现 达到 鼎盛 ， 也 体现 了当 时 对 毛泽东 强烈 的 个人崇拜 。
+Parsing [sent. 5 len. 19]: 七星关区 是 中国 贵州省 毕节市 下辖 的 一个 市辖区 ， 是 毕节市 的 行政中心 ， 全市 总面积 3414 .
+Parsing [sent. 6 len. 6]: 9 平方公里 ， 总人口 127 .
+Parsing [sent. 7 len. 4]: 53 万 人 。
+Parsing [sent. 8 len. 48]: 阿修罗 雕像 天龙八部 ， 是 佛教 概念 ， 指 佛教 护法 队伍 中 以 天 、 龙 为首 的 八 种 神话 种族 ， 包含 天 众 、 龙 众 、 夜叉 、 干闼婆 、 阿修罗 、 迦楼罗 、 紧那罗 、 摩睺罗迦 八 类 佛教 的 护法神 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 9 len. 20]: 比基尼环礁 ， 是 一个 属于 马绍尔群岛 的 堡礁 ， 由 23 个 小岛 环绕 着 一个 面积 达 229 .
+Parsing [sent. 10 len. 6]: 4 平方英里 的 潟湖 组成 。
+Parsing [sent. 11 len. 28]: Wolfram Mathematica 是 一 款 符号 计算 软体 ， 有时候 也 被 称为 计算机代数系统 ， 广泛 使用 于 科学 、 工程 、 数学 、 计算 等 领域 。
+Parsing [sent. 12 len. 32]: 首日封 是 在 新 邮票 发行首日 ， 将 该 套 邮票 的 全套 或 单 枚 贴 在 特制 信封 右上角 ， 加盖 当天 邮政 日戳 或 特别 纪念邮戳 的信 封 。
+Parsing [sent. 13 len. 13]: 实寄封 是 经过 通信 实 寄 后 的信 函 封套 的 总称 。
+Parsing [sent. 14 len. 34]: 英格兰足球超级联赛 ， 通常 称为 英超 ， 是 英格兰 足球 最高 等级 的 赛事 类别 ， 由 英格兰足球总会 于 1992 年 2 月 20 日 确立 ， 自 1992 - 93 球 季 面世 。
+Parsing [sent. 15 len. 27]: 邮戳 是 邮局 盖 在 实 寄 过 的 邮件 包裹 等 上 的 各类 戳记 ， 包括 普通 邮戳 、 纪念邮戳 、 宣传 邮戳 等 。
+Parsing [sent. 16 len. 27]: 电子工程学 ， 是 利用 电子 活动 和 效应 的 科学 知识 来 设计 、 开发 以及 测试 设备 、 系统 或 装备 的 一门 工程学 科 。
+Parsing [sent. 17 len. 11]: 《 天龙八部 》 是 作家 金庸 的 一部 长篇 武侠小说 。
+Parsing [sent. 18 len. 15]: # REDIRECT 苯教 原平市 是 中华人民共和国 山西省 的 一个 县级市 ， 由 忻州市 代管 。
+Parsing [sent. 19 len. 8]: 货柜船 是 专门 运输 货柜 的 船舶 。
+Parsing [sent. 20 len. 20]: 软体测试 ， 描述 一 种 用来 促进 鑑定 软体 的 正确性 、 完整性 、 安全性 和 品质 的 过程 。
+Parsing [sent. 21 len. 15]: 谢赫 艾哈迈德·亚辛 ， 前 加沙 穆斯林兄弟会 领导人 ， 巴勒斯坦伊斯兰抵抗运动 哈马斯 的 精神领袖 与 创始人 。
+Parsing [sent. 22 len. 22]: 驳船 因 其 船型 小 、 载重 吨位 小 、 平底 ， 主要 用于 内河 浅 狭 航道 的 货物 运输 。
+Parsing [sent. 23 len. 28]: 趸船 或 浮 趸 ， 是 指 浮 在 水上 的 平台 ， 船身 多 以 铁 制 ， 船底 相对 扁平 ， 不可 作 远洋 航行 。
+Parsing [sent. 24 len. 16]: 宗教哲学 是 对 宗教 以及 其 所 包含 的 问题 和 观念 的 哲学 思考 。
+Parsing [sent. 25 len. 54]: 慧 ， 也 称为 智 、 智慧 ， 音译 为 ， 又 译作 波 若 、 鉢 若 、 般 罗 若 、 波罗 若 、 鉢 肾 穰 、 鉢 啰 枳 穰 等 ， 佛教术语 ， 意 为 智慧 或 洞 识 ， 为 戒 、 定 、 慧 三无漏学 之一 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 26 len. 32]: 中国足球协会超级联赛 是 由中 国足 球 协会 组织 的 ， 中国 最优 秀 的 职业 足球俱乐部 参加 的 全国 最高 水平 的 足球 职业 联赛 ， 仿照 英格兰足球超级联赛 ， 简称 为 中超联赛 。
+Parsing [sent. 27 len. 37]: 教学设计 是 作为 教 者 ， 基于 对 学生 和 教学 任务 的 分析 ， 而 对 教学目标 、 教学 方法 、 教学 材料 、 教学 进度 、 课程 评估 等 做出 系统设计 的 一门 学科 。
+Parsing [sent. 28 len. 16]: 诺兰·布希内尔 是 一 位 美国 工程师 和 企业家 ， 是 雅达利 和 出奇老鼠 的 创始人 。
+Parsing [sent. 29 len. 29]: 西北工业大学 是 一 所 位于 陕西省 西安市 的 公立大学 ， 是 中华人民共和国工业和信息化部 直属 高等学校 ， 校长 和 党委书记 直接 由中 央 任命 ， 行政级别 上 属于 副部级 单位 。
+Parsing [sent. 30 len. 40]: 机械电子学 ， 又称 机电整合 学 、 机电工程 学 ， 是 一门 利用 微电子 理论 来 控制 机械 装置 的 学科 ， 也是 一门 交叉学科 ， 它 的 技术 基础 是 来自 机械制造 和 微电子 控制 ， 并 配合 电脑软体 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 31 len. 17]: 中央文化革命小组 是 中国共产党中央委员会 在 1966 年 5 月 设立 的 一个 机构 ， 隶属 于 中共中央政治局常委会 。
+Parsing [sent. 32 len. 20]: 苯教 ， 是 波 苯教 的 简称 ， 又称 本教 、 钵 教 ， 是 西藏 的 本土 宗教 。
+Parsing [sent. 33 len. 19]: 水声工程 是 指 利用 声波 进行 水下 探测 、 定位 、 导航 、 识别 、 通信 的 工程技术 。
+Parsing [sent. 34 len. 30]: 白内障手术 是 一 种 眼科 手术 ， 其 目的 是 为了 去除 已经 混浊 的 晶体 ， 并 装入 透明 的 人工晶体 ， 以 取代 天然 晶体 的 作用 。
+Parsing [sent. 35 len. 59]: 木制 的 华容道 玩具 华容道 〈 Klotski ， 来自 波兰文 的 klocki ， 意 为 木块 〉 是 一 种 滑块类遊戏 ， 由 放在 方形 盘 中的 10 块 方 片 拼 成 ， 目标 是 在 只 滑动 方块 而 不从 棋盘 中 拿走 的 情况 下 ， 将 最 大 的 一块 移 到底 部 出口 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 36 len. 28]: # REDIRECT 电子遊戏 减肥 ， 又称 纤体 、 瘦身 或 秀 身 ， 是 指 采用 人为 手段 故意 降低 体重 ， 特别是 减少 体内 的 脂肪 。
+Parsing [sent. 37 len. 22]: # REDIRECT 珠穆朗玛峰 # 重定向 掌上遊戏机 黄埔区 是 中国 广东省 广州市 的 一个 市辖区 ， 黄埔港 是 中国华南 地区 第一 大港 。
+Parsing [sent. 38 len. 22]: 阴茎 一般 用以 表示 雄性 与 雌雄间性 动物 的 器官 ， 在 交配 时 将 生殖细胞 导入 发情期 的 雌性 生殖器 。
+Parsing [sent. 39 len. 28]: 梵淨山 位于 中国 贵州 铜仁市 的 印江县 、 江口县 、 松桃县 交界处 ， 为 武陵山脉 主峰 ， 其 主峰 为 凤凰山 海拔 高 2 , 572 米 。
+Parsing [sent. 40 len. 26]: 《 南山日报 》 是 深圳市 南山区 区 报 ， 原 为 周报 ， 2001 年 改为 日报 ， 号称 要 成为 全国 第一 社区 报 。
+Parsing [sent. 41 len. 54]: 河源市 是 中华人民共和国 广东省 下辖 的 地级市 ， 位于 广东省 东北部 ， 东江 中上游 ， 东部 与 梅州市 、 汕尾市 交界 ， 南部 与 惠州市 毗邻 ， 西部 与 韶关市 接壤 ， 北部 与 江西省 相连 ， 是 为 「 南 接 珠三角 、 北 连 大内 陆 」 的 粤东 北 交通枢纽 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 42 len. 26]: 蔷薇科 约 有 124 属 3300 余 种 ， 广布 与 全球 ， 以 温带 居多 ； 中国 约 有 55 属 1000 余 种 。
+Parsing [sent. 43 len. 24]: 核子 序数 是 一个 原子核 内 质子 的 数量 ， 因此 也 称 质子数 ， 也 等于 原子 电中性 时 的 核外电子 数 。
+Parsing [sent. 44 len. 21]: 601 年 1 月 1 日至 700 年 12 月 31 日 的 这 一段 期间 被 称为 7 世纪 。
+Parsing [sent. 45 len. 22]: 公元 701 年 1 月 1 日至 800 年 12 月 31 日 的 这 一段 期间 被 称为 8 世纪 。
+Parsing [sent. 46 len. 24]: # REDIRECT 珠穆朗玛峰 801 年 1 月 1 日至 900 年 12 月 31 日 的 这 一段 期间 被 称为 9 世纪 。
+Parsing [sent. 47 len. 20]: 迷信 是 对 某 一些 事物 迷惘 而 不知 其 究竟 ， 但 又 盲目 地相 信 其 说 。
+Parsing [sent. 48 len. 34]: 盘古 是 中国神话 中 开天闢地 的 神祇 ， 传说 天地 及 万物 都 由 其 身躯 和 器官 变化 而 成 ， 是 全世界 神灵 仙 灵 和 物 灵 的 主 神 。
+Parsing [sent. 49 len. 30]: 犹太教 ， 中文 曾 俗称 挑筋教 或 一赐乐业教 ， 是 在 公元前 西亚 地区 的 遊牧民族 希伯来人 中产 生 的 ， 是 犹太人 的信 仰 、 价值观 和 生活方式 。
+Parsing [sent. 50 len. 18]: 全国中小学生安全教育日 是 中国教育 界 的 一个 特别 日子 ， 订立 在 3 月 的 最后 一个 星期一 。
+Parsing [sent. 51 len. 9]: 慕容复 ， 金庸武侠小说 《 天龙八部 》 角色 之一 。
+Parsing [sent. 52 len. 15]: 鹿城 可以 指 ： * 鹿城区 ， 中国 浙江省 温州市 下辖 的 一个 市辖区 。
+Parsing [sent. 53 len. 77]: 阎锡山 ， 字 百川 、 伯 川 ， 山西省 五 台 县 人 ， 清末 举人 ， 中华民国北洋政府 将军府 同 武 上将军 ， 中华民国国军 陆军 一级上将 ， 北洋军阀 晋系 领袖 ， 曾任 行政院院长 、 国防部部长 及 总统府资政 等 职务 ， 1949 年 11 月 20 日至 1950 年 3 月 1 日 代行 时任 代总统 李宗仁 职务 ， 是 中华民国 行宪 至今 唯一 一 位 代理 总统 职权 、 形 同 国家 最高 领导者 的 行政院长 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 54 len. 9]: 蔡继琨 ， 中华民国 作曲家 、 指挥家 和 教育家 。
+Parsing [sent. 55 len. 6]: 陈中伟 ， 浙江 宁波 人 。
+Parsing [sent. 56 len. 19]: 运河 是 指 人工 开凿 的 规模 比较 大 的 ， 可以 使 水流 流过 的 运输 通道 。
+Parsing [sent. 57 len. 35]: 印度 吠陀 时期 兴都教 为 印度河 流域 当地人 们 的 原始信仰 ， 被 称为 吠陀教 、 吠陀宗教 、 早期 印度教 ， 英国人 称为 婆罗门教 、 吠陀 婆罗门教 ， 兴盛 了 一千 年 之 久 。
+Parsing [sent. 58 len. 23]: 淮河 ， 古称 淮水 ， 与 长江 、 黄河 和 济水 并称 「 四渎 」 ， 现 为 中国 七大 江河 之一 。
+Parsing [sent. 59 len. 23]: 电视节目 是 由 电视台 、 制作 公司 等 专业 媒体 或 某 一 机构 制作 ， 并 由 电视台 播放 的 节目 。
+Parsing [sent. 60 len. 19]: 产业 指 一个 经济体 中 ， 有效 运用 资金 与 劳力 从事 生产 经济 物品 的 各种 行业 。
+Parsing [sent. 61 len. 53]: 电视台 是 制作 电视节目 并 透过 电视 或 网路 向 大众 播放 的 媒体 机构 ， 也 有些 是 由 国家 或 商业机构 创办 的 媒体 运作 组织 ， 传播 视频 和音 频 同步 的 资讯 信息 ， 这些 资讯 信息 可 通过 有线 和 无线 的 方式 传播 到 世界 各地 。
+Parsing [sent. 62 len. 25]: 洪泽湖 ， 中国五大淡水湖 之一 ， 位于 淮河 下游 、 江苏省 淮安市 西北部 ， 是 未来 「 南水北调 」 工程 东线 部分 的 过 水通道 。
+Parsing [sent. 63 len. 50]: 太湖 是 中国五大淡水湖 之一 ， 水域 面积 排行 第三 ， 位于 江苏省 南部 和 浙江省 北部 交界处 ， 而 在行 政区 划 上 完全 属于 江苏省 ， 是 江 、 浙 两 省 的 界 湖 ， 大部分 水域 位于 苏州市 ， 有 「 包孕 吴越 」 之 称 。
+Parsing [sent. 64 len. 21]: 电视剧 是 一 种 适应 电视广播 特点 、 融合 舞台 和 电影艺术 的 表现 方法 而 形成 的 艺术 样式 。
+Parsing [sent. 65 len. 22]: 后燕 是 中国 五胡十六国 时 慕容氏诸燕 之一 ， 由 鲜卑人 前燕 开国 皇帝 慕容皝 第五 子 慕容垂 所 建立 的 政权 。
+Parsing [sent. 66 len. 33]: # 重定向 台湾人口 香港电视剧 主要 由 香港 本土 两 家 免费 电视台 —— 无线电视 和 已 停 播 的 亚洲电视 拍摄 ， 而 香港电台 亦 有 制作 多 部 经典 的 电视剧 。
+Parsing [sent. 67 len. 12]: 《 同志亦凡人 》 是 美国 Showtime 有线电视网 拍摄 的 一部 电视连续剧 。
+Parsing [sent. 68 len. 18]: 天宁寺 可以 指 ： * 天宁寺 ( 北京 ) ， 位于 北京市 西城区 ， 天宁寺塔 是 全国重点文物保护单位 。
+Parsing [sent. 69 len. 28]: Showtime 电视网 ， 是 美国 一家 有线电视网 ， 一家 付费 有线电视网 ， 隶属 于 CBS 集团 ， 成立 于 1976 年 ， 主要 竞争 对手 是 HBO 。
+Parsing [sent. 70 len. 50]: # REDIRECT 六呎风云 阿卜杜勒·阿齐兹·兰提西 博士 ， ( ع ب د ا ل ع ز ي ز ا ل ر ن ت ي س ي ， 又 译 兰 蒂 希 或 兰 堤 辛 ， 1947 年 10 月 23 日 - 2004 年 4 月 18 日 ) 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 71 len. 46]: 以色列人 的 先祖 是 居住 在 美索不达米亚 哈兰 地区 的 闪族人 ， 后来 因 神 要求 亚伯兰 迁 至 「 应许之地 」 的 原故 ， 迁居 至 迦南 ， 并 结合 当地 的 遊 牧 文化 ， 定居 至 约旦河西岸 ， 即今 希伯 崙 一带 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 72 len. 21]: 标籤图像文件格式 是 一 种 灵活 的 点阵图 格式 ， 主要 用来 存储 包括 照片 和 艺术 图 在内 的 图像 。
+Parsing [sent. 73 len. 25]: 沈钧儒 ， 字 秉 甫 ， 号 衡山 ， 浙江 嘉兴 人 ， 晚清 进士 ， 着名 社会活动家 、 政治家 、 律师 、 教育家 。
+Parsing [sent. 74 len. 25]: 《 昨天 》 是 张扬 导演 的 一部 电影 作品 ， 由 贾宏声 主演 ， 拍摄 于 2000 年 ， 公映 于 2001 年 。
+Parsing [sent. 75 len. 9]: 罗荣桓 ， 原名 慎 镇 ， 字 雅怀 。
+Parsing [sent. 76 len. 27]: 《 站台 》 ， 中国电影 导演 贾樟柯 的 第二 部长 篇 故事片 电影 ， 2000 年 出品 ， 被 誉为 「 平民化 的 史诗 作品 」 。
+Parsing [sent. 77 len. 48]: 汤恩比 可以 指 : * 阿诺尔德·汤因比 ( 1852 年 -1 883 年 ) ， 英国经济 学家 * 阿诺尔德·约瑟夫·汤因比 ( 1889 年 -1 975 年 ) ， 英国历史 学家 # REDIRECT 六呎风云 阿诺尔德·汤因比 是 英国 19 世纪 的 着名 经济史 学家 ， 也是 着名 历史学家 阿诺尔德·约瑟·汤因比 的 叔父 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 78 len. 18]: 在 数理逻辑 中 ， 哥德尔不完备定理 是 库尔特·哥德尔 于 1931 年 证明 并发 表 的 两 条 定理 。
+Parsing [sent. 79 len. 25]: 池田大作 ， 日本 东京 人 ， 国际创价学会 会长 、 日本 创价学会 名誉 会长 ， 是 一 位 着名 宗教 家 、 作家 、 摄影师 。
+Parsing [sent. 80 len. 13]: 段正淳 ， 南诏 大理国 第十五 任 皇帝 ， 是 段正明 之 弟 。
+Parsing [sent. 81 len. 33]: 卡宾枪 ， 原意 骑兵 步枪 ， 又称 卡柄枪 、 马枪 、 骑枪 ， 是 枪管 介于 手枪 与 步枪 之间 ， 子弹 初速 略 低 ， 射程 略 近 的 轻便 步枪 。
+Parsing [sent. 82 len. 19]: 步枪 ， 或 称为 步 、 步 铳 、 步兵 铳 ， 是 步兵 使用 的 制式 长管枪械 。
+Parsing [sent. 83 len. 13]: 单例模式 ， 也 叫 单子模式 ， 是 一 种 常用 的 软体设计模式 。
+Parsing [sent. 84 len. 30]: 迫击炮 是 一 种 炮身 短 、 射 角 大 、 弹道 弧线 高 、 以 座 钣 承受 后座力 、 发射 带 尾翼 弹 的 曲 射 火炮 。
+Parsing [sent. 85 len. 32]: 中央研究院 为 中华民国 的 国家 最高 学术研究 机构 ， 直接 隶属 于 总统府 ， 1928 年 在 南京 成立 ， 现 位于 台北南港 旧 庄 ， 现任 院长 为 廖俊 智 。
+Parsing [sent. 86 len. 23]: 黄冈市 是 中华人民共和国 湖北省 下辖 的 地级市 ， 位于 鄂豫皖 赣 四 省 交界处 ， 北 靠 大别山 、 南 临 长江 。
+Parsing [sent. 87 len. 28]: # REDIRECT 洪门 碧江区 ， 中国 贵州省 铜仁市 下辖 的 一个 市辖区 ， 位于 沅水 支流 辰水 的 上游 ， 毗邻 湖南省 ， 渝怀铁路 穿越 市 境 。
+Parsing [sent. 88 len. 26]: 科乐美 ， 是日 本着 名 的 电子遊戏 制作 商 ， 于 1969 年 3 月 21 日 在 大坂府 成立 ， 目前 总部 设在 东京都 。
+Parsing [sent. 89 len. 21]: 宋高宗赵构 ， 字 德 基 ， 中国 宋朝 第十 位 皇帝 、 南宋 第一 代 皇帝 ， 在位 35 年 。
+Parsing [sent. 90 len. 22]: 户口 可以 指 ： * 台湾 和 中国大陆 对 户籍 的 俗称 ： 主要 以 户 为 单位 的 人口 管理方法 。
+Parsing [sent. 91 len. 14]: 临安区 是 中国 浙江省 杭州市 下辖 的 一个 市辖区 ， 位于 浙江省 西北部 。
+Parsing [sent. 92 len. 29]: 普洱茶 熟茶 是以 云南省 一定 区域 内 的 云南 大 叶 种 晒 青 毛茶 为 原料 ， 经过 后 发酵 加工 成 的 散 茶 和 紧压茶 。
+Parsing [sent. 93 len. 30]: 《 威尔与格蕾丝 》 是 一部 美国 情景喜剧 ， 根据 《 威廉 · 杜鲁门 与格 蕾丝 · 阿德勒 之间 的 关系 》 改编 ， 故事 被 设定 发生 在 纽约市 。
+Parsing [sent. 94 len. 17]: 《 行 》 是 一部 由 David Crane 与 Marta Kauffman 共同 创作 的 美国 情景喜剧 。
+Parsing [sent. 95 len. 15]: 《 仁心仁术 》 ， 是 一个 由 美国全国广播公司 播放 的 医疗 主题 电视剧 系列 。
+Parsing [sent. 96 len. 110]: ER 、 Er 或 er 可以 指 ： * 铒 ， 化学元素 * 内质网 * 急诊室 * 急诊室的故事 ， 美国电视剧 * ER 模型 * 相对电容率 * Р ， 西里尔字母 * - er ， 英语 中的 比较级 后缀 * .er ， 非洲 国家 厄利垂亚 的 互联网 顶级域名 * 自责分 ， 棒球 术语 * ER ， 日本 男子组合 关西杰尼斯8 的 单曲 * Elizabeth Regina 的 简写 ， 指 英国 的 伊莉莎白 皇后 * 虫洞 ( wormhole ) 或 爱因斯坦罗森桥 ( Einstein - Rosen Bridge ) 的 简称 HBO 是 一个 美国 的 付费 有线 和 卫星 联播网 ， 为时 代 华纳公司 所 拥有 ， 由 Home Box Office 公司 负责 营运 。
+
+*******************************************************
+***  WARNING!! OUT OF MEMORY! THERE WAS NOT ENOUGH  ***
+***  MEMORY TO RUN ALL PARSERS.  EITHER GIVE THE    ***
+***  JVM MORE MEMORY, SET THE MAXIMUM SENTENCE      ***
+***  LENGTH WITH -maxLength, OR PERHAPS YOU ARE     ***
+***  HAPPY TO HAVE THE PARSER FALL BACK TO USING    ***
+***  A SIMPLER PARSER FOR VERY LONG SENTENCES.      ***
+*******************************************************
+
+Sentence too long for dependency parser.  Falling back to PCFG parse...
+Parsing [sent. 97 len. 32]: 在 图论 中 ， 网路流 是 指 在 一个 每 条 边 都 有 容量 的 有向图 分配 流 ， 使 一 条 边 的 流量 不会 超过 它 的 容量 。
+Parsing [sent. 98 len. 36]: 《 慾望城市 》 是 美国 HBO 有线电视网 播放 的 喜剧 类 剧集 ， 于 1998 年 6 月 6 日 首播 ， 2004 年 2 月 22 日 结束 ， 共 六 季 94 集 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 99 len. 26]: 网际协议通话技术 是 一 种 语音 通话 技术 ， 经由 网际协议 来 达成 语音 通话 与 多媒体 会议 ， 也 就是 经由 互联网 来 进行 通讯 。
+Parsing [sent. 100 len. 11]: 2000 年 5 月 ， 华中理工大学 中文名 称 改为 华中科技大学 。
+Parsing [sent. 101 len. 37]: 动态规划 是 一 种 在 数学 、 管理科学 、 计算机科学 、 经济学 和 生物信息学 中使 用 的 ， 通过 把 原 问题 分解 为 相对 简单 的 子 问题 的 方式 求解 复杂 问题 的 方法 。
+Parsing [sent. 102 len. 32]: # REDIRECT 互联网 潮州市 是 中华人民共和国 广东省 下辖 的 地级市 ， 位于 广东省 东部 ， 与 福建省 比邻 ， 是 国家历史文化名城 ， 有 海滨邹鲁 、 岭 海 名 邦 之 美誉 。
+Parsing [sent. 103 len. 19]: 5 月 7 日 是 阳历年 的 第 127 天 ， 离 一年 的 结束 还有 238 天 。
+Parsing [sent. 104 len. 17]: # REDIRECT 金庸 寒武纪大爆发 ， 是 相对 短时期 的 进化 事件 ， 开始 于 距今 5 .
+Parsing [sent. 105 len. 24]: 42 亿 年 前 的 寒武纪 时期 ， 化石记录 显示 绝大多数 的 动物 「 门 」 都 在 这 一时 期 出现 了 。
+Parsing [sent. 106 len. 24]: 儒 勒 · 加布里埃尔 · 凡尔纳 ， 或 译 朱尔·凡尔纳 ， 法国 小说家 、 剧作家 、 诗人 现代 科幻小说 的 重要 开创者 之一 。
+Parsing [sent. 107 len. 30]: # REDIRECT 投资估算 # REDIRECT 设计概算 北卡罗来纳级战列舰 是 美国海军 根据 第二次伦敦海军条约 于 1937 年 开工 建造 的 一 种 新型 战列舰 ， 用于 取代 先前 建造 的 旧式 战舰 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 108 len. 33]: 《 华盛顿海军条约 》 是 于 1922 年 2 月 6 日 由 美 、 英 、 法 、 意 、 日 五国 在 华盛顿 签订 的 关于 限制 海军 军备 的 条约 。
+Parsing [sent. 109 len. 199]: 伦敦条约 可能 指 以下 几个 在 伦敦 签署 的 条约 ： * 1359 年 伦敦条约 ： 将 法国 西部 割让 英格兰 的 条约 ； * 1604 年 伦敦条约 ： 英格兰 与 西班牙 签署 的 条约 ； * 1700 年 伦敦条约 * 1814 年 英 荷 条约 * 1824 年 英 荷 条约 * 1827 年 伦敦条约 ： 英 、 法 、 俄 三国 关于 结束 土耳其 在 希腊 的 军事 活动 的 条约 * 1832 年 伦敦条约 ： 英 、 法 、 俄 三国 关于 成立 独立 的 希腊王国 的 条约 * 1839 年 伦敦条约 ： 保证 比利时 的 中立 * 1864 年 伦敦条约 ： 将爱 奥尼亚 群岛 归还 希腊 * 1864 年 伦敦条约 ： 讨论 什列斯威 及 好 斯 敦 两 北 德意志邦国 的 问题 * 1867 年 伦敦条约 ： 保证 卢森堡 的 中立 * 1871 年 伦敦条约 ： 讨论 黑海 问题 * 1913 年 伦敦条约 ： 结束 第一次巴尔干战争 * 1915 年 伦敦条约 * 伦敦海军条约 ： 1930 年 英国 、 美国 、 日本 、 义大利 和 法国 关于 削减 海军 军备 的 条约 * 第二次伦敦海军条约 ： 1936 年 美国 、 英国 、 法国 为 延续 1922 年华 盛 顿 海军 条约 和 1930 年 伦敦海军条约 而 签订 。
+Sentence has no parse using PCFG grammar (or no PCFG fallback).  Skipping...
+Exception in thread "main" java.lang.IllegalStateException: originalWords and sentence of different sizes: 199 vs. 33
+ Orig: ?��?? �i�� �� �H�U �L? �b ?�� ?�p �� ?? �G * 1359 �~ ?��?? �G ? �k? �賡 ��? �^��? �� ?? �F * 1604 �~ ?��?? �G �^��? �O ��Z�� ?�p �� ?? �F * 1700 �~ ?��?? * 1814 �~ �^ �� ?? * 1824 �~ �^ �� ?? * 1827 �~ ?��?? �G �^ �B �k �B �X �T? ?�_ ?�� �g�ը� �b ���K �� ?�� ��? �� ?? * 1832 �~ ?��?? �G �^ �B �k �B �X �T? ?�_ ���� ?�� �� ���K��? �� ?? * 1839 �~ ?��?? �G �O? ��Q? �� ���� * 1864 �~ ?��?? �G ?? ?��? �s? ?? ���K * 1864 �~ ?��?? �G ?? ���C���� �� �n �� �� ? �_ �w�N�Ө�? �� ?? * 1867 �~ ?��?? �G �O? ?�˳� �� ���� * 1871 �~ ?��?? �G ?? �®� ?? * 1913 �~ ?��?? �G ?�� �Ĥ@����?�z?? * 1915 �~ ?��?? * ?����??? �G 1930 �~ �^? �B ��? �B �饻 �B ?�j�Q �M �k? ?�_ �d? ��? ?? �� ?? * �ĤG��?����??? �G 1936 �~ ��? �B �^? �B �k? ? ��? 1922 �~? �� ? ��? ?? �M 1930 �~ ?����??? �� ?? �C
+ Pars: �m ?��?��??? �n �O �_ 1922 �~ 2 �� 6 �� �� �� �B �^ �B �k �B �N �B �� ��? �b ?��? ?? �� ?�_ ���� ��? ?? �� ?? �C
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParserQuery.restoreOriginalWords(LexicalizedParserQuery.java:317)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParserQuery.getBestDependencyParse(LexicalizedParserQuery.java:607)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParserQuery.getBestParse(LexicalizedParserQuery.java:401)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParserQuery.getBestParse(LexicalizedParserQuery.java:375)
+	at edu.stanford.nlp.parser.lexparser.ParseFiles.processResults(ParseFiles.java:272)
+	at edu.stanford.nlp.parser.lexparser.ParseFiles.parseFiles(ParseFiles.java:216)
+	at edu.stanford.nlp.parser.lexparser.ParseFiles.parseFiles(ParseFiles.java:75)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParser.main(LexicalizedParser.java:1518)
+
+D:\Documents\PythonWork\WikipediaWork>cd StanfordParser 
+
+D:\Documents\PythonWork\WikipediaWork\StanfordParser>cht.bat
+Parsing file: test/in.txt
+Parsing [sent. 1 len. 19]: 5 月 30 日 是 公历 一年 中的 第 150 天 ， 离 全年 结束 还有 215 天 。
+Parsing [sent. 2 len. 19]: 6 月 1 日 是 公历 一年 中的 第 152 天 ， 离 全年 结束 还有 213 天 。
+Parsing [sent. 3 len. 19]: 6 月 2 日 是 公历 一年 中的 第 153 天 ， 离 全年 结束 还有 212 天 。
+Parsing [sent. 4 len. 19]: 6 月 3 日 是 公历 一年 中的 第 154 天 ， 离 全年 结束 还有 211 天 。
+Parsing [sent. 5 len. 19]: 6 月 5 日 是 公历 一年 中的 第 156 天 ， 离 全年 结束 还有 209 天 。
+Parsing [sent. 6 len. 19]: 6 月 7 日 是 公历 一年 中的 第 158 天 ， 离 全年 结束 还有 207 天 。
+Parsing [sent. 7 len. 36]: 哈日族 原先 是 指 崇拜 、 复制 日本流行文化 的 台湾 青少年 族群 ， 这群人 从 生活 、 娱乐 、 思想 上 ， 大量 地学 习 日本文化 ， 部分 也 学习 日语 ， 造成 日本化 现象 。
+Parsing [sent. 8 len. 19]: 6 月 11 日 是 公历 一年 中的 第 162 天 ， 离 全年 结束 还有 203 天 。
+Parsing [sent. 9 len. 19]: 6 月 12 日 是 公历 一年 中的 第 163 天 ， 离 全年 结束 还有 202 天 。
+Parsing [sent. 10 len. 19]: 6 月 14 日 是 公历 一年 中的 第 165 天 ， 离 全年 结束 还有 200 天 。
+Parsing [sent. 11 len. 19]: 6 月 15 日 是 公历 一年 中的 第 166 天 ， 离 全年 结束 还有 199 天 。
+Parsing [sent. 12 len. 54]: 骨 鳔 类 依 不同 的 分类法 也 作 骨鳔总目 、 骨 鳔 亚 群 ， 是 辐鳍鱼纲 的 一个 演化支 ， 本 类 鱼 都 具有 ， 鳔 通常 接 鳔 管 与 肠 连接 ， 一般 各 鳍 无 棘 ， 如 有 腹鳍 ， 在 胸鳍 后方 为 腹 位 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 13 len. 22]: 棘 鳍 类 也 作 真 棘 鳍 类 ， 传统 分类层级 为 棘鳍总目 ， 是 脊索动物门 辐鳍鱼纲 的 演化支 之一 。
+Parsing [sent. 14 len. 33]: 原 棘 鳍 亚 群 或 原棘鳍总目 是 辐鳍鱼纲 的 一个 演化支 ， 包括 了 鲑形目 与其 近亲 ， 本 类 鱼类 的 棘 鳍 不 发达 ， 有的 只有 弱 棘 。
+Parsing [sent. 15 len. 7]: 副棘鳍总目 鱼类 的 棘 鳍 转化 。
+Parsing [sent. 16 len. 22]: 海鲢总目 鱼类 的 鱼口 长 在 端 位 ， 上颌 越过 眼 后缘 ， 侧线 上 有 100 个 开 孔 。
+Parsing [sent. 17 len. 31]: # REDIRECT 鲱形目 骨舌总目 也 作 骨 舌 鱼群 ， 是 舌 具有 舌骨 ， 舌 上 有 齿 或 无 齿 的 鱼 ， 是 辐鳍鱼纲 的 演化支 之一 。
+Parsing [sent. 18 len. 18]: 灯笼鱼总目 的 鱼 通常 存在 脂鳍 ， 具 发光器 官 ， 尾鳍 发达 ， 不与 臀鳍 癒合 。
+Parsing [sent. 19 len. 10]: 铁帽子王 是 对 清代 世袭罔替 的 王爵 的 俗称 。
+Parsing [sent. 20 len. 32]: # REDIRECT 国立西南联合大学 国立西南联合大学 ， 简称 西南联大 ， 是 抗战时期 由 当时 的 国立北京大学 、 国立清华大学 、 私立南开大学 在 云南 昆明 共同 组成 的 一 所 大学 ， 前身 为 国立长沙临时大学 。
+Parsing [sent. 21 len. 18]: # redirect 国立西南联合大学 上海市 零陵中学 创建 于 1964 年 ， 是 一座 完全中学 位于 上海市 徐汇区 东安路 。
+Parsing [sent. 22 len. 25]: 三芝区 位于 台湾新北 市 西北部 ， 北 邻 石门区 ， 西北 滨 台湾海峡 ， 西南 连 淡水区 ， 东南 连 金山区 及 台北市 北投区 。
+Parsing [sent. 23 len. 25]: 詹姆士 · 哈罗德·威尔逊 ， 里 沃 的 威尔逊 男爵 ， KG ， OBE ， FRS ， PC ， 英国政治 家 ， 两 任 首相 。
+Parsing [sent. 24 len. 32]: # REDIRECT 刘邦 王晓东 ， 出生于 中国 河南省 新乡市 ， 美籍华人 科学家 ， 美国科学院 院士 ， 2013 年 新 当选 中国科学院外籍院士 ， 美国 德克萨斯大学 西南 医学 中心 教授 ， 北京生命科学研究所 所长 。
+Parsing [sent. 25 len. 23]: 镇江市 是 中华人民共和国 江苏省 下辖 的 地级市 ， 古称 「 润州 」 、 「 京口 」 ， 建 城 超过 3000 多年 。
+Parsing [sent. 26 len. 22]: # REDIRECT 新北市私立金陵女子高级中学 方是民 ， 笔名 方舟子 ， 生于 中国 福建省 龙溪专区 云霄县 ， 密西根州立大学 生物化学 博士 ， 科普作家 、 网路名人 。
+Parsing [sent. 27 len. 10]: 客轮 是 主要 用于 运送 乘客 的 大型 船只 。
+Parsing [sent. 28 len. 8]: 金陵女子大学 是 中国 第一 所 女子 大学 。
+Parsing [sent. 29 len. 18]: # REDIRECT 金陵女子大学 金陵女中 是 一 所 位于 台湾新北 市 三重区 的 私立学校 ， 全名 是 金陵学校财团法人新北市金陵女子高级中学 。
+Parsing [sent. 30 len. 19]: 沈从文 ， 原名 沈 岳 焕 ， 字 崇文 ， 后 改名 沈从文 ， 生于 中国 湖南省 凤凰县 。
+Parsing [sent. 31 len. 6]: 胡启立 ， 陕西 榆林 人 。
+Parsing [sent. 32 len. 9]: # REDIRECT 乔尔 · 柯恩 乔尔·科恩 ， 伊桑·科恩 。
+Parsing [sent. 33 len. 33]: # 重定向 伊森 · 柯恩 # REDIRECT 闽南语 # REDIRECT 台湾话 联合国秘书长 是 联合国秘书处 的 长官 ， 由于 联合国秘书处 是 联合国 的 行政机构 ， 故 联合国秘书长 被 视为 联合国 的 最高 行政长官 。
+Parsing [sent. 34 len. 23]: EO2 是 香港 的 一 队 跳舞 组合 ， 于 1999 年 出道 ， 是 Starj &amp; Snazz 娱乐 旗下 的 艺员 。
+Parsing [sent. 35 len. 8]: 《 三文钱的歌剧 》 是 一部 德国 音乐剧 。
+Parsing [sent. 36 len. 16]: 刘志荣 ， 祖籍 广西 玉林 ， 是 华南 电影 及 粤剧 着名 演员 刘克宣 之子 。
+Parsing [sent. 37 len. 25]: 阿布格莱布监狱 虐囚事件 ， 是 2003 年 美国军队 佔领 伊拉克 后 ， 英 美军 员 在 伊拉克 阿布格莱布监狱 中一 系列 虐待 伊拉克 战俘 的 事件 。
+Parsing [sent. 38 len. 34]: # redirect 美军虐待伊拉克战俘事件 # REDIRECT 广西壮族自治区 # redirect 美军虐待伊拉克战俘事件 缅因州 是 美国东北部 新英格兰 的 一个 州 ， 北 邻 加拿大 魁北克省 ， 东 邻 加拿大 新不伦瑞克省 以及 大西洋 ， 西 靠 美国 新罕布希尔州 。
+Parsing [sent. 39 len. 20]: 李岚清 ， 江苏 镇江 人 ； 毕业 于 复旦大学 企业管理 系 ； 中国共产党 和 中华人民共和国 前 主要 领导人 之一 。
+Parsing [sent. 40 len. 13]: 骑兵 是 陆军 当中 ， 骑乘 动物 作为 移动 手段 的 兵种 。
+Parsing [sent. 41 len. 14]: 杨振宁 ， 中国 理论物理学家 ， 在 统计力学 和 粒子物理学 等 领域 贡献 卓着 。
+Parsing [sent. 42 len. 9]: 日记 是以 日期 为 排列 顺序 的 笔记 。
+Parsing [sent. 43 len. 22]: 东方魅力 ） 是 一家 由 香港 着名 艺人 谭咏麟 、 陈百祥 、 曾志伟 、 成龙 和 梅艳芳 共同 创立 的 上市公司 。
+Parsing [sent. 44 len. 20]: 6 月 24 日 是 公历 一年 中的 第 175 天 ， 离 全年 的 结束 还有 190 天 。
+Parsing [sent. 45 len. 52]: 腧穴 又称 穴位 ， 是 中国传统医学 在 人体 分 佈 体 表 的 脏腑 经络 循环 路线 中 ， 对 气血 汇聚 、 转 输 与 出入 之 所 的 特定 处所 给定 的 名称 ， 既是 疾病 的 反应 点 ， 又是 针灸 推拿 等 医学 临床 的 刺激 点 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 46 len. 18]: 在 中医学 概念 中 ， 络脉 为 经脉 的 分支 ， 以 连络 表里 经脉 或 脏腑 。
+Parsing [sent. 47 len. 23]: # REDIRECT 络脉 十二经脉 是 手 三阴 经 、 手 三阳 经 、 足 三阳 经 、 足 三阴 经 的 总称 。
+Parsing [sent. 48 len. 17]: 红宝石 ， 是 刚玉 的 一 种 ， 主要 成分 是 氧化铝 ， 红色 来自 铬 。
+Parsing [sent. 49 len. 16]: 普斯科夫 是 俄罗斯 西北部 的 一个 古城 ， 位于 圣彼得堡 西南 约 250 公里 处 。
+Parsing [sent. 50 len. 29]: 海峡 是 夹 在 两 片 陆地 之间 ， 联系 两 个 海 或 洋 的 水 区 ， 它 一般 深度 较 大 ， 水流 较 急 。
+Parsing [sent. 51 len. 10]: 马寅初 名 元善 ， 字 寅 初 ， 以字行 。
+Parsing [sent. 52 len. 27]: 艾哈迈德·卡德罗夫 是 俄罗斯联邦 车臣共和国 总统 ， 在 首府 格罗兹尼 的 狄 纳 莫 体育场 内 被 车臣 武装 份子 以 炮弹 改造 的 地雷 刺杀 身亡 。
+Parsing [sent. 53 len. 44]: 卡德罗夫 可以 指 ： * 艾哈迈德·卡德罗夫 ， 俄罗斯 车臣共和国 前 总统 ， 遇刺 身亡 ； * 拉姆赞·卡德罗夫 ， 车臣共和国 现任 总统 ， 艾哈迈德·卡德罗夫 之子 情趣用品 、 成人玩具 ， 古称 淫器 、 淫具 ， 泛指 帮助 性 愉悦 或 性行为 所 使用 的 器具 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 54 len. 11]: 吴贻芳 ， 女 ， 中国教育 家 、 社会活动家 ， 基督徒 。
+Parsing [sent. 55 len. 20]: 冰岛 是 北大西洋 中的 一个 岛国 ， 位于 北大西洋 和 北冰洋 的 交汇处 ， 通常 被 视为 北欧五国 之一 。
+Parsing [sent. 56 len. 19]: 刚玉 是 一 种 由 氧化铝 的 结晶 形成 的 宝石 ， 是 一 种 成 岩 矿物 。
+Parsing [sent. 57 len. 19]: # REDIRECT 密歇根州 # REDIRECT 密歇根州 # REDIRECT 刚玉 # REDIRECT 刚玉 传 韬 ， 生物化学家 ， 教育家 。
+Parsing [sent. 58 len. 8]: 菲德尔·瓦尔德斯·拉莫斯 ， 菲律宾 第 12 任 总统 。
+Parsing [sent. 59 len. 20]: # REDIRECT 钻石 台北宾馆 是 位于 台湾 台北市 博爱特区 内 的 官署 建筑 ， 门牌号码 为 凯达格兰大道 1 号 。
+Parsing [sent. 60 len. 18]: # redirect 台北宾馆 凯达格兰大道 是 位于 台湾 台北市中正区 的 道路 ， 全线 位于 总统府 与 景福门 之间 。
+Parsing [sent. 61 len. 29]: # redirect 计算机图形学 CG 可以 是 下列 意思 ： * 计算机图形学 * 电脑绘图作品 ： 意指 在 电脑遊戏 中 以 电脑绘图 方式 创作 的 2D 图片 或 过场 动画 。
+Parsing [sent. 62 len. 28]: # 重定向 沃 卓 斯 基 姐妹 城头山遗址 位于 中国 湖南省 常德市 澧县 ， 它 是 中国南方 史前 大溪文化 至 石 家 河 文化 时期 的 遗址 。
+Parsing [sent. 63 len. 39]: # 重定向 沃 卓 斯 基 姐妹 沃 卓 斯 基 姐妹 ， 前身 沃卓斯基兄弟 ， 是 人们 对 美国 着名 导演 拉 娜 · 沃 卓 斯 基 与 莉莉 · 沃 卓 斯 基 的 称呼 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 64 len. 19]: 6 月 17 日 是 公历 一年 中的 第 168 天 ， 离 全年 结束 还有 197 天 。
+Parsing [sent. 65 len. 19]: 6 月 19 日 是 公历 一年 中的 第 170 天 ， 离 全年 结束 还有 195 天 。
+Parsing [sent. 66 len. 19]: 6 月 20 日 是 公历 一年 中的 第 171 天 ， 离 全年 结束 还有 194 天 。
+Parsing [sent. 67 len. 19]: 6 月 21 日 是 公历 一年 中的 第 172 天 ， 离 全年 结束 还有 193 天 。
+Parsing [sent. 68 len. 19]: 6 月 22 日 是 公历 一年 中的 第 173 天 ， 离 全年 结束 还有 192 天 。
+Parsing [sent. 69 len. 30]: 澧县 是 中国 湖南省 常德市 下辖 的 一个 县 ， 是 湘西 北 通往 鄂 、 川 、 黔 的 重镇 ， 素 称 「 九 澧 门户 」 。
+Parsing [sent. 70 len. 20]: 10 月 11 日 是 阳历 一年 中的 第 284 天 ， 离 全年 的 结束 还有 81 天 。
+Parsing [sent. 71 len. 2]: < !
+Parsing [sent. 72 len. 26]: # REDIRECT 震荡波蠕虫 格陵兰 ， 面积 2 , 166 , 086 平方公里 ， 是 世界 第一 大岛 ， 大约 81 % 都 被 冰雪 复盖 。
+Parsing [sent. 73 len. 37]: # REDIRECT 内蒙古自治区 海军 或 水军 是 一 国军 队 当中 的 主要 构成 部分 之一 ， 为 在 海洋 、 河流 、 湖泊 等 水体 上 作战 的 军种 ， 一般来说 以 锚 作为 标志 。
+Parsing [sent. 74 len. 11]: 行程 ， 是 电脑 中 已 执行 程式 的实 体 。
+Parsing [sent. 75 len. 77]: 利用 茶 善于 吸收 异味 的 特点 ， 将 有 香味 的 鲜花 和 新茶 一起 闷 ， 茶 将 香味 吸收 后 再 把 干花 筛 除 ， 制成 的 花茶 香味 浓郁 ， 茶汤 色深 ， 深 得 偏好 重口味 的 北方人 喜爱 ， 最 普通 的 用 茉莉花 制 的 茉莉花茶 ， 根据 所 用 的 鲜花 不同 ， 还有 玉兰花 茶 、 桂花 茶 、 珠兰 花茶 、 玳 玳 花茶 等 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 76 len. 37]: 《 文心雕龙 》 ， 又称 作 《 文 心 》 ， 是 中国 第一 部 系统 文艺 理论 巨着 ， 也是 一部 理论 批评 着作 ， 完 书 于 中国 齐 时期 ， 作者 为 刘勰 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 77 len. 27]: 微指令 ， 又称 微码 ， 是 在 CISC 结构 下 ， 执行 一些 功能 复杂 的 指令 时 ， 所 分解 一系列 相对 简单 的 指令 。
+Parsing [sent. 78 len. 24]: 刘勰 ， 字 彦 和 ， 东莞郡 莒县 ， 是 长期 生活 于 南北朝时代 梁 政权 所 控制 京口 一带 的 文学理论 批评家 。
+Parsing [sent. 79 len. 6]: 京口 古时 为 镇江 地名 。
+Parsing [sent. 80 len. 30]: 《 文选 》 ， 又称 《 昭明文选 》 ， 是 中国 现存 的 最 早 一部 诗文 总集 ， 由 南朝梁武帝 的 长子 太子 萧统 组织 文人 共同 编选 。
+Parsing [sent. 81 len. 19]: 伊斯兰历 或 伊斯兰教历 ， 为 目前 伊斯兰教国家 通用 的 历法 ， 正式 名称 为 哈吉来 / 希吉来 历 。
+Parsing [sent. 82 len. 15]: 润扬大桥 ， 横跨 长江 南北 ， 连接 江苏省 的 镇江市 润州区 与 扬州市 区 。
+Parsing [sent. 83 len. 7]: 马赛尔·卡尔内 ， 法国电影 导演 ， 同性恋 。
+Parsing [sent. 84 len. 56]: 诺基亚公司 是 一家 总部 位于 芬兰 埃斯波 主要 从事 生产 行动通讯 设备 和服 务 的 跨国公司 ， 诺基亚 成立 于 1865 年 ， 当时 以 伐木 、 造纸 为主 ， 后来 亦 从事 生产 胶鞋 、 轮胎 、 电缆 、 手机 等 ， 目前 以 通信 基础 业务 和 先进 技术 研发 及 授权 为主 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 85 len. 19]: 阜阳劣质奶粉事件 是 指 自 2003 年 以来 ， 在 中华人民共和国 安徽省 阜阳市 曝光 的 一系列 劣质 奶粉 事件 。
+Parsing [sent. 86 len. 53]: 《 天堂的孩子们 》 是 一部 1945 年 出品 的 法国 黑白电影 ， 片长 183 分钟 ， 导演 马赛尔·卡尔内 ， 编剧 雅 克 · 普 莱 卫 ， 由 阿尔莱蒂 ， 让 － 路易 · 巴罗尔 ， 玛丽 娅 · 卡 莎 蕾 ， 皮 埃尔 · 伯 拉塞尔 主演 ， 百代电影公司 发行 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 87 len. 34]: 《 圣女贞德 蒙难 记 》 是 一部 1928 年 的 法国 无声电影 ， 故事 改编 自 圣女贞德 的 真实 事迹 ， 叙述 了 她 作为 英格兰 俘虏 所 经历 的 审判 和 处决 。
+Parsing [sent. 88 len. 26]: # 重定向 鮎形目 焦 阿基诺 · 安东尼奥 · 罗西尼 ， 义大利 作曲家 ， 他生 前 创作 了 39 部 歌剧 以及 宗教音乐 和室 内 乐 。
+Parsing [sent. 89 len. 27]: # redirect : 休斯敦 山姆·休斯敦 全名 塞缪尔 · 休斯顿 ， 美国军事 家 、 政治家 ， 得克萨斯共和国 第一 任 总统 ， 得克萨斯 并入 美国 后任 得克萨斯州 州长 。
+Parsing [sent. 90 len. 25]: 辽太祖 耶律阿保机 清 辑本 《 旧五代史 》 改 译 安巴坚 ， 汉名 耶律亿 ， 是 大契丹国 的 第一 位 皇帝 ， 在位 10 年 。
+Parsing [sent. 91 len. 23]: 南北战争 ， 或 称美 国内 战 ， 是 美国历史 上 最 大规模 的 内战 ， 发生 于 1861 至 1865 年 期间 。
+Parsing [sent. 92 len. 19]: 方孝孺 ， 字 希 直 ， 又 字 希古 ， 南明 弘光帝 追諡 文正 ， 浙江 宁海县 人 。
+Parsing [sent. 93 len. 44]: # redirect 动物 儒略历 ， 是 格里历 的 前身 ， 由 罗马共和国 独裁官 儒略·凯撒 采纳 埃及 亚历山大 的 希腊 数学家 兼 天文学家 计算 的 历法 ， 在 公元前 45 年 1 月 1 日 起 执行 ， 取代 旧 罗马历 历法 的 历法 。
+Parsing [sent. 94 len. 19]: 台北市立第一女子高级中学 ， 简称 第一 女 、 一女中 、 第一 女中 、 第一 ， 旧称 台北 第一 高 女 。
+Parsing [sent. 95 len. 33]: # REDIRECT 台北市立第一女子高级中学 中正纪念堂 是 一座 为 纪念 已故 前 中华民国总统 蒋中正 而 兴建 的 建筑 ， 位于 台北市中正区 ， 也是 众多 纪念 蒋中正 总统 的 建筑 中 规模 最 大 者 。
+Parsing [sent. 96 len. 16]: 诺贝尔化学奖 是 诺贝尔奖 的 奖项 之一 ， 由 瑞典皇家科学院 从 1901 年 开始 负责 颁发 。
+Parsing [sent. 97 len. 26]: 江陵端午祭 是 南韩 江原道 江陵市 市民 庆祝 端午节 时 的 传统 习俗 ， 于 2005 年 11 月 25 日向 联合国教科文组织 成功 申报 为 非物质文化遗产 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 98 len. 16]: 徐有庠 ， 台湾 知名 实业家 及 富豪 ， 生于 江苏省 海门县 ， 发迹 于 上海 。
+Parsing [sent. 99 len. 28]: # REDIRECT 江苏省 元智大学 ， 简称 元智 、 元智 大 ， 前身 为 1989 年 创立 的 元智工学院 ， 是 一 所 位于 台湾 桃园市 的 私立大学 。
+Parsing [sent. 100 len. 30]: 连横 ， 幼名 允 斌 ， 谱名 重 送 ， 小字 神 送 ， 表字 天纵 、 一 字 雅 堂 ， 号 武公 、 慕 陶 、 剑花 。
+Parsing [sent. 101 len. 23]: # REDIRECT 连横 # redirect 哈大铁路 模糊控制 是以 模糊集合 论 ， 模糊 语言 变数 及 模糊逻辑 推理 为 基础 的 计算机 智能控制 。
+Parsing [sent. 102 len. 29]: # REDIRECT 尤利乌斯·凯撒 季北慈 是 一 位 研究 中国 问题 的 专家 ， 任职 于 美国 两 大智 库 之一 的 战略与国际研究中心 ， 现任 中国 研究 的 首席 。
+Parsing [sent. 103 len. 22]: # redirect 慕容复 脊索动物门 是 指 有 脊索 ， 或 其 在 演化 过程 退化 而 被 脊椎 取代 的 动物 。
+Parsing [sent. 104 len. 20]: # redirect 脊索动物 晋 可以 有 以下 解释 ： * 山西省 ： 中国 的 一个 省 ， 简称 晋 。
+Parsing [sent. 105 len. 21]: 尼古拉斯 · 伊万 · 「 尼克 」 · 贝尔格 ， 是 一 位 美国 宾夕法尼亚州 费城市 郊 的 美国 商人 。
+Parsing [sent. 106 len. 38]: 爬行纲 动物 通称 爬行动物 、 爬行类 、 爬虫类 ， 是 一类 脊椎动物 ， 属于 四足总纲 的 羊膜动物 ， 是 包括 了 龟 、 蛇 、 蜥蜴 、 鳄 、 鸟类 及 史前 恐龙 等 物种 的 通称 。
+Parsing [sent. 107 len. 234]: # REDIRECT 爬行动物 # redirect 爬行动物 # redirect 皇家马德里足球俱乐部 # REDIRECT 微型硬碟 中东 、 北非 主要 是 讲 闪含语系 语言 的 民族 生活 的 地方 ， 也 有 讲 其他 语系 语言 的 民族 建立 的 国家 ， 高加索地区 民族 复杂 ； 黑种人 种族 繁多 ， 还没有 现代 意义 的 民族 划分 办法 ， 按 部族 和 使用 语言 的 情况 ， 大致 划分 为 如下 民族 ： 使用 闪含语系 语言 的 民族 * 阿拉伯族 * 犹太族 * 豪萨族 * 柏柏尔族 * 贝都因 族 * 瓦达 伊 族 * 图 布 族 * 巴吉尔 米 族 * 图阿雷格族 * 摩尔 族 * 班 巴拉 族 * 贝 贾 族 * 德鲁 兹 族 * 贝 扎 族 * 科普特人 使用 尼罗 — 撒哈拉 语系 语言 的 民族 * 努比亚 族 * 丁卡族 使用 阿尔泰语系 语言 的 民族 * 土耳其族 * 亚塞拜然族 * 卡什 凯 族 使用 印欧语系 语言 的 民族 * 亚美尼亚族 * 伊朗 族 * 库尔德族 * 吉拉克 族 * 卢里 族 * 马赞德兰 族 * 普什图族 * 杜兰尼 族 * 吉尔 扎 伊 族 * 哈扎拉族 * 艾马克 族 * 努里 斯坦 族 * 吉兰 族 * 巴赫 蒂亚 里 族 使用 高加索语系 语言 的 民族 * 乔治亚族 * 奥塞梯族 * 阿扎尔 族 * 阿布哈兹 族 * 阿迪 格 族 * 切尔 克 斯 族 Category : 非洲 民族 星宿 ， 星日马 ， 二十八宿 之一 ， 南方 七 宿 第四 宿 。
+
+*******************************************************
+***  WARNING!! OUT OF MEMORY! THERE WAS NOT ENOUGH  ***
+***  MEMORY TO RUN ALL PARSERS.  EITHER GIVE THE    ***
+***  JVM MORE MEMORY, SET THE MAXIMUM SENTENCE      ***
+***  LENGTH WITH -maxLength, OR PERHAPS YOU ARE     ***
+***  HAPPY TO HAVE THE PARSER FALL BACK TO USING    ***
+***  A SIMPLER PARSER FOR VERY LONG SENTENCES.      ***
+*******************************************************
+
+Sentence has no parse using PCFG grammar (or no PCFG fallback).  Skipping...
+Exception in thread "main" java.lang.IllegalStateException: originalWords and sentence of different sizes: 234 vs. 38
+ Orig: # REDIRECT ����?�� # redirect ����?�� # redirect �Ӯa?�w�����y��?�� # REDIRECT �L���w�� ��? �B �_�D �D�n �O ? ?�t?�t ?�� �� ���� �ͬ� �� �a�� �A �] �� ? ��L ?�t ?�� �� ���� �إ� �� ?�a �A ���[���a? ���� �`? �F �����H ���� �c�h �A ??�� ?�N �N? �� ���� �E�� ?�k �A �� ���� �M �ϥ� ?�� �� ��? �A �j�P �E�� ? �p�U ���� �G �ϥ� ?�t?�t ?�� �� ���� * ���ԧB�� * ?�ӱ� * ��?�� * �f�f?�� * ?���] �� * ��? �� �� * ? �� �� * �ڦN? �� �� * ?���p��� * ��? �� * �Z �ک� �� * ? ? �� * �w? ? �� * ? �� �� * �촶�S�H �ϥ� ��? �X ������ ?�t ?�� �� ���� * �V��? �� * �B�d�� �ϥ� ��?��?�t ?�� �� ���� * �g�ը�� * ?����M�� * �d�� ? �� �ϥ� �L??�t ?�� �� ���� * ?����?�� * ��� �� * ??�w�� * �N�ԧJ �� * ?�� �� * ??�w? �� * ����?�� * ��?�� �� * �N? �� �� �� * ����Ա� * ��?�J �� * �V�� ���Z �� * �N? �� * �ڻ� ��? �� �� �ϥ� ���[��?�t ?�� �� ���� * ?�v?�� * ?���� * ����? �� * ������? �� * ���} �� �� * ��? �J �� �� Category : �D�w ���� �P�J �A �P��? �A �G�Q�K�J ���@ �A �n�� �C �J �ĥ| �J �C
+ Pars: ����? ?�� �q? ����?�� �B ����? �B ����? �A �O �@? ���?�� �A ?�_ �|��?? �� �Ͻ�?�� �A �O �]�A �F ? �B �D �B �h�i �B ? �B ?? �� �v�e ��? �� ���� �� �q? �C
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParserQuery.restoreOriginalWords(LexicalizedParserQuery.java:317)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParserQuery.getBestDependencyParse(LexicalizedParserQuery.java:607)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParserQuery.getBestParse(LexicalizedParserQuery.java:401)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParserQuery.getBestParse(LexicalizedParserQuery.java:375)
+	at edu.stanford.nlp.parser.lexparser.ParseFiles.processResults(ParseFiles.java:272)
+	at edu.stanford.nlp.parser.lexparser.ParseFiles.parseFiles(ParseFiles.java:216)
+	at edu.stanford.nlp.parser.lexparser.ParseFiles.parseFiles(ParseFiles.java:75)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParser.main(LexicalizedParser.java:1518)
+
+D:\Documents\PythonWork\WikipediaWork>cd StanfordParser 
+
+D:\Documents\PythonWork\WikipediaWork\StanfordParser>cht.bat
+Parsing file: test/in.txt
+Parsing [sent. 1 len. 16]: 巴士海峡 是 衔接 菲律宾海 与 南海 并 位 处 台湾本岛 与 巴丹群岛 之间 的 海峡 。
+Parsing [sent. 2 len. 5]: 埃列娜·齐奥塞斯库 ， 罗马尼亚社会主义共和国 政治人物 。
+Parsing [sent. 3 len. 34]: 微软基础类库 是 一个 微软公司 提供 的 类库 ， 以 C + + 类 的 形式 封装 了 Windows API ， 并且 包含 一个 应用程序 框架 ， 以 减少 应用程序 开发 人员 的 工作量 。
+Parsing [sent. 4 len. 44]: 越南共和国 常 简称 为 南越 ， 是 越南 南方 越南国 政权 通过 1955 年 越南 公民投票 而 改制 建立 的 总统制共和国 ， 首都 为 西贡 ， 首任 总统 为 吴廷琰 ， 得到 了 包括 美国 在内 的 87 个 国家 的 外交 承认 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 5 len. 24]: # REDIRECT 波士顿 汤显祖 ， 字义 仍 ， 号 海若 、 清远 道人 ， 晚年 号 海若 士 ， 一 作 若 士 。
+Parsing [sent. 6 len. 10]: 西宁市 是 中华人民共和国 青海省 省会 ， 位于 青海省 东部 。
+Parsing [sent. 7 len. 12]: 海东市 是 中华人民共和国 青海省 下辖 的 地级市 ， 位于 青海省 东部 。
+Parsing [sent. 8 len. 38]: # REDIRECT 明宣宗 # REDIRECT 江东六十四屯 公学 指 英国 的 公共 学校 ， 公学 部 份 与 皇室 有关 ， 另有 是 由 一些 较 富有 的 社会 人士 设立 ， 爲 他们 的 子女 提供 教育 。
+Parsing [sent. 9 len. 64]: 西藏问题 是 指 中国 对 西藏 是否 拥有 主权 的 问题 ， 由此 引发 许多 藏人 希望 在 目前 的 西藏流亡政府 的 领导 下 ， 实现 西藏地区 自治 ， 令 中国政府 给予 西藏地区 政治 、 宗教 、 言论自由 ， 停止 侵犯 西藏人 权 ， 不再 向 西藏 移民 ， 同时 停止 在 西藏地区 长期以来 的 核试验 和 倾倒 放射性 核废料 行为 的 政治运动 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 10 len. 24]: 《 哈比人历险记 》 是 一本 少年奇幻 小说 和 儿童文学 作品 ， 由 英国 作家 J · R · R · 托尔金 所 作 。
+Parsing [sent. 11 len. 37]: 脱离同性恋 又称 去同性恋 、 出埃及 运动 、 性倾向 治疗 、 性倾向 修复 （ reparative therapy ) ， 是 指 通过 劝导 、 祈祷 或者 其他 方式 改变 同性恋者 性倾向 的 运动 、 组织 或 夸 疗法 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 12 len. 41]: 俄罗斯联邦管区 于 2000 年 5 月 设立 ， 最初 有 7 个 联邦管区 ， 2010 年 增设 北高加索联邦管区 ， 2014 年 再 增设 克里米亚联邦管区 ， 现有 8 个 联邦管区 ， 其中 5 个位 于 欧洲 ， 3 个位 于 亚洲 。
+Parsing [sent. 13 len. 38]: # REDIRECT 八大山人 # REDIRECT 中华人民共和国行政区划 剑桥大学克莱尔学院 是 剑桥大学 现存 学院 中 第二 古老 的 学院 ， 创建 于 14 世纪 ， 在学 院 的 初期 获得 了 爱德华一世 的 外孙女 克莱 尔 · 伊丽莎白 的 捐助 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 14 len. 27]: 诺贝尔生理学或医学奖 由 诺贝尔基金会 管理 ， 该奖 项 每年 颁发 一 次 ， 用于 表彰 在 生理学 或 医学 领域 作出 重要 发现 或 发明 的 人 。
+Parsing [sent. 15 len. 26]: # 重定向 景泰帝 # REDIRECT 明武宗 # REDIRECT 明熹宗 # REDIRECT 诺贝尔生理学或医学奖 矿物 是 是 指 在 地质作用 下 天然 形成 的 结晶 状 纯淨物 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 16 len. 43]: 硷石灰 是 一 种化 学 混合物 ， 白色 或 米黄色 粉末 ， 用于 在 全身 麻醉 、 潜艇 、 换气 器 和 加压 舱 等 封闭 呼吸 环境 中 ， 消除 呼吸 气体 中的 二氧化碳 ， 以防 止 二氧化碳 潴留 和 二氧化碳中毒 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 17 len. 35]: # redirect 万安滩 # REDIRECT 书法 南岛语系 是 主要 由 南岛民族 所 使用 的 语言 ， 是 世界 现今 唯一 主要 分布 在 岛屿 上 的 一个 语系 ， 包括 约 1300 种 语言 。
+Parsing [sent. 18 len. 76]: # redirect 布农族 # redirect 排湾族 # redirect 鲁凯族 # redirect 邹族 # redirect 赛夏族 # redirect 噶玛兰族 # redirect 太鲁阁族 # REDIRECT 有机化合物 # REDIRECT 有机化合物 《 马关条约 》 为 大清帝国 与 大日本帝国 于 1895 年 4 月 17 日 在日 本山 口 县 赤 间关 市 签署 的 条约 ， 原名 《 马关新约 》 ， 又称 《 清 日 讲和 条约 》 ， 日本 方面 称为 《 下关条约 》 或 《 日清讲和条约 》 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 19 len. 39]: # 重定向 台湾 # redirect 中华民国历史 # redirect 辽东半岛 # redirect 重庆市 # redirect 苏州市 # 重定向 朝鲜民主主义人民共和国 # redirect 不平等条约 布加勒斯特 ， 罗马尼亚 首都 ， 位于 罗马尼亚 东南部 ， 瓦拉几亚 平原 中部 ， 多瑙河 支流 登博维察河 畔 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 20 len. 61]: 全罗北道 是 位于 朝鲜半岛 西南部 的 一个 韩国 行政 道 ， 北 以 锦江 为 界 与 忠清南道 相邻 ， 东 以 小白山脉 为 界 与 庆尚南道 相连 ， 南 与 全罗南道 接壤 ， 西 与 中华人民共和国 隔海相望 ， 面积 8 , 066 平方公里 ， 人口 超 180 万 ， 有 6 市 、 8 郡 ， 首府 位于 全州市 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 21 len. 17]: # REDIRECT 全北大学 # REDIRECT 全罗北道 海星 是 棘皮动物 下的 一个 纲 的 动物 的 名称 。
+Parsing [sent. 22 len. 34]: # REDIRECT 海星 方志敏 ， 原名 方 远 镇 ， 乳名 正鹄 ， 号 慧生 ， 江西 弋阳 漆工镇 湖 塘 村人 ， 中国共产党 政治人物 ， 中国工农红军 高级 将领 ， 「 中国人民解放军军事家 」 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 23 len. 35]: # redirect 诺贝尔生理学或医学奖 # REDIRECT 互联网服务供应商 司徒华 ， 暱称 「 华叔 」 ， 生于 香港 ， 祖籍 广东 开平 ， 已故 前 香港民主党 党鞭 及 支联会 主席 ， 被 喻为 香港民主派 元老 及 精神领袖 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 24 len. 19]: 道 ( Tao or Dao ) ， 是 天地万物 的 演化 运行 机制 ， 中国哲学 的信 念 之一 。
+Parsing [sent. 25 len. 10]: 道 ， 为 儒家文化圈 国家 行政区划 的 一 种 。
+Parsing [sent. 26 len. 36]: 「 辽 」 字 可能 指 ： * 中国历史 上 的 几个 少数民族 王朝 ： * * 辽朝 * * 西辽 * * 北辽 * * 后辽 * * 东辽 * 中国 辽宁省 的 简称 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 27 len. 16]: 板桥区 为 台湾新北 市 的 一个 区 ， 是 新北市政府 所在地 ， 也是 新北市 首善之区 。
+Parsing [sent. 28 len. 29]: 辽朝 ， 国号 大辽 ， 又称 大契丹国 ， 是 由 契丹人 建立 的 一个 朝代 ， 国祚 从 西元 916 年 至 1125 年 ， 长达 210 年 。
+Parsing [sent. 29 len. 14]: 一边一国 ， 是 指认 定 台湾 、 中国 不属 同一 国家 的 主张 。
+Parsing [sent. 30 len. 15]: # redirect 耶律阿保机 # REDIRECT 辽朝 佐仓市 是 位于 日本 千叶县 北部 的 城市 。
+Parsing [sent. 31 len. 15]: 金朝 ， 国号 大金 ， 是 中国历史 上 由 女真人 建立 的 一个 朝代 。
+Parsing [sent. 32 len. 31]: 纳尔逊 · 罗利 拉拉 · 曼德拉 ， 南非 川斯凯 人 ， 是 南非 着名 的 反 种族隔离 革命家 、 政治家 和 慈善家 ， 亦 被 广泛 视作 南非 的 国父 。
+Parsing [sent. 33 len. 7]: 燕国 ， 五代时期 军阀割据 之 地 。
+Parsing [sent. 34 len. 17]: # REDIRECT 纳尔逊·曼德拉 = = 中国古代 地方政权 = = * 燕京戎 ， 简称 「 燕 」 。
+Parsing [sent. 35 len. 52]: 土库曼 可以 指 ： * 土库曼 ， 亚 州 中部 的 一个 国家 * 土库曼苏维埃社会主义共和国 ， 苏联 的 加盟共和国 之一 * 土库曼人 ， 土库曼 的 主要 民族 * 土库曼语 ， 土库曼人 的 主要 语言 分类 : 三 字 消 歧义 Jython ， 是 一个 用 Java 语言 写 的 Python 解释器 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 36 len. 40]: 《 大公报 》 是 中国 发行 时间 最 长 的 中文 报纸 之一 ， 诞生 于 1902 年 的 天津法租界 ， 创刊 至今 已 有 过 百年 历史 ， 在 中华民国大陆时期 是 当时 最 具 影响力 的 报纸 之一 。
+Parsing [sent. 37 len. 20]: # REDIRECT 大公报 # 重定向 尤利西斯·辛普森·格兰特 # REDIRECT 一边一国 摩托罗拉龙珠处理器 被 当时 相当 受 欢迎 的 个人数位助理 Palm 采用 。
+Parsing [sent. 38 len. 25]: 杨致远 ， 出生于 中华民国 台北市 ， 拥有 中华民国国籍 与 美国国籍 ， 是 网际网路 入门网站 、 搜寻 巨 擎 雅虎 的 创始人 及 前任 行政总裁 。
+Parsing [sent. 39 len. 32]: # REDIRECT 民族舞蹈 欧里庇得斯 与 埃斯库罗斯 和 索福克勒斯 并称 为 希腊 三 大悲 剧 大师 ， 他 一生 共 创作 了 九十二 部 作品 ， 保留 至今 的 有 十七 部 。
+Parsing [sent. 40 len. 16]: 聂远 ， 中国 男演员 ， 祖籍 山东 ， 出生于 贵州省 镇远县 ， 现 居于 北京 。
+Parsing [sent. 41 len. 61]: 卡拉OK 意指 无人 乐队 ， 是 一 种 源自 于 日本 的 娱乐性 质 歌唱 活动 ， 通常 是 在 播放 预 录 在 录影带 之类 储存 媒介 上 、 没有 主唱 人声 的 音乐 伴奏 同时 ， 在 电视 萤幕 上 同步播放 有着 节拍 提示 的 歌词 ， 然后 由 参与者 边 看着 歌词 边 持 麦克风 原 唱 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 42 len. 20]: 维基语录 是 维基媒体基金会 下属 的 一个 维基计划 ， 属于 维基百科 的 一个 姊妹 计划 ， 同样 使用 MediaWiki 软体 。
+Parsing [sent. 43 len. 19]: 非 ， 满族 ， 原名 照 ， 字 非 厂 ， 别 署 非 ， 又 号 閒人 。
+Parsing [sent. 44 len. 29]: 北京理工大学 ， 简称 北理工 、 北 理 ， 是 一 所以 国防工业 为学 校 特色 ， 工 理 文 协调 发展 的 大学 ， 现 隶属 于 工业和信息化部 。
+Parsing [sent. 45 len. 25]: 宋徽宗赵佶 ， 是 北宋 第 八 位 皇帝 ， 同时 也是 一 位 书法家 ， 造诣 极 高 ， 自创 「 瘦金书 」 字体 。
+Parsing [sent. 46 len. 21]: # redirect 宋徽宗 恒星年 是 太阳 在 天球 上 返回 到 对 恒星 而言 的 相同 位置 上 的 时间 。
+Parsing [sent. 47 len. 14]: # REDIRECT 黄道面 维克多 · 马里 · 雨果 是 一名 法国 浪漫主义 作家 。
+Parsing [sent. 48 len. 34]: # Redirect 柔然 # Redirect 柔然 # Redirect 柔然 # Redirect 柔然 现代人 在 生物学 上 属 灵长目 、 人科 、 人属 、 智人 种 ， 由人 猿 ／ 古猿 演化 而 来 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 49 len. 25]: # 重定向 人 ， 全称 ， 是 由 席德·梅尔 在 1991 年 为 美国 所 开发 的 4X 概念 体系 的 回合制 策略 电脑遊戏 。
+Parsing [sent. 50 len. 44]: # Redirect 元朗区 蒙古人种 ， 是 历史 上 为人 类 分类学 说 裏 的 一 种人 种 ， 但 今日 社会 因为 亚洲 移民 权利 提升 等 因素 ， 正式 的 族群 分类 登记 中 肤色 已经 模糊 ， 统筹 称为 亚洲 族裔 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 51 len. 35]: # 重定向 黄色人种 # 重定向 黄色人种 巴登-符腾堡州 是 德意志联邦共和国 西南部 的 一个 联邦州 ， 是 德国 的 人口 第三 大 州 和面 积 第三 大 州 ， 州 首府 位于 斯图加特 ( Stuttgart ) 。
+Parsing [sent. 52 len. 24]: 川岛芳子 爱新觉罗氏 ， 原名 显 㺭 ， 汉名 金璧辉 ， 满洲镶白旗 人 ， 清朝 皇族 ， 第十 代 和硕肃亲王 善耆 第十 四 女 。
+Parsing [sent. 53 len. 52]: 崑曲 《 牡丹亭 》 的 表演 片段 《 牡丹亭 》 ， 原名 《 还魂记 》 ， 又名 《 杜丽 娘 慕 色 还魂记 》 ， 是 明代 剧作家 汤显祖 的 代表作 ， 创作 于 1598 年 ， 描写 了 大家闺秀 杜丽 娘 和 书生 柳 梦 梅 的 生死 之 恋 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 54 len. 19]: 小 詹姆斯 · 厄尔 · 「 吉米 」 · 卡特 ， 是 美国 的 第 39 任 总统 。
+Parsing [sent. 55 len. 33]: 小杰 拉尔 德 · 鲁道夫 · 福特 ， 生于 美国 内布拉斯加州 奥马哈 ， 美国政治 人物 ， 美国 第 40 任 副总统 和 第 38 任 总统 ， 第二次世界大战 期间 于 美国海军 服役 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 56 len. 20]: 密西西比河 ， 位于 北美洲 中南部 ， 是 北美 最 大 的 水系 ， 流域面积 约 为 300 万 平方公里 。
+Parsing [sent. 57 len. 22]: 威廉·亨利·哈里森 ， 是 美国 的 第 9 任 总统 ， 军事家 ， 曾 在 与 印第安人 的 战斗 中 获得 胜利 。
+Parsing [sent. 58 len. 13]: 齐白石 ， 湖南 湘潭 人 ， 是 当代 中国 的 国画 画家 。
+Parsing [sent. 59 len. 10]: 铃木善幸 ， 日本政治 家 ， 第 70 任 日本内阁总理大臣 。
+Parsing [sent. 60 len. 45]: 麦芽蒸馏法 是 一 种 苏格兰威士忌 的 制造 工 法 ， 只 以 已经 发芽 的 大麦 作为 原料 ， 经 发酵 后 ， 再 以 壶 式 蒸馏器 进行 二 到 三 次 的 蒸馏 ， 产生 所 要 的 高 酒精 度 蒸馏酒 。
+Parsing [sent. 61 len. 14]: # REDIRECT 摄氏温标 # 重定向 泛蓝 织田信秀 ， 日本战国时代 尾张国 武将 ， 战国大名 。
+Parsing [sent. 62 len. 17]: 夏 可以 指 ： # 中国古代 的 夏族 部落 ， 该 部落 首领 后 建立 夏朝 。
+Parsing [sent. 63 len. 9]: # redirect 中国国民党革命委员会 董同龢 ， 中国 音韵学 家 。
+Parsing [sent. 64 len. 64]: 阴山山脉 ， 蒙古语 名 即 「 达兰 喀 喇 」 ， 位于 中华人民共和国 北部 ， 东 起 河北省 西北部 的 桦 山 ， 西 止 于 内蒙古 巴彦淖尔盟 中部 的 狼山 ， 东西 长 1200 多 公里 ， 南北 宽 50 至 100 公里 ， 横亙 于 内蒙古自治区 中部 ， 是 黄河流域 的 北部 天然 界线 ， 亦 是 河套地区 的 北部 屏障 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 65 len. 15]: 周祖谟 ， 字 燕 孙 ， 中国文字 、 音韵 、 训诂 、 文献学 家 。
+Parsing [sent. 66 len. 32]: 李显扬 ， 新加坡华人 ， 现任 新加坡民航局 董事会主席 ， 曾 在 1995 年 至 2007 年间 担任 新加坡电信 总裁 ， 以及 在 2007 年 至 2013 年间 担任 星 狮 集团 董事会主席 。
+Parsing [sent. 67 len. 17]: 郑希怡 ， 原名 郑列琼 ， 及 后 曾 改名 为 郑 雅 文 ， 上海 出生 。
+Parsing [sent. 68 len. 12]: Yumiko ， 是 一 位 日本 的 女性 舞者 、 编舞家 。
+Parsing [sent. 69 len. 12]: 敦煌壁画 是 中国 甘肃 敦煌石窟 艺术形式 中 最 重要 的 组成部分 。
+Parsing [sent. 70 len. 32]: 文化传信集团有限公司 原 为 香港漫画 家 黄玉郎 于 1979 年 创立 的 传媒 机构 玉郎集团 有限公司 ， 主要 经营 香港漫画 及 日本漫画 的 出版业 务 和 报章 《 天天日报 》 的 出版 。
+Parsing [sent. 71 len. 31]: 高加索人种 ， 或 称 欧罗巴人种 是 在 欧洲 、 北非 、 非洲之角 、 西亚 、 中亚 、 南亚 、 北美 、 南美 和 大洋洲 的 人口 中常 见 的 人种 。
+Parsing [sent. 72 len. 112]: # REDIRECT 高加索人种 # REDIRECT 白人 白人 ， 或 称 白色人种 ， 指 狭义 的 高加索人种 ， 是以 人类肤色 命名 的 人种 名称 ， 一般 指 拥有 淡色 皮肤 的 种族 或 群体 成员 ； 或是 一类 拥有 淡色 皮肤 ， 尤其 是 源自 欧洲 的 人类 群体 ， 主要 指 西方世界 、 东欧 及 俄罗斯 的 人群 ， 有时 又 专 指 分布 澳纽 与 拉美 的 欧洲人 或 欧洲 后裔 ， 不过 西方世界 的 标准 是 比较 主观 的 ， 不但 各国 认定 标准 不同 ， 反而 很多 亚洲 地区 皮肤 白 的 种族 却又 不是 白人 ， 而 很多 非 纯正 白 种 的 欧洲人 却 列为 白人 。
+
+*******************************************************
+***  WARNING!! OUT OF MEMORY! THERE WAS NOT ENOUGH  ***
+***  MEMORY TO RUN ALL PARSERS.  EITHER GIVE THE    ***
+***  JVM MORE MEMORY, SET THE MAXIMUM SENTENCE      ***
+***  LENGTH WITH -maxLength, OR PERHAPS YOU ARE     ***
+***  HAPPY TO HAVE THE PARSER FALL BACK TO USING    ***
+***  A SIMPLER PARSER FOR VERY LONG SENTENCES.      ***
+*******************************************************
+
+Sentence too long for dependency parser.  Falling back to PCFG parse...
+Parsing [sent. 73 len. 27]: 黑人 ， 即 黑色人种 ， 又称 尼格罗人种 ， 尼格 罗 － 澳大利亚人种 、 赤道人种 、 刚果人种 ， 是 人类 分类学 说 裏 的 一 种人 种 。
+Parsing [sent. 74 len. 24]: # REDIRECT 黑人 # REDIRECT 黑人 # REDIRECT 黑人 澳洲人种 是 按照 遗传 和 体质 为人 类 分类 所 划分 出的 一个人 种 。
+Parsing [sent. 75 len. 56]: 《 狮子山下 》 系列 是 香港电台 于 1972 至 1980 年 、 1984 至 1988 年 、 1990 年 、 1992 至 1994 年 、 2006 年 、 2014 年 至 2018 年间 所 制作 的实 况 电视剧集 系列 ， 以 处境 故事 述说 一般 市民 的 生活 和 他们 对 社会 民生 的 看法 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 76 len. 24]: 原始社会 是 人类社会 发展 的 第一 阶段 ， 到 目前 为止 ， 还没有 发现 世界 上 有 哪个 民族 没有 经历 过 原始社会 。
+Parsing [sent. 77 len. 22]: 脚本语言 是 为了 缩短 传统 的 「 编写 、 编译 、 链接 、 运行 」 过程 而 创建 的 计算机编程 语言 。
+Parsing [sent. 78 len. 12]: 2004 年 亚足联 亚洲盃 是 第 13 届 亚足联 亚洲盃 赛事 。
+Parsing [sent. 79 len. 32]: 病理学 是 医学 领域 的 一门 分支 学科 ， 专门 探讨 疾病 在 个体 发生 的 起因 、 发展 及 变化 ， 以及 整个 过程 对 患者 产生 的 各种 影响 。
+Parsing [sent. 80 len. 44]: 周汝昌 ， 本字 禹 言 ， 号 敏 庵 ， 后 改 字 玉 言 ， 笔名 ： 念 述 、 苍 禹 、 雪 羲 、 顾 研 、 玉工 、 石 武 、 玉 青 、 师 言 、 茶客 等 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 81 len. 18]: 赫尔辛基 ， 瑞典语 称 赫尔 辛 弗 什 ， 是 芬兰 的 首都 以及 全国 最 大城市 。
+Parsing [sent. 82 len. 13]: 访问者模式 是 一 种 将 演算法 与 对象 结构 分离 的 软体设计模式 。
+Parsing [sent. 83 len. 48]: # REDIRECT 即时通讯 # REDIRECT 即时通讯 # REDIRECT 即时通讯 # REDIRECT 男性 同志亦凡人 是 一部 同性恋 电视剧 ， 有 两 个 版本 ： * 同志亦凡人 ( 美国电视剧 ) * 同志亦凡人 ( 英国电视 剧 ) 于化虎 ， 原名 于 晋 生 ， 生于 山东省 海阳县 文山 后 村 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 84 len. 16]: # REDIRECT Java right 鞑靼斯坦共和国 是 一个 在 俄罗斯 境内 的 共和国 ， 属 伏尔加联邦管区 。
+Parsing [sent. 85 len. 15]: # REDIRECT 川岛芳子 陈卓愉 是 加拿大 首位 被 委任 成为 内阁 成员 的 华裔 。
+Parsing [sent. 86 len. 14]: 中央公论新社 ， 简称 「 中 公 」 ， 是日 本 的 着名 出版社 。
+Parsing [sent. 87 len. 11]: 仁波切 ， 是 对 藏传佛教 上师 的 一 种 尊称 。
+Parsing [sent. 88 len. 32]: # REDIRECT 大韩民国历史 京釜高速公路 为 大韩民国 主要 高速公路 兼 第一 条 高速公路 ， 连接 国内 两 大城市 釜山 和 首尔 ， 全长 417 千米 ， 同时 也是 亚洲公路1号线 的 一部 份 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 89 len. 33]: CuteFTP 从 1996 年 以来 由 GlobalSCAPE 开发 的是 一系列 的 FTP 客户端 应用程式 ， 具有 简便 以 Windows 或 Mac 为 基础 的 介面 并且 皆 适合 家庭 、 专业 使用 。
+Parsing [sent. 90 len. 32]: # REDIRECT 唐三藏 英皇娱乐集团 ， 是 英皇集团 旗下 演艺 娱乐 公司 ， 主要 业务 包括 本地 及 海外 唱片 制作 及 发行 、 音乐 出版 、 艺人 管理 及 演唱会 制作 。
+Parsing [sent. 91 len. 9]: # REDIRECT 再洗礼派 伦巴 英文 Rumba 的 音译 。
+Parsing [sent. 92 len. 35]: # 重定向 摩尼教 郑天华 ， 加拿大政治 人物 和 律师 ， 1957 年 - 62 年间 以 加拿大进步保守党 党员 身份 出任 加拿大国会下议院 的 温哥华 中选区 议员 ， 为 加拿大 首位 华裔 和 亚裔 下议院 议员 。
+Parsing [sent. 93 len. 30]: # 重定向 KEO 中华民国非常大总统 是 孙中山 在 广州 于 1921 年 5 月 5 日 与 1923 年 2 月 21 日 第二 次 护法 时 的 职任 名称 。
+Parsing [sent. 94 len. 11]: 斯洛伐克共和国 ， 是 中欧 的 一个 内陆国家 ， 面积 4 .
+Parsing [sent. 95 len. 9]: 9 万 平方公里 ， 约 540 万 居民 。
+Parsing [sent. 96 len. 40]: # redirect 迦楼罗 # REDIRECT 佛经 环境影响评价 简称 环评 ， 是 一 项 对 工程 项目 等 所 可能 造成 的 环境影响 的 评估 制度 ， 旨在 减少 项目 开发 导致 的 污染 、 维护 人类 健康 与 生态平衡 。
+Parsing [sent. 97 len. 25]: 环境质量评价 是 对 某 一 指定 区域 的 环境 要素 和 环境 整体 的 优劣 程度 进行 定性 和 定量 的 描述 和 评定 。
+Parsing [sent. 98 len. 9]: 南昌工程学院 ， 中国 江西 一 所 高等教育 学院 。
+Parsing [sent. 99 len. 25]: 李秀成 ， 原名 李 以 文 ， 广西 籐 县 人 ， 太平天国 重要 将领 ， 被 封 为 忠王 ， 称 荣 千岁 。
+Parsing [sent. 100 len. 5]: 阿诺德·勃克林 笔下 的 美杜莎 。
+Parsing [sent. 101 len. 23]: # REDIRECT 朝鲜历史 伍冰枝 ， 生于 香港 ， 祖籍 广东台 山 四九镇 玄 潭 村 水 仔 口 ， 是 前任 加拿大总督 。
+Parsing [sent. 102 len. 30]: 英飞凌 科技 股份有限公司 总部 位于 德国 慕尼黑 ， 主力 提供 半导体 和 系统 解决 方案 ， 解决 在 高能 效 、 移动 性 和 安全性 方面 带来 的 挑战 。
+Parsing [sent. 103 len. 12]: 慕尼黑 ， 也 称 明兴 ， 是 德国 巴伐利亚州 的 首府 。
+Parsing [sent. 104 len. 63]: # REDIRECT 电子学 中华人民共和国 的 国家司法考试 是 依据 《 中华人民共和国 法官法 》 、 《 中华人民共和国 检察官法 》 、 《 中华人民共和国律师 法 》 、 《 中华人民共和国 公证 法 》 及 《 国家司法考试 实施 办法 》 的 有关 规定 并 由 司法部 与 各地 司法 厅 统一 组织 的 从事 特定 法律职业 的 资格 考试 ， 考试 合格 授予 《 法律职业 资格 证书 》 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 105 len. 24]: 《 聊斋志异 》 ， 简称 《 聊斋 》 ， 又称 《 鬼狐传 》 ， 是 中国 清代 蒲松龄 所 着 的 短篇小说 集 。
+Parsing [sent. 106 len. 25]: 粉岭 位于 香港新界 东部 ， 是 粉岭／上水新市镇 的 一部 份 ； 与 上水 、 打鼓岭 和 沙头角 同 属于 1979 年成 立 的 北区 。
+Parsing [sent. 107 len. 11]: # 重定向 卢布 三次社会大分工 是 马克思主义 所 使用 的 名词 。
+Parsing [sent. 108 len. 64]: # redirect 三次社会大分工 # REDIRECT 三次社会大分工 # REDIRECT 三次社会大分工 # REDIRECT 三次社会大分工 # REDIRECT 卢布 二二八和平纪念公园 ， 原名 台北新公园 ， 是 一座 位于 台湾 台北市中正区 的 公园 ， 北 起 襄阳路 、 南至 凯达格兰大道 、 西 为 怀宁 街 、 东 为公 园 路 ， 佔地 71 , 520 平方公尺 ， 邻近 总统府 、 外交部 、 台北宾馆 、 台大医院 等 主要 机关 建筑 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 109 len. 32]: # REDIRECT 二二八和平纪念公园 路易斯·亨利·摩尔根 ， 出生于 纽约州 奥罗拉 ， 他 是 美国 知名 的 人类学家 和 社会 理论家 的 先驱人 物 ， 并且 是 十九世纪 美国 最 伟大 的 社会科学家 之一 。
+Parsing [sent. 110 len. 17]: 霍乱 是 由 霍乱弧菌 的 某些 致病 株 感染 小肠 而 导致 的 急性 腹泻 疾病 。
+Parsing [sent. 111 len. 17]: 钉螺 泛指 所有 钉螺属 的 物种 ， 是 一 种 在 田间 生活 的 腹足纲 软体动物 。
+Parsing [sent. 112 len. 9]: 《 女孩万岁 》 ， 是 まりお金田 的 漫画作品 。
+Parsing [sent. 113 len. 26]: 图 ， 又称 栅格 图 或 ， 是 使用 像素 阵列 ( Pixel - array / Dot - matrix 点阵 ) 来 表示 的 图像 。
+Parsing [sent. 114 len. 8]: 河国荣 ， 香港 男演员 及 电视 主持 。
+Parsing [sent. 115 len. 13]: # REDIRECT 满洲国 # redirect 天龙八部 霍斯特·克勒 是 德国政治 家 和 经济学家 。
+Parsing [sent. 116 len. 14]: 天文学家 是 研究 天文学 、 宇宙学 、 天体物理学 等 相关 学科 的 科学家 。
+Parsing [sent. 117 len. 12]: 日照市 是 中华人民共和国 山东省 下辖 的 地级市 ， 位于 山东省 东南部 。
+Parsing [sent. 118 len. 21]: 伊阿宋 ， 也 有 以 英文 发音 译 为 杰森 ， 是 希腊神话 中 带领 阿耳戈船英雄 夺取 金羊毛 的 英雄 。
+Parsing [sent. 119 len. 22]: 神谱 是 由 古希腊 诗人 赫西俄德 所 写 的 长诗 ， 共 1022 行 ， 以 六 音部 格律 写 成 。
+Parsing [sent. 120 len. 22]: 波塞顿 ， 又 译 顿 、 尼普顿 、 波 色 伊 东 ， 是 希腊神话 中的 海神 ， 宙斯 的哥 哥 。
+Parsing [sent. 121 len. 13]: 赫克特 ， 普里阿摩斯 的 儿子 ， 特洛伊 王子 ， 帕里斯 的哥 哥 。
+Parsing [sent. 122 len. 32]: 又称 大 雳 ， 是 描述 宇宙 的 源起 与 演化 的 宇宙学 模型 ， 这 一 模型 得到 了当 今 科学研究 和 观测 最 广泛 且 最 精确 的 支持 。
+Parsing [sent. 123 len. 9]: 酶 ） 是 一 种 大分子 生物催化 剂 。
+Parsing [sent. 124 len. 20]: 沸点 是 指 物质 沸腾 时 的 温度 ， 更 严格 的 定义 是 液体 成为 气体 的 温度 。
+Parsing [sent. 125 len. 20]: # REDIRECT 大爆炸 # REDIRECT 液体 沸腾 是 在 液体 表面 和 内部 同时 发生 的 剧烈 汽化 现象 。
+Parsing [sent. 126 len. 33]: 在 数字电路 中 ， 三态逻辑 允许 输出 端 在 0 和 1 两 种 逻辑电平 之外 呈现 高阻态 ， 等效 于 将 输出 的 影响 从 后 级 电路 中 移 除 。
+Parsing [sent. 127 len. 24]: 模拟电路 是 涉及 连续函数 形式 模拟信号 的 电子电路 ， 与之相对 的是 数字电路 ， 后者 通常 只 关注 0 和 1 两 个 逻辑电平 。
+Parsing [sent. 128 len. 69]: # REDIRECT 半导体 《 颂圣歌 》 ， 泰国王室 颂歌 、 1932 年 前 使用 的 国歌 ， 是 一 首 讚颂 泰王 同 向 他 致敬 的 歌 ， 在 泰王国 的 电影院 播放 每 一 场 电影 之前 、 在 戏院 开演 唱 会 和上 演戏 剧 、 电视台 开播 或 播出 结束 之前 ， 都会 播放 该 首 歌曲 和 展示 泰王 拉玛九世 亲民 的 画面 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 129 len. 50]: # REDIRECT 相 ( 物质 ) 《 吕氏春秋 》 又称 《 吕览 》 ， 是 中国 先秦 战国 末期 的 一部 政治理论 散文 的 汇编 ， 共 26 卷 ， 160 篇 ， 完成 于 秦王政 六 年 ， 为 秦国 相国 吕不韦 及其 门人 集体 编纂 而 成 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 130 len. 22]: 盖亚 ， 又 译 盖娅 、 该亚 ， 是 希腊神话 中的 大地 女神 ， 拥有 非常 显赫 且 德高望重 的 地位 。
+Parsing [sent. 131 len. 31]: 色相 指 的是 色彩 的 外相 ， 是 在 不同 波长 的 光照 射 下 ， 人眼 所 感觉 不同 的 颜色 ， 如 红色 、 黄色 、 蓝色 等 。
+Parsing [sent. 132 len. 22]: 色度 指 得 是 色彩 的 纯度 ， 也 叫 饱和度 或 彩度 ， 是 「 色彩 三 属性 」 之一 。
+Parsing [sent. 133 len. 17]: 色调 不是 指 颜色 的 性质 ， 是 对 一 幅 绘画 作品 的 整体 评价 。
+Parsing [sent. 134 len. 82]: 极限 可以 指 ： * 数学 概念 ， 除了 一般性 的 极限 介绍 之外 ， 还有 细分 条目 ： * * 函数 的 极限 * * 序列的极限 * * 上极限和下极限 * * 网 的 极限 * * 极限点 * * 范畴 的 极限 * 徐佳莹 的 专辑 《 极限 》 * 末延景子 的 漫画作品 《 Limit 界限 》 J J J J # REDIRECT 行政院大陆委员会 行政院大陆委员会 是 中华民国 统筹 处理 海峡两岸 事务 的 专责 行政机关 ， 与 中华人民共和国 的 国务院台湾事务办公室 对应 。
+Sentence too long for dependency parser.  Falling back to PCFG parse...
+Parsing [sent. 135 len. 21]: 史蒂芬·威廉·霍金 ， CH ， CBE ， FRS ， FRSA ， 英国 物理学家 与 宇宙学家 ， 现任 职 剑桥大学 研究 主任 。
+Parsing [sent. 136 len. 7]: 安西信行 是日 本 的 男性 漫画家 。
+Parsing [sent. 137 len. 49]: 女真 ， 又 作 女直 与 女贞 ， 可能 源自 3 , 000 多年 前 的 肃慎 ， 汉 至 晋 时期 称 挹娄 ， 南北朝时期 称 勿吉 ， 隋 至 唐 时期 称 黑水靺鞨 ， 辽 至 金 时期 称 「 女真 」 、 「 女直 」 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 138 len. 31]: # REDIRECT 史蒂芬·霍金 石钟山 位于 江西省 九江市 湖口县 ， 地处 鄱阳湖 与 长江 的 交汇处 ， 有 城南 上 石钟山 和 城北 下石 钟山 ， 合称 「 双 钟 」 。
+Parsing [sent. 139 len. 23]: 肃慎 ， 亦 称 息慎 、 稷慎 ， 是 夏代 及 商代 生活 在 黑水 和 松花江 流域 一带 的 一个 部族 。
+Parsing [sent. 140 len. 28]: # redirect 肃慎 # redirect 肃慎 除罪化 ， 香港 称作 非刑事化 ， 指 将 原本 被 刑法 所 处罚 的 犯罪行为 变成 刑法 不处 罚 的 行为 。
+Parsing [sent. 141 len. 23]: # REDIRECT 除罪化 景观生态学 是 研究 景观 单元 的 类型 组成 、 空间 配置 及其 与 生态学 过程 相互作用 的 综合性 学科 。
+Parsing [sent. 142 len. 20]: 法院 是 在 现代 国家 中职 掌 审判 、 解决 争议 、 解释 法律 、 执行 司法权 的 机关 。
+Parsing [sent. 143 len. 26]: # REDIRECT 阿尔伯特·爱因斯坦 上诉法院 或 上诉法庭 ， 是 审判机关 类型 之一 ， 它 是 司法体系 中 负责 审议 下级 法院 或 最高法院 的 上诉 案件 。
+Parsing [sent. 144 len. 51]: 特洛伊战争 以 荷马史诗 之 伊里亚德 为 中心 ， 加上 索福克勒斯 的 悲剧 埃阿 斯 、 菲 洛克 忒忒 斯 ， 欧里庇得斯 的 悲剧 在陶里斯的伊菲革涅亚 、 安德洛玛刻 、 赫卡柏 ， 维吉尔 的 史诗 埃涅阿斯纪 、 奥维德 等 多 部 着作 而 成 ， 故事 详细 地 描述 了 特洛伊战争 的 情况 。
+Parsing [sent. 145 len. 7]: 犹他州 是 美国西部 的 一个 州 。
+Parsing [sent. 146 len. 27]: 让·德·拉封丹 ( Jean de La Fontaine ， ） ， 法国 诗人 ， 以 《 拉封丹 寓言 》 ( Fables choisies mises en vers ) 留名 后世 。
+Parsing [sent. 147 len. 10]: 《 摩尔门经 》 耶稣基督后期圣徒教会 的 四部 标准 经文 之一 。
+Parsing [sent. 148 len. 29]: 耶稣基督后期圣徒教会 或 摩门教 会 （ Latter Day Saint movement 或 Mormon Church 是 一个 信奉 摩门经 的 教会 ， 总部 位于 美国 犹他州 盐湖城 ， 分支 遍及 世界 。
+Parsing [sent. 149 len. 46]: 盐湖城 ， 是 美国 犹他州 的 首府 和 最 大城市 ， 市内 人口 181 , 743 ， 名列 美国西部 内陆 城市 的 第四 位 ， 仅次于 丹佛 ， 凤凰城 和 阿布奎基 ， 大都会区 包括 萨米特县 及 图埃勒县 总人口 达 1 , 018 , 826 人 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 150 len. 13]: 普若佛 市 位于 美国 犹他州 ， 在 盐湖城 南 约 80 公里 。
+Parsing [sent. 151 len. 6]: 杨百翰 ， 又 译 布里根姆·扬 。
+Parsing [sent. 152 len. 26]: 福音音乐 ： 历史 上 美国 的 黑人 农奴 接受 了 基督教 的信 仰 之后 ， 常在 田 里 祈祷 ， 希望 减少 劳动 的 痛苦 。
+Parsing [sent. 153 len. 18]: 当代基督教音乐 ， 是 一 种 音乐形式 ， 歌词 重点 在于 抒发 个人 对于 基督教 信仰 的 情感 。
+Parsing [sent. 154 len. 17]: # REDIRECT 野兽派 田纳西州 ， 位于 美国南方 ， 首府 为 纳什维尔 ， 是 美国乡村音乐 的 中心 。
+Parsing [sent. 155 len. 30]: Mozilla Thunderbird ， 非正式 中文名 称为 雷鸟 ， 是 由 Mozilla 基金会 研发 的 一 款 自由 及 开放源码 的 跨平台 电邮 客户端 、 新闻阅读器 、 聚合器 以及 即时通讯软体 。
+Parsing [sent. 156 len. 33]: 高卢 ， 古罗马 人 把 居住 在 现今 西欧 的 法国 、 比利时 、 义大利北部 、 荷兰 南部 、 瑞士 西部 和 德国 南部 莱茵河 西岸 一带 的 凯尔特人 统称 为 高卢人 。
+Parsing [sent. 157 len. 32]: 辣妹合唱团 是 1990 年代 中期 崛起 的 英国 女子音乐组合 ， 虽然 该团 从 出道 至 解散 仅 五 年时 间 ， 她们 却 成为 了 一个 象徵 流行文化 的 时代 印记 。
+Parsing [sent. 158 len. 27]: 纽约州立大学 是 纽约州 的 一个 由 多 家 大学 组成 的 大学系统 ， 不是 一家 独立 的 大学 ， 纽约州 的 阿尔巴尼 为 其 总部 所在地 。
+Parsing [sent. 159 len. 79]: 上海大学 ， 是 上海市 属 、 中国教育部 、 上海市政府 和 国家国防科技工业局 共建 的 综合性大学 ， 是 中国 「 211 工程 」 高校 之一 ， 教育部 实施 「 卓越工程师教育培养计划 」 的 首批 高校 之一 ， 全国 首批 博士学位 授予 单位 ， 入选 「 教育部 来华 留学 示范 基地 」 ， 「 卓越 新闻 传播 人才 教育 培养 计划 」 、 「 国家建设 高 水平 大学 公 派 研究生 项目 」 、 「 千人计划 」 、 「 111 计划 」 。
+Sentence too long for factored parser.  Falling back to PCFG parse...
+Parsing [sent. 160 len. 12]: 承宣布政使司 ， 为 中国 明清 两 朝 的 省级 地方行政 机关 。
+Parsing [sent. 161 len. 37]: # REDIRECT 湖广等处行中书省 # 重定向 湖广 等 处 承宣布政使司 保罗 · 彼得罗维奇 ， 1796 年 — 1801 年 在位 ， 是 俄罗斯帝国 皇帝 ， 称号 保罗一世 ， 他 42 岁登 基 ， 仅 在位 5 年 。
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+
+D:\Documents\PythonWork\WikipediaWork>cd StanfordParser 
+
+D:\Documents\PythonWork\WikipediaWork\StanfordParser>cht.bat
+Parsing file: test/in.txt
+Parsing [sent. 1 len. 14]: 马克斯·普朗克学会 ， 全名 为 马克斯·普朗克 科学 促进 协会 台湾 常 译 为 普朗克研究院 。
+Parsing [sent. 2 len. 40]: # REDIRECT 罗马神话 观鸟 ， 又称 作 赏鸟 ， 是 指 在 自然环境 中 利用 望远镜 ， 鸟类图鑑 等 设备 在 不 影响 野生 鸟类 正常 生活 的 前提 下 观察 和 观赏 鸟类 的 一 种 娱乐 活动 。
+Parsing [sent. 3 len. 35]: # REDIRECT 爱米尔·涂尔干 龟头 又称 阴茎头 ， 指 阴茎 前端 的 球状 物 ， 由 尿道 海绵体 前端 膨大 而 成 ， 前端 尽头 有 尿道口 ， 是 尿液 和 精液 的 共同 出口 。
+Parsing [sent. 4 len. 42]: 肛门 又称 魄 门 、 后 阴 、 谷道 ， 俗称 屁眼 、 尻 洞 ， 是 高等动物 消化系统 消化道 的 最末 端 ， 在 直肠 延伸 至 体外 的 开口 处 ， 是 粪便 排遗 和 消化系统 废气 的 出口 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 5 len. 28]: 南唐 是 五代十国 的 十国 之一 ， 定都 金陵 ， 历时 39 年 ， 有 先主 李昪 、 中 主 李璟 和 后主 李煜 三 位 帝王 。
+Parsing [sent. 6 len. 17]: 膀胱 是 哺乳动物 贮 尿 的 囊 状 器官 ， 功能 是 贮藏 和 排泄 小便 。
+Parsing [sent. 7 len. 45]: # 重定向 长江三峡水利枢纽工程 英 时 ， 天津 人 ， 祖籍 安徽 潜山 ， 中华民国中央研究院 院士 、 美国哲学会 院士 ， 引领 中华民国 思想史 研究 数 十年 ， 他 的 大部分 职业 生涯 都 在 美国 ， 克鲁格人文与社会科学终身成就奖 、 首届 唐奖 「 汉学 奖 」 得主 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 8 len. 14]: 清洁能源 、 洁淨 能源 或 绿色能源 是 指 不 排放 污染物 的 能源 。
+Parsing [sent. 9 len. 25]: 教育心理学 是 研究 在教 育 情境 下人 类 的 学习 、 教育 干预 的 效果 、 教学 心理 ， 以及 学校 组织 的 社会心理学 。
+Parsing [sent. 10 len. 6]: 吴蕴瑞 ， 体育家 、 教育家 。
+Parsing [sent. 11 len. 15]: 氯丙醇 是 一类 在 化学 制作 豉油 的 过程 中 所 产生 的 致癌物质 。
+Parsing [sent. 12 len. 14]: 1 - 丙醇 是 一 种 有 三 个 碳原子 的 醇类 有机化合物 。
+Parsing [sent. 13 len. 34]: # REDIRECT 氯丙醇 # REDIRECT 氯丙醇 # redirect 蓝宝石 # redirect 红宝石 中华人民共和国文物保护制度 分为 可移动文物 保护 和 不可移动文物 保护 两 个体 系 ， 负责 文物 保护 工作 的 核心 机构 是 各级 文物局 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 14 len. 14]: # 重定向 香港小型巴士 # 绿色专线小巴 何伟途 ， 2004 年 香港立法会选举 的 九龙东 候选人 。
+Parsing [sent. 15 len. 96]: 立法会 可以 指 ： * 香港立法会 * 临时立法会 ： 香港 在 1997 年 至 1998 年 期间 设立 的 临时 立法机构 * 澳门立法会 * 澳门立法会 ( 澳葡 时期 ) ： 澳门 在 葡萄牙 管制 时期 设立 的 立法机关 Category : 三 字 消 歧义 北京大学药学院 ， 始建 于 1941 年 ， 原 为 北京大学医学院 药学系 ； 1952 年 医学院 独立 建 院 ， 随之 改名 为 北京医学院 药学系 ； 1985 年 随 学校 更名 为 北京医科大学 药学院 ， 2000 年 4 月 北京医科大学 与 北京大学 合并 组建 新 的 北京大学 ， 随之 更名 为 北京大学药学院 。
+
+*******************************************************
+***  WARNING!! OUT OF MEMORY! THERE WAS NOT ENOUGH  ***
+***  MEMORY TO RUN ALL PARSERS.  EITHER GIVE THE    ***
+***  JVM MORE MEMORY, SET THE MAXIMUM SENTENCE      ***
+***  LENGTH WITH -maxLength, OR PERHAPS YOU ARE     ***
+***  HAPPY TO HAVE THE PARSER FALL BACK TO USING    ***
+***  A SIMPLER PARSER FOR VERY LONG SENTENCES.      ***
+*******************************************************
+
+Sentence too long for dependency parser.  Falling back to PCFG parse...
+Parsing [sent. 16 len. 14]: 《 沙丘 》 是 一系列 美国 科幻小说 ， 由 作家 弗兰克·赫伯特 所 创作 。
+Parsing [sent. 17 len. 10]: 小行星89959 ( 2002 NT7 ) 是 一 颗 近地小行星 。
+Parsing [sent. 18 len. 84]: 水污染控制 是 控制 向 水体 排放 污染物 的 方法 ， 水污染 主要 有点 污染源 和面 污染源 ， 点 污染源 有 具体 的 污染源 ， 如 工厂 的 排 污 管道 口 ， 比较 容易 治理 ， 只要 控制污染物排放政策 有 足够 的 执法 能力 ， 每种 工业 都 有 具体 的 污染物 ， 都 可以 通过 开发 污染物排放控制技术 控制 住 ， 造成 工业污染 的 主要 原因 是 企业 不愿意 自行 提高 成本 ， 治理 污染 ， 必须 由 政府 和 舆论 强制 其 执行 。
+Sentence too long for dependency parser.  Falling back to PCFG parse...
+Parsing [sent. 19 len. 27]: # REDIRECT 中华人民共和国文物保护制度 多神论 或 多神教 ， 相对 于一 神论 或 一神教 而言 ， 指 崇拜 或 信仰 许多 神 的信 仰 体系 或者 宗教 教条 。
+Parsing [sent. 20 len. 18]: 中巴 可以 是 指 以下 条目 中的 一个 ︰ * 于 中国大陆 ， 对 小型巴士 的 简称 。
+Parsing [sent. 21 len. 10]: 晏阳初 ， 中国 平民教育 家 和 乡村 建设 家 。
+Parsing [sent. 22 len. 19]: 焖子 是 在 流行 于 胶 辽 、 河北 、 河南 和 天津 等地 区 的 特色 小吃 。
+Parsing [sent. 23 len. 27]: 香港地铁 曾经 是 香港 两 大城市 轨道交通系统 之一 ， 已 在 2007 年 12 月 2 日 的 两铁合并 中 ， 和 九广铁路 合并 成 港铁 。
+Parsing [sent. 24 len. 31]: # REDIRECT 弗兰西斯·培根 《 1923 年华 人 移民 法案 》 ， 加拿大华人 称之为 《 排华 法 》 ， 是 加拿大联邦 政府 通过 的 一个 禁止 华人 进入 加拿大 的 法案 。
+Parsing [sent. 25 len. 42]: # REDIRECT 国家历史文化名城 # REDIRECT 南北朝 # REDIRECT 纽西兰 罗大佑 ， 出生于 台湾 台北市 ， 台湾客家人 ， 祖籍 广东 梅县 ， 台湾 知名 男歌手 、 填词人 、 作曲人 、 编曲 、 作家 ， 有 「 华语流行 乐 教父 」 之 称 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 26 len. 36]: # 重定向 1923 年华 人 移民 法 # REDIRECT 罗大佑 国标麻将 ， 是 麻将 的 一 种 玩法 ， 其 规则 为 中国国家体育总局 于 1998 年 7 月 所 制定 ， 故 被 称为 国标麻将 。
+Parsing [sent. 27 len. 27]: ASP .NET 是 由 微软 在 .NET Framework 框架 中 所 提供 ， 开发 Web 应用程式 的 类别 库 ， 封装 在 < code > System .
+Parsing [sent. 28 len. 2]: Web .
+Parsing [sent. 29 len. 15]: dll < / code > 档案 中 ， 显露 出 < code > System .
+Parsing [sent. 30 len. 33]: Web < / code > 命名空间 ， 并 提供 ASP .NET 网页 处理 、 扩充 以及 HTTP 通道 的 应用程式 与 通讯处 理 等 工作 ， 以及 Web Service 的 基础 架构 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 31 len. 46]: 饮水思源BBS ， 全称 为 上海交通大学 饮水思源BBS 站 ， 由 上海交通大学 的 唐 双 意 老师 和 学生 方 哲 、 陶冶 等人 于 1996 年 4 月 18 日 创建 ， 站 名 取 自 上海交通大学 的 校训 「 饮水思源 ， 爱国 荣 校 」 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 32 len. 10]: 单行小程式 是 不多 于一 行 的 电脑程序 或 表达式 。
+Parsing [sent. 33 len. 12]: 儿童色情 是 指 一切 以 儿童 为 对象 的 色情 活动记录 。
+Parsing [sent. 34 len. 9]: 海战 是 双 人 玩 的 猜谜 遊戏 。
+Parsing [sent. 35 len. 16]: 南通大学 , 简称 通 大 ， 是 一 所 位于 中华人民共和国 江苏省 南通市 的 公立大学 。
+Parsing [sent. 36 len. 20]: # REDIRECT 切·格瓦拉 神秘岛 可 指 ： * 神秘岛 ( 小说 ) ， 法国 作家 儒勒·凡尔纳 的 一部 科幻小说 。
+Parsing [sent. 37 len. 28]: 美国众议院议长 是 美国众议院 的 首席 、 主持 美国国会 的 权力 核心 人物 ， 在 美国总统继任顺序 中 ， 众议院 议长 是 继 美国副总统 后 的 第二 顺位 继承人 。
+Parsing [sent. 38 len. 80]: 元惠宗 妥懽贴睦尔 ， 清 刊 《 元史 》 、 清修 《 续资治通鑑 》 改 译 托 欢 特 穆尔 ， 元朝 庙号 为 惠宗 ， 蒙古语 称号 乌 哈 噶 图 汗 ， 明朝 諡号 为 顺 皇帝 ， 又称 至正 帝 ， 庚申帝 ， 庚申君 ， 元朝 第十 一 位 皇帝 ， 蒙古帝国 第十五 位 大汗 ， 他 是 元朝 北逃 前 的 最后 一 位 皇帝 ， 之后 以 他 为首 的 北元 继续 与 明朝 对峙 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 39 len. 32]: 蛋 ， 是 鸟类 、 爬虫类 和 两栖动物 所生 、 带有 硬壳 的 卵 ， 受精 之后 可 孵 出 小 动物 ， 为人 类 食用 已 有 几 千年 历史 。
+Parsing [sent. 40 len. 37]: # REDIRECT 鸡蛋 收费道路 是 对 使用者 收取 的 公共 或 私人 道路 ， 为 的 模式 之一 ， 主要 是 为了 弥补 道路 的 建设 与 维护 经费 ， 等同 一 种 公路 的 税收 。
+Parsing [sent. 41 len. 27]: 藏人行政中央 ， 常 称 西藏流亡政府 ， 将 自身 表述 为 合法 代表 西藏 与 藏族 的 政府 ， 但 现今 尚未 被 任何 主权国家 所 承认 。
+Parsing [sent. 42 len. 34]: # REDIRECTSelf 帕特里克·聚斯金德 ， 生于 德国 巴伐利亚 明辛格 ， 是 知名 小说作家 、 剧作家 及 电影 、 电视 编剧 ， 以 1985 年 出版 的 畅销 小说 作品 《 香水 》 而 广为人知 。
+Parsing [sent. 43 len. 13]: # REDIRECT Pascal _ ( 程式语言 ) 圣劳伦斯河 是 北美 的 河流 。
+Parsing [sent. 44 len. 23]: # REDIRECT Java # REDIRECT A + # REDIRECT 高级语言 高级 编程语言 是 高度 封装 了 的 编程语言 ， 与 低级语言 相对 。
+Parsing [sent. 45 len. 21]: 中国共产党中央军事委员会主席 ， 简称 中共中央军委主席 、 中央军委主席 ， 是 中国共产党 最高 军事 领导人 ， 是 中华人民共和国 实际上 的 最高 军队 统帅 。
+Parsing [sent. 46 len. 21]: 艾迪·亚当斯 ， 是 一 位 美国 着名 的 摄影记者 ， 他 拍摄 的 许多 战争 题材 的 照片 非常 有名 。
+Parsing [sent. 47 len. 15]: 桑德罗·波提切利 ， 原名 亚历桑德罗 · 菲利佩 皮 是 欧洲 文艺复兴早期 的 佛罗伦萨 画派 艺术家 。
+Parsing [sent. 48 len. 13]: 挪威国旗 由 靛蓝 色 十字架 加上 白色 边和 周围 的 红色 组成 。
+Parsing [sent. 49 len. 27]: # REDIRECT 中华人民共和国中央军事委员会主席 # REDIRECT 蛋挞 Haskell 是 一 种 标准化 的 ， 通用 的 纯 函数程式语言 ， 有 非 限定 性 语义 和 强 静态类型 。
+Parsing [sent. 50 len. 28]: # REDIRECT 四五运动 # REDIRECT 新泽西州 # REDIRECT 纽约州 宝马山双尸案 是 香港 轰动一时 的 童党 谋杀 事件 ， 涉及 一对 英国 籍 情侣 被 打死 及 奸杀 。
+Parsing [sent. 51 len. 20]: # REDIRECT 宝马山双尸案 Category : 香港 曾 入狱 者 加拿大历史 可 追溯 至大 约 33 , 000 年 前 。
+Parsing [sent. 52 len. 22]: 中华人民共和国 拥有 一个 多样化 的 通信系统 ， 连接 该国 所有 地区 的 互联网 、 电话 、 电报 、 电台 和 电视台 。
+Parsing [sent. 53 len. 34]: # REDIRECT 索伦·奥贝·克尔凯郭尔 自助旅遊 是 不 完全 依赖 旅行社 套装 行程 的 一 种 旅遊 方式 ， 也就是说 完全 由 旅行者 自行 安排 交通 ， 住宿 ， 以及 想 要 参观 的 景点 。
+Parsing [sent. 54 len. 42]: 旅行社 是 公司 行业 的 一 种 ， 营运 项目 通常 包括 了 各种 交通运输 票券 、 住宿 、 套装 行程 、 旅行 保险 、 旅行 书籍 等 的 销售 ， 与国 际 旅行 所 需 的 证照 的 谘询 代办 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 55 len. 18]: 半自助旅遊 是 指 旅遊 行程 的 部分 由 旅行社 安排 ， 部分 自己 安排 的 旅遊 方式 。
+Parsing [sent. 56 len. 28]: 狮子头 又名 砂 煱 狮子头 、 葵花 肉丸 、 扬州 赞 肉 、 葵花 斩 肉 ， 是 中国 江苏省 扬州 等地 淮扬菜系 中的 一道 传统 菜 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 57 len. 10]: # REDIRECT 淮扬菜 觉囊派 是 藏传佛教 的 一个 分支 。
+Parsing [sent. 58 len. 11]: 机票 是 搭乘 飞机 时 所 需 的 交通 票据 。
+Parsing [sent. 59 len. 15]: # REDIRECT 觉囊派 # REDIRECT 教育学 霍元甲 ， 字 俊 卿 ， 清末 武术家 。
+Parsing [sent. 60 len. 29]: 宇宙语言学 ( Cosmic Linguistics 、 Exolinguistics ) ， 又名 外星语言学 ( Xenolinguistics ) ， 是 语言学 里 的 一个 特殊 科目 ， 主要 研究 外星 族群 的 宇宙语言 。
+Parsing [sent. 61 len. 44]: < span style = " display : none ; " > < / span > 傅铁山 主教 ， 圣名 弥额尔 ， 生于 中国 河北省 清苑县 谢庄 ， 生前 是 中国天主教 三自爱国教会 自选自圣 的 天主教北京教区 正权主教 ， 曾任 中国天主教爱国会 主席 、 第十届全国人大常委会 副 委员长 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 62 len. 29]: 宇宙语言 ， 又称 为 宇际语 言 ， 是 一 种 在 1960 年 由 荷兰 数学家 和 天文学家 弗勒 登 塞尔 博士 提出 的 一 种人 工 语言 。
+Parsing [sent. 63 len. 27]: Maya 是 相当 高阶 而且 复杂 的 三维计算机图形软体 ， 被 广泛 用于 电影 、 电视 、 广告 、 电脑遊戏 和 电视遊戏 等 的 数码 特效 创作 。
+Parsing [sent. 64 len. 43]: # REDIRECT Maya 殷墟 是 中国 商朝 晚期 都城 遗址 ， 年代 约 为公 元 前14世纪 末 至 前11世纪 中叶 ， 位于 河南 安阳市 西北 殷都区 小 屯 村 周围 ， 由 殷墟 王陵 遗址 与 殷墟宫殿宗庙遗址 、 洹北商城遗址 等 共同 组成 。
+Parsing [sent. 65 len. 33]: 泽西 ， 英国 王冠属地 ， 位于 诺曼地半岛 外海 20 公里 处 的 海面 上 ， 是 英吉利海峡 靠近 法国 海岸线 的 海峡群岛 里 ， 面积 与 人口数 都 最 大 的 一座 。
+Parsing [sent. 66 len. 24]: # 重定向 泽西 # REDIRECT 马其顿 # REDIRECT 斯科普里 舟山市 是 中华人民共和国 浙江省 下辖 的 地级市 ， 其 行政区域 范围 为 整个 舟山群岛 。
+Parsing [sent. 67 len. 20]: # REDIRECT 正定县 山海关区 是 秦皇岛市 的 一个 市辖区 ， 距 市区 约 15 千米 ， 以 山海关 命名 。
+Parsing [sent. 68 len. 29]: _ _ NOTOC _ _ 顺义区 是 北京市 下辖 的 市辖区 ， 位于 北京市 东北部 ， 毗邻 城六区 内 的 朝阳区 ， 面积 1021 平方公里 ， 常住人口 100 .
+Parsing [sent. 69 len. 7]: 4 万 人 ， 户籍人口 61 .
+Parsing [sent. 70 len. 4]: 5 万 人 。
+Parsing [sent. 71 len. 16]: 塘沽区 是 原 中华人民共和国 天津市 下辖 的 一个 市辖区 ， 现 为 滨海新区 的 核心区 。
+Parsing [sent. 72 len. 11]: 武清区 是 中国 天津市 的 市辖区 ， 位于 东经 117 .
+Parsing [sent. 73 len. 6]: 0 ° ， 北纬 39 .
+Parsing [sent. 74 len. 38]: 3 ° ， 在 天津市 西北 ， 北运河 畔 ， 西面 和 背面 邻 河北省 廊坊市 ， 西北 接 北京市通州区 ， 东面 和南 面 是 天津市 的 四 个 区 县 ， 主要 是 宝坻区 和 北辰区 。
+Parsing [sent. 75 len. 39]: 杏花岭区 是 山西省 太原市 下辖 的 一个 市辖区 ， 是 1998 年 区划 调整 时 ， 在 原 北 城区 的 基础 上 组建 的 新区 ， 面积 170 平方公里 ， 人口 55 万 ， 区政府 驻 胜利街 。
+Parsing [sent. 76 len. 36]: 株洲市 是 中华人民共和国 湖南省 下辖 的 地级市 ， 位于 湖南省 东部 ， 古称 建宁 ， 湖南省 第二 大城市 ， 国家 两 型 社会 综合配套改革试验区 、 中国 首批 重点 建设 的 八 个 工业城 市 之一 。
+Parsing [sent. 77 len. 20]: 训诂学 是 中国传统 研究 古书 中词 义 的 学科 ， 是 中国传统 的 语文学 —— 小学 的 一个 分支 。
+Parsing [sent. 78 len. 50]: # REDIRECT 河南省 # REDIRECT 法国共和历 # REDIRECT 中国中央电视台 是 总部 位于 新加坡 的 着名 跨国 中医药 材 和 中成药 制作 与 零售 企业 ， 公司 成立 于 1879 年 ， 拥有 上百 年历 史 ， 业务 遍及 新加坡 、 马来西亚 、 香港 、 美国 、 台湾 和 中国大陆 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 79 len. 17]: # REDIRECT 四书五经 Adobe Animate 是 由 Adobe Systems 开发 的 多媒体 创作 和 电脑动画 程式 。
+Parsing [sent. 80 len. 31]: 脑震荡 是 一 种 常见 而 较 轻微 的 脑部 创伤 病症 ， 指 病人 因为 意外 或 头部 被 猛烈 撞击 使 脑部 受 震 而 引发 的 综合症 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 81 len. 22]: 加拿大 的 政治 体系 是 根据 议会民主制 以及 联邦制 所 设立 的 框架 之内 运作 ， 具有 深厚 的 民主 传统 。
+Parsing [sent. 82 len. 25]: # REDIRECT 逻辑编程 逻辑编程 是 种 编程典范 ， 它 设定 答案 须 符合 的 规则 来 解决问题 ， 而 非 设定 步骤 来 解决问题 。
+Parsing [sent. 83 len. 32]: # REDIRECT 专家系统 速记 是 一 种 用 符号 快速 记录 语言 的 方法 ， 通过 速记 符号 记录 的 音节 信息 ， 并 利用 缩 略 符号 提高 记录 效率 。
+Parsing [sent. 84 len. 10]: # REDIRECT 东京迪士尼乐园 浦安市 是日 本 千叶县 的 城市 。
+Parsing [sent. 85 len. 12]: 孝感市 是 中华人民共和国 湖北省 下辖 的 地级市 ， 位于 湖北省 东北部 。
+Parsing [sent. 86 len. 10]: Adobe Dreamweaver 是 Adobe 公司 的 网站 开发 软体 。
+Parsing [sent. 87 len. 23]: 欧拉公式 是 在 复分析 领域 的 公式 ， 将 三角函数 与 复数 指数函数 相关 联 ， 因 其 提出者 莱昂哈德·欧拉 而 得名 。
+Parsing [sent. 88 len. 23]: 资产测查补助 ( means - testing benefits ) 是 指 鉴定 福利 申请者 是否 符合 获得 某 项 服务 的 资格 的 过程 。
+Parsing [sent. 89 len. 41]: # REDIRECT 2004 年 夏季奥林匹克运动会 黄志雄 ， 中华民国 中国国民党 新北市 政治人物 ， 国立华侨实验高级中学 体育 班 毕业 ， 中国文化大学 运动 教练 研究所 硕士 ， 中国文化大学 体育 系 国术 组学 士 ， 国立体育大学 教练 研究所 博士班 修 读 中 ， 跆拳道 选手 。
+Parsing [sent. 90 len. 27]: 所谓 媒介语 ， 是 指 为了 机器翻译 的 需要 ， 人工 所 创造 出来 的 一 种 提供 在 不同 语言 之间 交流 用 的 演算法 。
+Parsing [sent. 91 len. 22]: 十二铜表法 ， 是 古罗马 在 约 前450年 制定 的 法律 ， 因为 刻 在 12 块 铜牌 上 ， 故而 得名 。
+Parsing [sent. 92 len. 29]: # REDIRECT 杨千嬅 微分几何 研究 微分流形 的 几何性质 ， 是 现代 数学 中一 主流 ； 是 广义相对论 的 基础 ， 与 拓扑学 、 代数几何 及 理论物理 关系 密切 。
+Parsing [sent. 93 len. 13]: # REDIRECT 碎形 可见光 是 电磁波谱 中人 眼 可以 看见 的 部分 。
+Parsing [sent. 94 len. 20]: # REDIRECT 加齐·亚瓦尔 阳泉市 是 中华人民共和国 山西省 下辖 的 地级市 ， 位 于山 西 省 东部 ， 太行山脉 西侧 。
+Parsing [sent. 95 len. 19]: 榆次区 是 中国 山西省 晋中市 下辖 的 一个 市辖区 ， 晋中市 政府 的 驻地 ， 位于 山西省 中部 。
+Parsing [sent. 96 len. 17]: 昔阳县 在 中国 山西省 北部 、 太行山 西 麓 ， 是 晋中市 下属 的 一个 县 。
+Parsing [sent. 97 len. 12]: 大煮干丝 是 淮扬菜系 中的 一道 菜 ， 又称 为 扬州 干丝 。
+Parsing [sent. 98 len. 19]: 卤化银 ： 卤素 与 银元 素 形成 的 盐 因为 具有 相似 化学性质 而 被 统称 为 卤化银 。
+Parsing [sent. 99 len. 18]: 长治市 是 中华人民共和国 山西省 下辖 的 地级市 ， 地处 山西省 东南部 ， 太行山 、 太 岳山 之间 。
+Parsing [sent. 100 len. 14]: 长治 可以 指 ： * 长治市 ， 中华人民共和国 山西省 下辖 的 一个 地级市 。
+Parsing [sent. 101 len. 50]: 晋城市 是 中华人民共和国 山西省 下辖 的 地级市 ， 位于 山西省 东南部 ， 居 晋城 盆地 中央 ， 丹河 及 沁河 中下游 ， 历史 上 曾 有 建兴郡 、 建州 、 泽州 、 泽州府 等 名称 ， 现 辖 一 区 一 市 四县 ， 与 古 泽州府 版图 吻合 。
+Parsing [sent. 102 len. 12]: 曲沃县 位于 山西省 南部 ， 是 临汾市 下辖 的 一个 县 。
+Parsing [sent. 103 len. 12]: 吕梁市 是 中华人民共和国 山西省 下辖 的 地级市 ， 位于 山西省 西部 。
+Parsing [sent. 104 len. 30]: 忻州市 是 中华人民共和国 山西省 下辖 的 地级市 ， 位 于山 西 省中 北部 ， 西 隔 黄河 与 陕西 、 内蒙古 相望 ， 东 临 太行山 与 河北省 接壤 。
+Parsing [sent. 105 len. 19]: 朔州市 是 中华人民共和国 山西省 下辖 的 地级市 ， 位于 山西省 西北部 ， 大同盆地 西南 端 ， 桑干河 上游 。
+Parsing [sent. 106 len. 18]: 宁夏省 ， 简称 宁 ， 是 中华民国大陆时期 新 置 的 13 个 省份 之一 ， 属于 塞北四省 。
+Parsing [sent. 107 len. 61]: 乌海市 m = ᠦ ᠬ ᠠ ᠢ < br / > ᠬ ᠣ ᠲ ᠠ | k = Ү х а й х о т | z = Wuhai hot } } ） } 是 中华人民共和国 内蒙古自治区 下辖 的 地级市 ， 位于 内蒙古 西部 ， 地处 黄河 上游 ， 乌兰布和沙漠 边缘 ， 总面积 1 , 669 平方公里 ， 人口 55 .
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 108 len. 3]: 58 万 。
+Parsing [sent. 109 len. 29]: 通辽市 是 中华人民共和国 内蒙古自治区 下辖 的 地级市 ， 前身 为 哲里木盟 ， 位于 内蒙古 东南部 ， 松辽平原 西部 边缘 ， 科尔沁草原 和 「 黄金 带 」 西辽河 冲积平原 。
+Parsing [sent. 110 len. 104]: 鄂尔多斯市 m = ᠣ ᠷ ᠳ ᠣ ᠰ < br / > ᠬ ᠣ ᠲ ᠠ | k = О р д о с х о т | ZMH = Ordos xota } } ） } 是 中华人民共和国 内蒙古自治区 下辖 的 地级市 ， 位于 内蒙古自治区 西南部 ， 前身 为 伊克昭盟 m = ᠶ ᠡ ᠬ ᠡ < br / > ᠵ ᠤ ᠤ < br / > ᠠ ᠶ ᠢ ᠮ ᠠ ᠭ | k = И х З у у а й м а г | ZMH = Yexe Juu | PS = Ih J û û Aimag } } ） } 。
+Sentence too long for dependency parser.  Falling back to PCFG parse...
+Parsing [sent. 111 len. 65]: 呼伦贝尔市 m = ᠺ ᠥ ᠯ ᠦ ᠨ < br / > ᠪ ᠦ ᠢ ᠷ < br / > ᠬ ᠣ ᠲ ᠠ | k = Х ө л ү н Б у й и р х о т | Ppp = H ö l ü n buyir qota } } ） } 是 中华人民共和国 内蒙古自治区 下辖 的 地级市 ， 位于 内蒙古自治区 东部 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 112 len. 56]: 乌兰察布市 m = ᠤ ᠯ ᠠ ᠭ ᠠ ᠨ ᠴ ᠠ ᠪ < br / > ᠬ ᠣ ᠲ ᠠ | k = У л а а н ц а в х о т | ZMH = Ula ɣ ancab qota } } ） } 是 中华人民共和国 内蒙古自治区 下辖 的 地级市 ， 位于 内蒙古 中部 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 113 len. 57]: 巴彦淖尔市 m = ᠪ ᠠ ᠶ ᠠ ᠨ ᠨ ᠦ ᠦ ᠷ < br / > ᠬ ᠣ ᠲ ᠠ | k = Б а я н н у у р х о т | z = Bayannuur hot } } ） } 是 中华人民共和国 内蒙古自治区 下辖 的 地级市 ， 位于 内蒙古 西部 ， 黄河 北岸 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 114 len. 12]: 兴安盟 是 中华人民共和国 内蒙古自治区 下辖 的 盟 ， 位于 内蒙古自治区 东北部 。
+Parsing [sent. 115 len. 146]: 兴安 ， 可以 指 ： * 兴安盟 ， 中国 内蒙古自治区 下辖 的 一个 盟 * 兴安区 ， 中国 黑龙江省 鹤岗市 辖区 * 兴安县 ， 中国 广西壮族自治区 下辖 的 一个 县 * 兴安县 ( 消 歧义 ) ， 中国 多 个 同名 县 * 兴安州 ， 中国古代 同名 州 * 兴安府 ( 1357 年 ) ， 元朝 末年 ， 朱元璋 政权 设置 的 府 ， 在 今 安徽省 、 江西省 境 * 兴安府 ， 清朝 的 府 ， 在 今 陕西省 * 兴安省 ， 中华民国 、 中国共产党 曾 设立 的 一 省 ， 已经 并入 中华人民共和国 内蒙古自治区 * 兴安屯垦区 ， 中华民国 东北 政务委员 会 私 设 的 一个 省级 特别区 ， 已经 并入 中华人民共和国 内蒙古自治区 * 兴安 总 省 ， 满洲国 的 一总 省 ， 已经 并入 中华人民共和国 内蒙古自治区 * 兴安省 ( 越南 ) ， 越南 的 一个 省 * 兴安市 ， 越南 兴安省 的 省会 。
+Sentence has no parse using PCFG grammar (or no PCFG fallback).  Skipping...
+Exception in thread "main" java.lang.IllegalStateException: originalWords and sentence of different sizes: 146 vs. 12
+ Orig: ?�w �A �i�H �� �G * ?�w�� �A ��? ?�X�j�۪v? �U? �� �@? �� * ?�w? �A ��? ��?���� ??�� ?? * ?�w? �A ��? ?��?�ڦ۪v? �U? �� �@? ? * ?�w? ( �� �[? ) �A ��? �h ? �P�W ? * ?�w�{ �A ��?�j�N �P�W �{ * ?�w�� ( 1357 �~ ) �A ���� ���~ �A ������ �F? ?�m �� �� �A �b �� �w���� �B ����� �� * ?�w�� �A �M�� �� �� �A �b �� ?��� * ?�w�� �A ��?��? �B ��?�@?�� �� ?�� �� �@ �� �A �w? �}�J ��?�H���@�M? ?�X�j�۪v? * ?�w��?? �A ��?��? ?�_ �F?�e? ? �p ? �� �@? ��? �S?? �A �w? �}�J ��?�H���@�M? ?�X�j�۪v? * ?�w ? �� �A ?�w? �� �@? �� �A �w? �}�J ��?�H���@�M? ?�X�j�۪v? * ?�w�� ( �V�n ) �A �V�n �� �@? �� * ?�w�� �A �V�n ?�w�� �� ��? �C
+ Pars: ?�w�� �O ��?�H���@�M? ?�X�j�۪v? �U? �� �� �A ��_ ?�X�j�۪v? ?�_�� �C
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParserQuery.restoreOriginalWords(LexicalizedParserQuery.java:317)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParserQuery.getBestDependencyParse(LexicalizedParserQuery.java:607)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParserQuery.getBestParse(LexicalizedParserQuery.java:401)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParserQuery.getBestParse(LexicalizedParserQuery.java:375)
+	at edu.stanford.nlp.parser.lexparser.ParseFiles.processResults(ParseFiles.java:272)
+	at edu.stanford.nlp.parser.lexparser.ParseFiles.parseFiles(ParseFiles.java:216)
+	at edu.stanford.nlp.parser.lexparser.ParseFiles.parseFiles(ParseFiles.java:75)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParser.main(LexicalizedParser.java:1518)
+
+D:\Documents\PythonWork\WikipediaWork>cd StanfordParser 
+
+D:\Documents\PythonWork\WikipediaWork\StanfordParser>cht.bat
+Parsing file: test/in.txt
+Parsing [sent. 1 len. 28]: 埃姆林·休斯 ， OBE 是 一名 英格兰 足球运动 员 ， 70 年代 在 利物浦 和 英格兰 担任 队长 ， 被 认为 是 当时 最 出色 的 球员 之一 。
+Parsing [sent. 2 len. 60]: 可以 指 ： * 丑 姓 ， 中文姓氏 * 丑角 ， 中国 戏剧 的 一 种 程式 化 的 角色 行当 * ( 地支 ) ， 十二地支 之一 * 丑 ( 繇 王 ) ， 闽越国 国王 # REDIRECT 国际奥林匹克委员会 # REDIRECT 三K党 # redirect 高血压 金文泰中学 是 一 所 位于 香港 北角 炮台山道 的 第一 组别 传统 名校 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 3 len. 37]: 让-弗朗索瓦·商博良 ， 一 译 尙 波里 庸 ， 是 法国 着名 历史学家 、 语言学家 、 埃及学 家 ， 是 第一 位 识破 古埃及 象形文字 结构 并 破译 罗塞塔石碑 的 学者 ， 从而 成为 埃及学 的 创始人 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 4 len. 204]: # REDIRECT 霹雳州 # REDIRECT 乌拉圭空军571号班机空难 彼得三世 可以 指 ： * 俄国 的 彼得三世 * 葡萄牙 的 彼得三世 * 阿拉贡 的 彼得三世 * 亚历山大 的 彼得三世 # REDIRECT 勾股定理 余弦定理 是 三角形 中三 边长 度 与 一个 角 的 余弦 值 的 数学 式 ， 参考 右 图 ， 余弦定理 指 的是 ： : < math > c ^ 2 = a ^ 2 + b ^ 2 - 2ab \ cos ( \ gamma ) \ , < / math > 同样 ， 也可 以 将 其 改为 ： : < math > b ^ 2 = c ^ 2 + a ^ 2 - 2ca \ cos ( \ beta ) \ , < / math > : < math > a ^ 2 = b ^ 2 + c ^ 2 - 2bc \ cos ( \ alpha ) \ , < / math > 其中 < math > c < / math > 是 < math > \ gamma < / math > 角 的 对边 ， 而 < math > a < / math > 和 < math > b < / math > 是 < math > \ gamma < / math > 角 的 邻 边 。
+
+*******************************************************
+***  WARNING!! OUT OF MEMORY! THERE WAS NOT ENOUGH  ***
+***  MEMORY TO RUN ALL PARSERS.  EITHER GIVE THE    ***
+***  JVM MORE MEMORY, SET THE MAXIMUM SENTENCE      ***
+***  LENGTH WITH -maxLength, OR PERHAPS YOU ARE     ***
+***  HAPPY TO HAVE THE PARSER FALL BACK TO USING    ***
+***  A SIMPLER PARSER FOR VERY LONG SENTENCES.      ***
+*******************************************************
+
+Sentence has no parse using PCFG grammar (or no PCFG fallback).  Skipping...
+Exception in thread "main" java.lang.IllegalStateException: originalWords and sentence of different sizes: 204 vs. 37
+ Orig: # REDIRECT �R?�{ # REDIRECT ?�Ԧc��?571?�Z���? ���o�T�@ �i�H �� �G * �X? �� ���o�T�@ * ����� �� ���o�T�@ * ����? �� ���o�T�@ * ??�s�j �� ���o�T�@ # REDIRECT �Īѩw�z �E���w�z �O �T���� ���T ?? �� �O �@? �� �� �E�� �� �� ?? �� �A ?�� �k ? �A �E���w�z �� ���O �G : < math > c ^ 2 = a ^ 2 + b ^ 2 - 2ab \ cos ( \ gamma ) \ , < / math > �P? �A �]�i �H ? �� ��? �G : < math > b ^ 2 = c ^ 2 + a ^ 2 - 2ca \ cos ( \ beta ) \ , < / math > : < math > a ^ 2 = b ^ 2 + c ^ 2 - 2bc \ cos ( \ alpha ) \ , < / math > �䤤 < math > c < / math > �O < math > \ gamma < / math > �� �� ?? �A �� < math > a < / math > �M < math > b < / math > �O < math > \ gamma < / math > �� �� ? ? �C
+ Pars: ?-���ԯ��ˡP�ӳը} �A �@ ? ? �i�� �e �A �O �k? ?�W ?�v?�a �B ?��?�a �B �J��? �a �A �O �Ĥ@ �� ?�} �j�J�� �H�Τ�r ?�� �} �}? ?���۸O �� ?�� �A ?�� ��? �J��? �� ?�l�H �C
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParserQuery.restoreOriginalWords(LexicalizedParserQuery.java:317)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParserQuery.getBestDependencyParse(LexicalizedParserQuery.java:607)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParserQuery.getBestParse(LexicalizedParserQuery.java:401)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParserQuery.getBestParse(LexicalizedParserQuery.java:375)
+	at edu.stanford.nlp.parser.lexparser.ParseFiles.processResults(ParseFiles.java:272)
+	at edu.stanford.nlp.parser.lexparser.ParseFiles.parseFiles(ParseFiles.java:216)
+	at edu.stanford.nlp.parser.lexparser.ParseFiles.parseFiles(ParseFiles.java:75)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParser.main(LexicalizedParser.java:1518)
+
+D:\Documents\PythonWork\WikipediaWork>cd StanfordParser 
+
+D:\Documents\PythonWork\WikipediaWork\StanfordParser>cht.bat
+Parsing file: test/in.txt
+Parsing [sent. 1 len. 18]: 分时度假 是 指 一个人 在 每年 的 特定 时期 对 某个 度假 资产 所 拥有 的 使用权 。
+Parsing [sent. 2 len. 14]: 拉 茨 科维 奇 · 米克 洛什 ， 匈牙利 数学家 ， 生于 布达佩斯 。
+Parsing [sent. 3 len. 25]: 肌红蛋白 中的 螺旋体 模型 ， 反应 出 横纹肌溶解症 使 联接 到 肾 的 蛋白质 破损 横纹肌溶解症 是 一 种人 体 肌肉细胞 坏死 的 疾病 。
+Parsing [sent. 4 len. 19]: 华勒斯·波埃伊·格维也纳定理 指 和 塔斯基分割圆问题 不同 ， 此 证明 不但 无 必要 使用 选择公理 ， 而且 可以 真实 进行 。
+Parsing [sent. 5 len. 19]: 游击手 指 的是 在 棒球 或 垒球 比赛 中 ， 负责 防守 二 、 三垒 间 的 球员 。
+Parsing [sent. 6 len. 13]: 白尾尖镰嘴蜂鸟 在 生物分类学 上 是 蜂鸟科 隐 蜂鸟 亚科 中的 一个 种 。
+Parsing [sent. 7 len. 25]: # Redirect 香港增补字符集 色情 、 明信片 、 相片 、 雕刻 成像 、 绘图 、 动态影像 或 动画 、 录音 及 成音 、 电子遊戏 等 。
+Parsing [sent. 8 len. 54]: 司法院大法官 ， 是 中华民国 依照 《 中华民国宪法 》 于 最高司法机关 —— 司法院 中 所 设置 ， 具有 「 解释宪法 」 、 「 统一 解释 法律 及 命令 」 之 职务 、 审理 「 政党 违宪 解散 案 」 及 「 总统 、 副总统 弹劾 案 」 权限 之 常设 机关 ， 相当于 宪法法院 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 9 len. 19]: 大法官 可以 指 ： # REDIRECT 中国传统建筑 翁岳生 ， 台湾 嘉义县 义竹乡 人 ， 曾任 中华民国司法院院长 及 司法院大法官 。
+Parsing [sent. 10 len. 40]: 许国石坊 又称 大学士 坊 ， 俗称 八 脚 牌楼 ， 座落 于 中国 安徽省 歙县 县城 中和 街 与 打 箍 井 街 十字街 口 ， 东谯楼 东侧 ， 系 明朝 万历 十二 年 为 武英殿大学士 许国 所 建 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 11 len. 19]: # REDIRECT 台北市立景美女子高级中学 福音书 是以 记述 耶稣 生平 与 复活 事蹟 为主 的 文件 、 书信 与 书籍 。
+Parsing [sent. 12 len. 36]: 主显节 ， 正教 称为 洗礼 节 ， 新教 称为 显现日 ， 是 一个 基督教 的 重要 庆 日 ， 以 纪念 及 庆祝 主耶稣 基督 在 降生 为人 后首 次 显露 给 外 邦 人 。
+Parsing [sent. 13 len. 71]: # redirect 节礼日 # 重定向 妈祖庙 # redirect 南方公园 # REDIRECT 南海区 # REDIRECT 南方公园 # REDIRECT 南方公园 # 重定向 无机化学 # 合成 方法 # 重定向 无机化学 # 合成 方法 指数函数 是 形式 为 < math > b ^ x < / math > 的 数学函数 ， 其中 < math > b < / math > 是 底数 ， 而 < math > x < / math > 是 指数 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 14 len. 12]: 河间市 是 中华人民共和国 河北省 的 一个 县级市 ， 由 沧州市 代管 。
+Parsing [sent. 15 len. 84]: 大名 可以 指 ： * 大名 ( 称谓 ) ， 日本 古代 封建领主 的 称谓 * 汉语 中 对方 名字 的 敬称 * 大名府 ， 中国 北宋 的 陪都 ， 在 今天 的 河北省 邯郸市 大名县 * 大名路 ， 元朝 将 大名府 改 置 大名路 * 大名县 ， 中国 河北省 邯郸市 所 辖 的 一个 县 * 大名 町 ， 日本 福冈县 福冈市 中央区 的 一个 町 《 南方公园 》 是 由 特雷·帕克 和 马特·斯通 为 美国 喜剧中心 创作 的 成人动画 情景喜剧 剧集 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 16 len. 15]: # REDIRECT 黄石国家公园 核力 是 「 强核力 」 和 「 弱核力 」 的 总称 。
+Parsing [sent. 17 len. 14]: 海因里希六世 Heinrich VI ， 霍亨斯陶芬王朝 的 罗马人 的 国王 和 神圣 帝国 皇帝 。
+Parsing [sent. 18 len. 48]: # REDIRECT 新加坡航空 《 ID4 星际终结者 》 是 一部 于 1996 年 上映 的 美国 科幻 动作电影 ， 罗兰·艾默瑞奇 身 兼 导演 及 联合 编剧 ， 演员 包含 威尔·史密斯 、 比尔·普曼 、 杰夫·高布伦 、 、 、 玛格丽特·柯林 、 兰迪 · 奎 德 、 、 詹姆斯·瑞布霍恩 和 等人 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 19 len. 40]: # redirect 圆 阿尼哥 ， 又 作 阿尔尼格 ， 号 西 轩 ， 中国元 朝 时 建筑 、 雕塑 大师 ， 尼婆罗 人 ， 幼年 时 开始 学习 梵文 和 工艺 制造 技术 ， 擅长 雕像 和 建造 佛塔 。
+Parsing [sent. 20 len. 14]: 约翰 ， 若望 或 若翰 是 一个 在 欧美 常见 的 男性 名字 。
+Parsing [sent. 21 len. 11]: # redirect 波希米亚 亨利六世 兰开斯特王朝 的 最后 一 位 英格兰国王 。
+Parsing [sent. 22 len. 19]: # REDIRECT 亨利六世 ( 英格兰 ) 利奥三世 ， 可能 是 如下 历史人 物 ： * 利奥三世 ， 罗马教宗 。
+Parsing [sent. 23 len. 19]: # 重定向 若望·保禄二世 利奥三世 ， 717 年 建立 伊苏里亚王朝 ， 717 年 至 741 年 在位 为 东罗马帝国皇帝 。
+Parsing [sent. 24 len. 55]: 利奥一世 ， 可能 为 以下 历史人 物 ： * 罗马教宗 利奥一世 * 利奥一世 ( 拜占庭 ) ， 东罗马帝国皇帝 * 利奥一世 ( 亚美尼亚 ) ， 奇里乞亚亚美尼亚公国 亲王 新不列颠岛 是 巴布亚纽几内亚 俾斯麦群岛 的 主要 岛屿 之一 ， 介乎 主 岛 与 新 爱尔兰 之间 ， 面积 36 , 520 平方公里 ， 是 世界 第 39 大岛 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 25 len. 63]: # REDIRECT 利奥三世 利奥波德二世 ， 可能 是 如下 历史人 物 ： * 利奥波德二世 ( 比利时 ) 是 比利时国王 * 利奥波德二世 ( 神圣罗马帝国 ) 是 神圣罗马帝国皇帝 * 利奥波德二世 ( 奥地利 ) 是 奥地利 王公 * 利奥波德二世 ( 安哈尔特-德绍 ) 是 普鲁士元帅 * 利奥波德二世 ( 托斯卡纳 ) 是 托斯卡纳大公 洛泰尔二世 ， 可能 是 如下 历史人 物 ： * 洛泰尔二世 ( 神圣罗马帝国 ) 是 神圣罗马帝国皇帝 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 26 len. 5]: 洛泰尔二世 罗马人民的国王 和 罗马帝国皇帝 。
+Parsing [sent. 27 len. 7]: 巴本堡王朝 是 奥地利 的 公 王朝 。
+Parsing [sent. 28 len. 25]: # Redirect 洛泰尔二世 ( 神圣罗马帝国 ) # REDIRECT 洛泰尔二世 # redirect : 福布斯 历史 上 ， 卫星 不 总是 一发 现 就 命名 的 。
+Parsing [sent. 29 len. 32]: 柯尼斯堡 即 如今 俄罗斯 加里宁格勒州 首府 加里宁格勒 ， 位于 桑比亚半岛 南部 ， 由 条顿骑士团 北方十字军 于 1255 年 建立 ， 先后 被 条顿骑士团国 、 普鲁士公国 和 东普鲁士 定为 首都 或 首府 。
+Parsing [sent. 30 len. 15]: 郭令智 ， 地质学家 ， 中国 板块构造 和 地体 构造 研究 的 重要 开拓者 之一 。
+Parsing [sent. 31 len. 20]: # REDIRECT 小行星 妙相亭塔 位于 中国北京市 北海公园 西北角 阐 福 寺 西侧 的 一座 八角 攒尖顶 的 亭 中 。
+Parsing [sent. 32 len. 13]: # redirect 辽宁省 陈懿 ， 福建 福州人 ， 中国化 学家 ， 中国科学院院士 。
+Parsing [sent. 33 len. 40]: # REDIRECT 克里特 洞庭湖 位于 中国 湖南省 北部 ， 长江 荆江 河段 以南 ， 是 中华人民共和国 第三 大湖 ， 仅次于 青海湖 、 鄱阳湖 ， 也是 中国 第二 大 淡水湖 ， 和 中国五大淡水湖 之一 ， 面积 3 , 968 平方公里 。
+Parsing [sent. 34 len. 43]: 2004 年 印度洋 大地 震 发生 于 2004 年 12 月 26 日 当地 时间 UTC + 7 上午 7 时 58 分 55 秒 ， 震央 位于 印尼 苏门答腊岛 西 160 千米 ， 震源深度 为 30 千米 ， 矩震级 达到 9 .
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 35 len. 2]: 1 。
+Parsing [sent. 36 len. 25]: 楚 可以 指 ： # redirect 义和团运动 # REDIRECT 八国联军 忒提斯 为 古希腊神话 中的 海洋女神 ， 是 珀琉斯 的 妻子 ， 阿基里斯 的 母亲 。
+Parsing [sent. 37 len. 31]: 卡洛 · 乌尔 巴尼 ， 又 译 乌尔 班 尼 或 厄 巴尼 ， 生于 卡斯特尔普拉尼奥 ， 义大利人 ， 是 首位 确认 SARS 为 一 种 全新 疾病 的 医生 。
+Parsing [sent. 38 len. 23]: PowerBuilder 是 Powersoft 推出 的 可视化 资料库 集成 开发 工具 ， 它 是 一个 专业 的 客户机 ／ 伺服器 应用程序 开发 工具 。
+Parsing [sent. 39 len. 8]: 信宜市 是 中国 广东省 茂名市 下辖 县级市 。
+Parsing [sent. 40 len. 13]: 海鲢目 是 辐鳍鱼类 中的 一个 目 ， 其中 包括 大眼海鲢 、 海鲢 。
+Parsing [sent. 41 len. 8]: 段锡朋 字书 贻 ， 江西 永新 人 。
+Parsing [sent. 42 len. 6]: 桂崇基 ， 江西 贵溪 人 。
+Parsing [sent. 43 len. 28]: # REDIRECT 圣诞节 # redirect 莫里斯尼特 # REDIRECT 里氏地震规模 天水围站 是 香港港 铁西 铁线 的 一座 铁路车站 ， 位于 新界 元朗区 屏山 北部 ， 接驳 轻铁 天水围站 。
+Parsing [sent. 44 len. 41]: 有期徒刑 是 剥夺 犯罪 人一 定期 限 内人 身 自由 的 刑罚 方法 ， 在 中华人民共和国 及 中华民国 称为 有期徒刑 ， 在 香港 和一 些 西方国家 或 地区 称为 有期 监禁 ， 在日 本国 及 大韩民国 称为 有期 惩 役 。
+Parsing [sent. 45 len. 15]: 苏门答腊 是 印尼 最 西面 的 一个 大岛 ， 也是 全球 第六 大岛 屿 。
+Parsing [sent. 46 len. 25]: # redirect 苏联最高苏维埃主席团 披披群岛 是 泰国 的 旅遊 胜地 ， 位于 普吉岛 与 泰国 本土 同样 属于 南部地区 的 甲米府 之间 之 海面 上 。
+Parsing [sent. 47 len. 12]: 查谦 ， 物理学家 ， 教育家 ， 武汉大学 教授 及 物理系 创始人 。
+Parsing [sent. 48 len. 6]: 1980 年代 ， Charles C .
+Parsing [sent. 49 len. 45]: Sibley 利用 用 DNA 交 杂 之 分子生物学 技术 对 鸟类 的 系统 演化 和亲 缘 关系 进行 研究 ， 总共 做 了 12000 份 鸟类 的 DNA -D NA 交 杂 实验 ， 然后 于 1988 -1 993 年 发表 了 一系列 文章 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 50 len. 25]: # redirect 苏门答腊 # redirect 苏门答腊 # Redirect 东莞市 光电效应 是 指 光束 照射 物体 时会 使 其 发射 出 电子 的 物理 效应 。
+Parsing [sent. 51 len. 12]: 马累 ， 是 马尔地夫共和国 的 首都 和人 口 最多 的 城市 。
+Parsing [sent. 52 len. 46]: # REDIRECT 马累 # redirect 10000 # redirect 披披群岛 # REDIRECT 灾害 # Redirect 中国茶文化 冻顶乌龙茶 ， 简称 冻顶茶 ， 是 一 种 知名度 极 高 的 乌龙茶 ， 素有 「 北 包 种 ， 南 冻 顶 」 之 称 ， 冻顶乌龙茶 属于 青茶 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 53 len. 54]: # Redirect 冻顶乌龙茶 # Redirect 冻顶乌龙茶 # Redirect 东方美人茶 # Redirect 东方美人茶 东方美人茶 ， 又名 膨风茶 、 椪风茶 、 福寿 茶 、 旧称 番庄乌龙 ， 客家人 亦 称 其 为 冰 风 茶 、 烟 风 茶 或 称为 蜒 仔 茶 ， 又 因 其 茶芽 白毫 显着 ， 又名 为 白毫乌龙茶 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 54 len. 27]: # Redirect 东方美人茶 出版社 是 指 从事 书籍 、 报纸 及 刊物 出版 ， 通过 经营 获得 利益 、 名声 或者 知识 积累 目标 的 企业 。
+Parsing [sent. 55 len. 19]: # REDIRECT 库尔特·图霍夫斯基 数学标记语言 ， 是 一 种 基于 XML 的 标准 ， 用来 描述 数学符号 和 公式 。
+Parsing [sent. 56 len. 34]: # REDIRECT 库尔特·图霍夫斯基 # REDIRECT 弗朗茨·卡夫卡 戈洛·曼 ， 又 译 葛 楼 · 曼 ， 全名 为 安 格 路斯 · 哥特 佛 莱德 · 托马斯·曼 ， 生于 慕尼黑 ， 逝 于 勒沃库森 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 57 len. 18]: 图书 ， 通常 在 狭义 上 的 理解 是 带有 文字 和 图像 的 纸张 的 集合 。
+Parsing [sent. 58 len. 31]: # redirect 戈洛·曼 布拉格 是 捷克 首都 和 最 大城市 、 欧盟 第十 四大 城市 ， 和历 史 上 波西米亚 的 首都 ， 位于 该国 的 中波希米亚州 、 伏尔塔瓦河 流域 。
+Parsing [sent. 59 len. 32]: 书 ， 又 叫 册 、 籍 等等 ， 是 一 种 纸质 的 阅读 工具 ， 古代 又 有用 骨 、 皮 、 布 、 丝绸 、 竹 等 材料 。
+Parsing [sent. 60 len. 23]: # REDIRECT 弗朗茨·卡夫卡 简单邮件传输协议 ( Simple Mail Transfer Protocol , SMTP ) 是事 实 上 的 在 Internet 传输 email 的 标准 。
+Parsing [sent. 61 len. 15]: # REDIRECT 北马里亚纳群岛 简单网路管理协议 构成 了 网际网路工程工作小组 定义 的 Internet 协议 族 的 一部分 。
+Parsing [sent. 62 len. 16]: 里氏地震规模 ， 亦 称 近震震级 ， 是 一 种 表示 地震规模 大小 的 标 度 。
+Parsing [sent. 63 len. 47]: 射精 ， 是 雄性 动物 交配 行为 时 将 精液 射出 的 反射 性 动作 ， 阴茎 等 雄性 器官 受性 爱 动作 或 自慰 等 刺激 而 兴奋 至极 致 时 ， 生殖系统 管道 的 强烈 收缩 ， 使 精液 随着 射出 体外 的 过程 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 64 len. 23]: 麦加利地震烈度 是 一个 用来 量度 地震烈度 的 单位 ， 也就是说 用来 量化 地震 对 某 一 特定 地点 所 受到 的 影响 。
+Parsing [sent. 65 len. 26]: 谭姓 是 中国 最 常见 的 姓氏 之一 ， 也是 中国 最 古老 的 姓氏 之一 ， 在 《 百家姓 》 中排 第 293 位 。
+Parsing [sent. 66 len. 33]: 纳斯卡线条 是 位于 纳斯卡 沙漠 上 的 巨大 地面 图形 ， 纳斯卡 沙漠 是 一座 高度 干燥 延伸 53 英里 的 高原 ， 在 秘鲁 的 纳斯卡 镇 与 帕尔帕 市 之间 。
+Parsing [sent. 67 len. 57]: # REDIRECT 里氏地震规模 # REDIRECT 里氏地震规模 # REDIRECT 里氏地震规模 约瑟夫二世 ， 可能 为 以下 历史人 物 ： * 约瑟夫二世 ( 神圣罗马帝国 ) 是 神圣罗马帝国皇帝 * 约瑟夫二世 ( 牧首 ) 是 君士坦丁堡牧首 * 约瑟夫二世 ( 亚历山大 教宗 ) 是 亚历山大 教宗 康威生命遊戏 ， 又称 康威 生命棋 ， 是 英国 数学家 约翰·何顿·康威 在 1970 年 发明 的 细胞自动机 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 68 len. 31]: # Redirect 宗主教 约瑟夫二世 是 哈布斯堡 — 洛林 王朝 的 奥地利大公 ， 1764 年成 为 罗马人民的国王 ， 1765 年 加冕 为 神圣罗马帝国皇帝 ， 1780 年 起 也是 匈牙利国王 和 波希米亚国王 。
+Parsing [sent. 69 len. 28]: # redirect 周星驰 利奥波德一世 ， 全名 利奥波德 · 依 格 纳 茨 · 约瑟夫 · 巴尔塔萨 · 费利 西安 ， 哈布斯堡王朝 的 神圣罗马帝国皇帝 及 匈牙利 和 波希米亚国王 。
+Parsing [sent. 70 len. 19]: 血管 是 生物 运送 血液 的 管道 ， 依 运输 方向 可 分为 动脉 、 静脉 与 微血管 。
+Parsing [sent. 71 len. 96]: # REDIRECT IPv6 # redirect 1000 # REDIRECT 里氏地震规模 地震矩 < math > M _ 0 < / math > 是 地震学 家用 来 表示 地震 所 释放 出 之 能量 的 数量 ， 定义 为 : : < math > M _ 0 = \ mu \ times \ bar \ times S < / math > ， 其中 : < math > \ mu < / math > 为 断层 物质 之 刚性 系数 ( rigidity 或 shear modulus ) ， 一般 为 30x10 < sup > 9 < / sup > 帕斯卡 。
+
+*******************************************************
+***  WARNING!! OUT OF MEMORY! THERE WAS NOT ENOUGH  ***
+***  MEMORY TO RUN ALL PARSERS.  EITHER GIVE THE    ***
+***  JVM MORE MEMORY, SET THE MAXIMUM SENTENCE      ***
+***  LENGTH WITH -maxLength, OR PERHAPS YOU ARE     ***
+***  HAPPY TO HAVE THE PARSER FALL BACK TO USING    ***
+***  A SIMPLER PARSER FOR VERY LONG SENTENCES.      ***
+*******************************************************
+
+Sentence has no parse using PCFG grammar (or no PCFG fallback).  Skipping...
+Exception in thread "main" java.lang.IllegalStateException: originalWords and sentence of different sizes: 96 vs. 19
+ Orig: # REDIRECT IPv6 # redirect 1000 # REDIRECT ����a�_?�� �a�_�x < math > M _ 0 < / math > �O �a�_? �a�� ? ���� �a�_ �� ?�� �X �� ��q �� ?�q �A �w? ? : : < math > M _ 0 = \ mu \ times \ bar \ times S < / math > �A �䤤 : < math > \ mu < / math > ? ?? ��? �� ?�� �t? ( rigidity �� shear modulus ) �A �@�� ? 30x10 < sup > 9 < / sup > �����d �C
+ Pars: ��� �O �ͪ� ?�e ��G �� �޹D �A �� ?? ��V �i ��? ?? �B ?? �O �L��� �C
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParserQuery.restoreOriginalWords(LexicalizedParserQuery.java:317)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParserQuery.getBestDependencyParse(LexicalizedParserQuery.java:607)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParserQuery.getBestParse(LexicalizedParserQuery.java:401)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParserQuery.getBestParse(LexicalizedParserQuery.java:375)
+	at edu.stanford.nlp.parser.lexparser.ParseFiles.processResults(ParseFiles.java:272)
+	at edu.stanford.nlp.parser.lexparser.ParseFiles.parseFiles(ParseFiles.java:216)
+	at edu.stanford.nlp.parser.lexparser.ParseFiles.parseFiles(ParseFiles.java:75)
+	at edu.stanford.nlp.parser.lexparser.LexicalizedParser.main(LexicalizedParser.java:1518)
+
+D:\Documents\PythonWork\WikipediaWork>cd StanfordParser 
+
+D:\Documents\PythonWork\WikipediaWork\StanfordParser>cht.bat
+Parsing file: test/in.txt
+Parsing [sent. 1 len. 18]: 蜂 科 是 蜜蜂总科 中 最 大 的 一个 科 ， 涵盖 了 至少 5700 种 蜂 。
+Parsing [sent. 2 len. 47]: 《 中国野生动物园调查报告 》 是 八 位 志愿者 在 调查 了 北京八达岭野生动物世界 、 大兴 野生动物园 、 上海野生动物园 、 广州 番禺 香江野生动物世界 、 深圳野生动物园 、 北京动物园 、 武汉市 动物园 等 二十四 个中 国 的 野生动物园 和 城市 动物园 的 状况 之后 写 出的 关于 动物福利 的 调查 报告 。
+Parsing [sent. 3 len. 17]: # redirect 江苏省苏州实验中学 江苏省苏州实验中学 ， 1994 年 建校 ， 是 南大 苏州 附中 ， 又名 南京大学苏州附属中学 。
+Parsing [sent. 4 len. 13]: # redirect 江苏省苏州实验中学 # redirect 江苏省苏州实验中学 密西西比州 是 美国南部 的 一个 州 。
+Parsing [sent. 5 len. 64]: # redirect 伍迪·艾伦 # 重定向 东西教会大分裂 卡洛斯一世 可以 指 ： * 卡洛斯一世 ( 纳瓦拉 ) ， 纳瓦拉国王 * 卡洛斯一世 ( 西班牙 ) ， 西班牙国王 ， 也是 神圣罗马帝国皇帝 查理五世 * 卡洛斯一世 ( 葡萄牙 ) ， 葡萄牙国王 * 胡安·卡洛斯一世 ， 西班牙国王 # REDIRECT 亚特兰蒂斯 # 重定向 囊鼠科 绿尾虹雉 ， 学名 Lophophorus lhuysii ， 又名 贝母 鸡 、 鹰 鸡 、 火炭 鸡 、 羊 鸡 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 6 len. 15]: 龙岗区 是 深圳 的 一个 市辖区 ， 位于 深圳 东部 ， 辖区 总面积 388 .
+Parsing [sent. 7 len. 7]: 59 平方公里 ， 常住人口 为 205 .
+Parsing [sent. 8 len. 7]: 24 万 ， 其中 户籍人口 47 .
+Parsing [sent. 9 len. 3]: 72 万 。
+Parsing [sent. 10 len. 24]: VxWorks 是 美国 温瑞尔系统 公司 于 1983 年 设计 开发 的 一 种 嵌入式 实时操作系统 ， 是 嵌入式 开发 环境 的 关键 组成部分 。
+Parsing [sent. 11 len. 47]: 薛岳 ， 原名 薛 仰 岳 ， 字 伯陵 ， 中华民国陆军 一级上将 ， 八年抗战 名将 之一 ， 广东 韶关 乐昌 客家人 ， 曾 在 抗日战争 中 取得 多次 对 日 作战 胜利 ， 被 认为 是 「 抗战 中 歼灭 日军 最多 的 中国 将领 」 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 12 len. 15]: 北卡罗来纳州 ， 简称 北卡州 ， 是 位于 美国南部 区域 大西洋 海岸 的 一 州 。
+Parsing [sent. 13 len. 15]: # REDIRECT 威尔士语 北达科他州 ， 简称 北 达州 ， 是 美国中西部 的 一 州 。
+Parsing [sent. 14 len. 10]: 俄亥俄州 位于 美国 中东部 ， 是 五大湖地区 的 组成部分 。
+Parsing [sent. 15 len. 49]: 灵隐寺 ， 又名 云林禅寺 ， 位于 杭州西湖 西北 面 ， 在 飞来峰 与 北高峰 之间 灵隐山 麓 中 ， 是 杭州历史 悠久 、 景色 宜人 的 遊览胜地 ， 中国 最 早 的 佛教寺院 和 中国 十 大古 刹 之一 ， 亦 是 北宋 高僧 济公 的 修行 地 。
+Parsing [sent. 16 len. 18]: # REDIRECT 明尼苏达州 Gopher 是 一个 互联网 上 使用 的 分布 型 的 文件 搜集 获取 网路协议 。
+Parsing [sent. 17 len. 31]: # 重定向 Gopher _ ( 网路协议 ) 琉璃 ， 又称 流离 、 瑠 璃 、 瑠 瓈 ， 璧流离 是 中国古代 对 来自 西域 的 一 种 宝石 的 称呼 。
+Parsing [sent. 18 len. 27]: 灰喜鹊 ， 学名 Cyanopica cyana ， 又名 蓝 鹊 、 灰 鹊 、 马尾 鹊 、 羊 乌 鹊 、 山 喜鹊 、 蓝 膀 喜鹊 。
+Parsing [sent. 19 len. 22]: # redirect 朝鲜汉字 赣江 是 长江 的 第 7 大支 流 ， 江西 的 最 大河 流 ， 南北 纵贯 江西省 。
+Parsing [sent. 20 len. 37]: # redirect 仿生学 # redirect 鱼类学 # redirect 卡尔·林奈 # redirect 共聚焦显微镜 # redirect 藻类学 # redirect 医学寄生虫学 # REDIRECT 汉语 # redirect 武汉市 # redirect 西藏历史 # REDIRECT 奥赛博物馆 中村光 ， 美籍 日本 西洋棋 棋手 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 21 len. 49]: 推手 ， 亦 称 搭手 、 揉 手 、 擖 手 、 比 手 ， 1820 年代 以后 称 推手 ， 是 武术 的 特殊 表现 形式 ， 就是 在 双 人 腕 臂 接触 的 状况 下 所 进行 的 力量 和 攻防 技术 的 全面 体验 。
+Parsing [sent. 22 len. 32]: # REDIRECT 神话世纪 Deutsche Telekom T - View 100 ISDN 影像 电话 视讯电话 是 在 通话 过程 中 双方 都 可以 看到 对方 的实 时 视讯 图象 的 一 种 电话 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 23 len. 18]: 本华·曼德博 又 译 伯努瓦·曼德勃罗 、 曼德 布洛 特 ， 生于 波兰 华沙 ， 法国 、 美国 数学家 。
+Parsing [sent. 24 len. 34]: 万家岭战役 又称 德安 战役 ， 1938 年 于 武汉会战 序列 中 ， 在 万家岭 一带 国民革命军 第九战区 部队 在 指挥官 薛岳 的 率领 下 于 南浔铁路 战场 几近 全歼 日本军 第101师团 与 第106师团 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 25 len. 23]: # REDIRECT 数量级 ( 数 ) 泷川事件 ， 又名 京大事件 ， 是 昭和8年 发生 于 京都帝国大学 的 一起 压制 思想 的 事件 。
+Parsing [sent. 26 len. 23]: # REDIRECT 壁画 三顾茅庐 或 三顾草庐 是 指 东汉末年 刘备 三 次 到 诸葛亮 住处 请 他 出山 辅佐 自己 的 事件 。
+Parsing [sent. 27 len. 13]: # REDIRECT 焚书坑儒 周泰 ， 字 幼 平 ， 九江 下蔡 人 。
+Parsing [sent. 28 len. 37]: 投票 是 决策 的 一 种 方法 ， 典型 的 手法 是 群体 经过 讨论 或 辩论 后 ， 在 特定 纸张 上标 示 出 投票者 的 立场 ， 然后 投 交大 会 作 点 算 。
+Parsing [sent. 29 len. 21]: 发明 是 一 种 独特 的 、 创新 的 有形 或 无形 物 ， 或是 指 其 开发 的 过程 。
+Parsing [sent. 30 len. 18]: 孙传芳 ， 字 馨 远 ， 山东省 泰安县 范镇 人 ， 中华民国军事 将领 ， 直系 领导人 之一 。
+Parsing [sent. 31 len. 37]: # REDIRECT 无差异曲线 # REDIRECT 供给和需求 希拉里·斯旺克 ， 生于 美国 内布拉斯加州 ， 童星 出身 的 美国 女演员 ， 两 度 获得 奥斯卡最佳女主角奖 ， 也是 奥斯卡 史 上 屈指可数 的 「 两 提 两 中 」 优胜者 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 32 len. 49]: # REDIRECT 希拉里·斯旺克 黄飞鸿 ， 原名 锡 祥 ， 字 达 云 ， 号 飞鸿 ， 幼名 飞 熊 ， 籍贯 广东省 广州府 南海县 西樵 岭 西 禄 舟 村 ， 生于 南海县 佛山镇 ， 是 岭南 武术 宗师 及 着名 汉医 ， 南拳 流派 洪拳 的 名家 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 33 len. 18]: # Redirect : 海尔·马里亚姆·门格斯图 门格斯图·海尔·马里亚姆 ， 衣索比亚 军官 、 政治家 、 衣索比亚工人党 总书记 ， 国家元首 、 独裁者 。
+Parsing [sent. 34 len. 22]: # redirect 黄飞鸿 耆那教 ， 是 起源 于 古印度 的 古老 宗教 之一 ， 有 其 独立 的信 仰 和 哲学 。
+Parsing [sent. 35 len. 16]: .NET Framework 3.0 是 微软 为 新一代 操作系统 Windows Vista 而 特别 设计 的 API 。
+Parsing [sent. 36 len. 24]: # redirect 孙传芳 # redirect 中国同盟会 # redirect 武汉会战 # redirect 冯玉祥 # redirect 不明飞行物 贾南德拉·比尔·比克拉姆·沙阿 是 尼泊尔 沙阿 王朝 的 末代 国王 。
+Parsing [sent. 37 len. 14]: 凹版印刷 ， 是 印纹 在 印 版 表面 雕刻 凹下 的 制版 技术 。
+Parsing [sent. 38 len. 33]: # 重定向 贾南德拉 神奈川县 是日 本 的 一级行政区 之一 ， 位于 关东地方 西南 端 ， 东京 以南 ， 西 接 山梨县 和静 冈 县 、 东 滨 东京湾 、 南 滨 相模湾 。
+Parsing [sent. 39 len. 32]: # redirect 威海市 巢寄生 是 某些 鸟类 将 卵 产 在 其他 鸟 的 巢 中 ， 由 其他 鸟 代为 孵化 和 育雏 的 一 种 特殊 的 繁殖 行为 。
+Parsing [sent. 40 len. 21]: 胡汉民 ， 原名 衍 鸿 ， 字 展 堂 ， 号 不匮 室主 ， 清末 民初 广东省 广州府 番禺县 人 。
+Parsing [sent. 41 len. 30]: # redirect 胡汉民 黑旗军 ， 是 19 世纪末 的 以 钦州 人 刘永福 为首 的 一 支 民间 地方 武装 ， 其 人数 大约 为 三 千 人 左右 。
+Parsing [sent. 42 len. 28]: # REDIRECT 铁臂阿童木 刘永福 ， 字 渊 亭 ， 广东 钦州 人 ， 客家人 ， 祖籍 博白 东平 ， 清朝军事 人物 ， 为 黑旗军 领袖 及 创建者 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 43 len. 23]: 南岭 ， 由 越城岭 、 都庞岭 、 萌渚岭 、 骑田岭 、 大庾岭 五 座 山 组成 ， 故 又称 「 五岭 」 。
+Parsing [sent. 44 len. 47]: # redirect 南岭 岭南 ， 广义 是 指 中华人民共和国 在 五岭 之 南 的 地区 和 越南 北部地区 ， 相当于 现在 广东 、 广西 、 海南 及 香港 和 澳门 全境 ， 以及 湖南 及 江西 等 省 的 部分 地区 和 越南 红河三角洲 以北 地区 。
+Sentence couldn't be parsed by grammar.... falling back to PCFG parse.
+Parsing [sent. 45 len. 13]: 南靖县 位于 中国 福建省 南部 ， 是 漳州市 下辖 的 一个 县 。
+Parsing [sent. 46 len. 9]: 云霄县 是 福建省 漳州市 下辖 的 一个 县 。
+Parsing [sent. 47 len. 9]: 石坑崆 又名 莽山 峰 ， 猛 石坑 峰 。
+Parsing [sent. 48 len. 24]: 中国丹霞 包括 贵州 赤水 、 福建 泰宁 、 湖南 崀山 、 广东 丹霞山 、 江西龙虎山 、 浙江 的 江郎山 六处 典型 的 丹霞地貌 。
+Parsing [sent. 49 len. 27]: # redirect 机器人 士大夫 是 古代中国 、 朝鲜 、 越南 、 琉球 对于 社会 上 具有 声望 、 地位 的知 识 分子 和 官吏 之 统称 。
+Parsing [sent. 50 len. 85]: # 重定向 贾南德拉 # redirect 光辉普照 光辉普照 是 一 种 宣传 及 广告 的 技巧 ， 利用 正面 、 高质 量 的 概念 或 信念 ， 例如 对 祖国 、 对 家园 的 爱 ； 对 和平 、 自由 、 光荣 或 名誉 的 渴望 等等 ， 透过 各式 技巧 和 手法 ， 把 想 要 传达 的 概念 给 连结 在一起 ， 并且 让 阅听人 在 没有 验证 或 背景 资料 的 情况 下 就 轻易 接受 或 认同 所 诉求 的 讯息 。
+
+*******************************************************
+***  WARNING!! OUT OF MEMORY! THERE WAS NOT ENOUGH  ***
+***  MEMORY TO RUN ALL PARSERS.  EITHER GIVE THE    ***
+***  JVM MORE MEMORY, SET THE MAXIMUM SENTENCE      ***
+***  LENGTH WITH -maxLength, OR PERHAPS YOU ARE     ***
+***  HAPPY TO HAVE THE PARSER FALL BACK TO USING    ***
+***  A SIMPLER PARSER FOR VERY LONG SENTENCES.      ***
+*******************************************************
+
+Sentence too long for factored parser.  Falling back to PCFG parse...
+Parsing [sent. 51 len. 20]: 于品海 ， 出生于 英属香港 ， 籍贯 山东 ， 现 为 南海 控股 有限公司 及 中国数码信息有限公司 董事会主席 及 最 大股东 。
+Parsing [sent. 52 len. 12]: 布宜诺斯艾利斯 ， 当地 华人 常 略称 为 布宜诺 市 或 布市 。
+Parsing [sent. 53 len. 10]: # redirect 黑马神拼 流行性脑膜炎 又名 流行性脑脊髓膜炎 ， 简称 流脑 。
+Parsing [sent. 54 len. 47]: 南华寺 ， 又称 南华禅寺 ， 曾 名 「 宝林寺 」 、 「 中兴 寺 」 、 「 法 泉 寺 」 等 ， 位于 广东省 韶关市 曲江区 马坝镇 南 4 公里 处 的 曹 溪 畔 ， 俗称 曹溪寺 ， 距离 韶关市 南 约 22 公里 。
+Sentence too long for factored parser.  Falling back to PCFG parse...
+Parsing [sent. 55 len. 20]: 假名 为 日本 独有 的 表音文字 ， 主要 有 平假名 、 片假名 、 万叶假名 等 不同 的 表记 法 。
+Parsing [sent. 56 len. 22]: 名古屋站 是 位于 日本 爱知县 名古屋市 中村区 一个 由 东海旅客铁道 、 日本货物铁道 、 、 名古屋市交通局 等 单位 所 共用 的 铁路车站 。
+Sentence too long for factored parser.  Falling back to PCFG parse...
+Parsing [sent. 57 len. 78]: 惠能 ， 又 作 慧能 ， 俗 姓 卢 ， 是 一 位 汉传佛教 禅宗 祖师 ， 世 称 禅宗六祖 ， 唐宪宗 追 谥 大鉴 禅师 ， 至 宋太宗 加 諡 日 「 大鉴 真空 禅师 」 ， 仁宗 加 諡 日 「 大鉴 真空 普 觉 禅师 」 ， 神宗 加 諡 日 「 大鉴 真空 普 觉 圆 明 禅师 」 ， 元仁宗 加封 「 大鉴 真空 普 觉 圆 明 广 照 禅师 」 。
+Sentence too long for factored parser.  Falling back to PCFG parse...
+Parsing [sent. 58 len. 14]: 韩国外国语大学 ， 2018QS 世界大学排名 世界排名 第 397 名 ， 亚洲 排名 69 名 。
+Parsing [sent. 59 len. 28]: # REDIRECT 二二六事件 拼音加加 是 一 种 拼音 类 的 中文输入法 ， 与 整 句 输入 风格 的 智能狂拼 不同 的是 对词 语 的 处理 特性 较好 。
+Parsing [sent. 60 len. 30]: 吴景帝 孙休 ， 字 子 烈 ， 为 孙权 第六 子 ， 在 父亲 孙权 、 弟 孙亮 后继 任 为 吴国 第三 任 皇帝 ， 在位 六 年 。
+Parsing [sent. 61 len. 18]: 羽毛 是 鸟类 及 一些 兽脚亚目 恐龙 特有 的 结构 ， 是 表皮 的 角质 化 衍生物 。
+Parsing [sent. 62 len. 68]: 李承晩 线 是 历史 上 一 条 中国 、 日本 和 韩国 有 主权 争议 水域 的 分界线 ， 于 1952 年 1 月 18 日 设立 ， 时任 大韩民国总统 李承晚 称为 了 宣示 海洋 主权 范围 及 保卫 当地 的 水产 物 ， 单方面 在 中日 韩 两国 之间 的 东海 及 日本海 公海 海域 上 划定 这 条 界线 ， 并 禁止 外籍 渔船 闯入 。
+Sentence too long for factored parser.  Falling back to PCFG parse...
+Parsing [sent. 63 len. 18]: # REDIRECT 发明 # REDIRECT 斯大林格勒战役 山东半岛 ， 是 中国 第一 大半 岛 ， 位于 山东省 东部 。
+Parsing [sent. 64 len. 42]: # REDIRECT 道格拉斯·麦克阿瑟 # REDIRECT 道格拉斯·麦克阿瑟 胶东半岛 ， 简称 胶东 ， 指 中国 山东省 境内 胶莱河 以东 地区 ， 包括 烟台 、 威海 全部 和 青岛 的 东部 ， 是 山东半岛 的 主要 部分 ， 北面 与 辽东半岛 隔 渤海湾 相望 。
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+zhwikiPreserve_0001.xml
+zhwikiPreserve_0002.xml
+zhwikiPreserve_0003.xml
+zhwikiPreserve_0004.xml
+zhwikiPreserve_0005.xml
+zhwikiPreserve_0006.xml
+zhwikiPreserve_0007.xml
+zhwikiPreserve_0008.xml
+zhwikiPreserve_0009.xml
+zhwikiPreserve_0010.xml

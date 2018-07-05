@@ -14,7 +14,9 @@ replace_dict = {"&lt;": "<",
 				"&gt;": ">", 
 				"'''": "", 
 				"''": "",
-				"-{}-": ""}
+				"-{}-": "",
+				"</text>": "",
+				"</revision>": ""}
 
 def tag_clear(content, tagTrigger, tagLeft, tagRight, d_left):
 	while content.find(tagTrigger) != -1:
@@ -99,6 +101,7 @@ for dirPath, dirName, fileNames in os.walk(dump_folder):
 				content = re.sub("-{.*?}-", zh_hans, content)
 				content = re.sub("-{T.*?}-", "", content)
 				content = re.sub("{{ruby-py\|(.*?)\|.*?}}", lambda m: m.group(1), content)
+				content = re.sub("<sha1>.*?</sha1>", "", content)
 				content = tag2_clear(content, "ref")
 				content = tag_clear(content, "{{", "{", "}", 2)
 				content = tag_clear(content, "{", "{", "}", 1)

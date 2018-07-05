@@ -1,0 +1,2 @@
+cd StanfordParser
+cht.bat

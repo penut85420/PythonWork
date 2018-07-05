@@ -1,3 +1,5 @@
 *.log
 *.xml
 *.ttl
+WikipediaWork/StanfordParser/
+WikipediaWork/__pycache__/

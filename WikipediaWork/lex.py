@@ -1,3 +1,5 @@
+import importlib
+
 class lexTreeNode:
     def __init__(self, s):
         s = s[1:-1] # Remove ()
@@ -77,4 +79,6 @@ def main():
     tree = lexTreeNode(contents)
     print(tree.find_title_is("數學"))
 
-main()
+def find_title_is(contents, title):
+    tree = lexTreeNode(contents)
+    return tree.find_title_is(title)
