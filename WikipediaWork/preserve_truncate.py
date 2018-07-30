@@ -1,4 +1,5 @@
-import os, re
+import os
+import re
 
 pageBegin = "<page>"
 pageEnd = "</page>"
@@ -39,7 +40,7 @@ for dirPath, dirName, fileNames in os.walk(inputDir):
                     if category_list is not None and not title_pass:
                         fout.write("<category>\n")
                         for c in category_list:
-                            fout.write(c + " ")
+                            fout.write(c + "\t") # TODO
                         fout.write("\n</category>\n")
                     category_list = None
                     if fout.tell() > baseFileSize:

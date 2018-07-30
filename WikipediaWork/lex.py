@@ -1,4 +1,7 @@
 import importlib
+import os
+import re
+
 
 class lexTreeNode:
     def __init__(self, s):
@@ -56,6 +59,8 @@ class lexTreeNode:
                 found_title = True
                 continue
             elif found_title and c.tag == "VP":
+                if title == "數學":
+                    print(c.child[-1].child[1].child[1].child[0].child[0].child[0].child[1])
                 return c.child[-1].get_npnn()
 
         for child in self.child:
@@ -82,3 +87,32 @@ def main():
 def find_title_is(contents, title):
     tree = lexTreeNode(contents)
     return tree.find_title_is(title)
+
+dir_in = "zhwiki_sub_semantic\\"
+dir_out = "zhwiki_sub_semantic_analysis\\"
+
+for dirPath, dirNames, fileNames in os.walk(dir_in):
+    for fileName in fileNames:
+        fin = open(dirPath + "\\" + fileName, "r", encoding='UTF-8')
+        fout = open(dir_out + fileName, "w", encoding='UTF-8')
+        content = ""
+        log = False
+        for line in fin:
+            if line.startswith("<title>"):
+                title = re.search("<title>(.*)</title>", line).group(1)
+                
+            elif line.startswith("<semantic>"):
+                log = True
+                fout.write(line)
+                continue
+            elif line.startswith("</semantic>"):
+                fout.write(line)
+                fout.write("<tagged>\n")
+                # print(title)
+                fout.write(str(find_title_is(content, title)))
+                fout.write("\n</tagged>\n")
+                log = False
+                continue
+            
+            if log: content += line
+            fout.write(line)

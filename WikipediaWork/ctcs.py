@@ -37,6 +37,14 @@ class CtcsString:
             s = s.replace(self.cs_str_list[i].strip(), self.org_str_list[i].strip())
         return s
 
+    def __str__(self):
+        return str(self.org_str_list) + str(self.cs_str_list)
+
     def __test__(self):
-        ss = CtcsString("顯然畫龍並不是一個好的選擇")
+        ss = CtcsString("電影 是 一 種 表演藝術 、 視覺藝術 及 聽覺藝術 ，利用 膠卷 、 錄影帶 或 數位媒體 將 影像 和聲 音 捕捉 起來 ，再 加上 後期 的 編輯 工作 而 成 。")
         print(ss.cs_str())
+
+c = CtcsString("視覺藝術")
+s = "(NN 视觉艺术)"
+print(c.cs_str)
+print(c.reduction(s))

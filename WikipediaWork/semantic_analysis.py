@@ -1,9 +1,11 @@
-import os, re, importlib
+import importlib
+import os
+import re
 
 StanfordParser = importlib.import_module("stanford_parser")
 Lex = importlib.import_module("lex")
 
-folder_input = "zhwiki_sub_seg"
+folder_input = "zhwiki_sub_seg_fix_small_sub"
 folder_output = "zhwiki_sub_semantic"
 
 # folder_input = "test_fin"
@@ -36,5 +38,14 @@ for dirPath, dirName, fileNames in os.walk(folder_input):
             
             if log: content += line
             # fout.write(line)
-        fout.write(StanfordParser.parse_string(content))
+        
+        content = StanfordParser.parse_string(content).split("\n\n")
 
+        for i in range(len(titles)):
+            fout.write("<title>" + titles[i] + "</title>\n")
+            fout.write("<semantic>\n") 
+            try:
+                fout.write(content[i])
+            except IndexError:
+                None
+            fout.write("\n</semantic>\n")
