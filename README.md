@@ -17,12 +17,3 @@ My python projects here.
 ## WikipediaWork
 
 Wikipedia Page 抽出首段進行分析
-
-```C=
-#include <stdio.h>
-
-int main() {
-  printf("hello");
-  return 0;
-}
-```
