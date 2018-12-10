@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TOPICSET>
+  <TOPIC>
+    <SENTENCE>為他的確實行動作了解釋</SENTENCE>
+    <SEGMENTATION>
+      <SEGSEQ>為 他 的 確實 行動 作 了 解釋</SEGSEQ>
+      <SEGSEQ>為 他 的 確實 行動 作 了 解 釋</SEGSEQ>
+      <SEGSEQ>為 他 的 確實 行動 作 了解 釋</SEGSEQ>
+      <SEGSEQ>為 他 的 確實 行 動作 了 解釋</SEGSEQ>
+      <SEGSEQ>為 他 的 確實 行 動作 了 解 釋</SEGSEQ>
+      <SEGSEQ>為 他 的 確實 行 動作 了解 釋</SEGSEQ>
+      <SEGSEQ>為 他 的 確實 行 動 作 了 解釋</SEGSEQ>
+      <SEGSEQ>為 他 的 確實 行 動 作 了 解 釋</SEGSEQ>
+      <SEGSEQ>為 他 的 確實 行 動 作 了解 釋</SEGSEQ>
+      <SEGSEQ>為 他 的 確 實 行動 作 了 解釋</SEGSEQ>
+      <SEGSEQ>為 他 的 確 實 行動 作 了 解 釋</SEGSEQ>
+      <SEGSEQ>為 他 的 確 實 行動 作 了解 釋</SEGSEQ>
+      <SEGSEQ>為 他 的 確 實 行 動作 了 解釋</SEGSEQ>
+      <SEGSEQ>為 他 的 確 實 行 動作 了 解 釋</SEGSEQ>
+      <SEGSEQ>為 他 的 確 實 行 動作 了解 釋</SEGSEQ>
+      <SEGSEQ>為 他 的 確 實 行 動 作 了 解釋</SEGSEQ>
+      <SEGSEQ>為 他 的 確 實 行 動 作 了 解 釋</SEGSEQ>
+      <SEGSEQ>為 他 的 確 實 行 動 作 了解 釋</SEGSEQ>
+      <SEGSEQ>為 他 的 確 實行 動作 了 解釋</SEGSEQ>
+      <SEGSEQ>為 他 的 確 實行 動作 了 解 釋</SEGSEQ>
+      <SEGSEQ>為 他 的 確 實行 動作 了解 釋</SEGSEQ>
+      <SEGSEQ>為 他 的 確 實行 動 作 了 解釋</SEGSEQ>
+      <SEGSEQ>為 他 的 確 實行 動 作 了 解 釋</SEGSEQ>
+      <SEGSEQ>為 他 的 確 實行 動 作 了解 釋</SEGSEQ>
+      <SEGSEQ>為 他 的確 實 行動 作 了 解釋</SEGSEQ>
+      <SEGSEQ>為 他 的確 實 行動 作 了 解 釋</SEGSEQ>
+      <SEGSEQ>為 他 的確 實 行動 作 了解 釋</SEGSEQ>
+      <SEGSEQ>為 他 的確 實 行 動作 了 解釋</SEGSEQ>
+      <SEGSEQ>為 他 的確 實 行 動作 了 解 釋</SEGSEQ>
+      <SEGSEQ>為 他 的確 實 行 動作 了解 釋</SEGSEQ>
+      <SEGSEQ>為 他 的確 實 行 動 作 了 解釋</SEGSEQ>
+      <SEGSEQ>為 他 的確 實 行 動 作 了 解 釋</SEGSEQ>
+      <SEGSEQ>為 他 的確 實 行 動 作 了解 釋</SEGSEQ>
+      <SEGSEQ>為 他 的確 實行 動作 了 解釋</SEGSEQ>
+      <SEGSEQ>為 他 的確 實行 動作 了 解 釋</SEGSEQ>
+      <SEGSEQ>為 他 的確 實行 動作 了解 釋</SEGSEQ>
+      <SEGSEQ>為 他 的確 實行 動 作 了 解釋</SEGSEQ>
+      <SEGSEQ>為 他 的確 實行 動 作 了 解 釋</SEGSEQ>
+      <SEGSEQ>為 他 的確 實行 動 作 了解 釋</SEGSEQ>
+    </SEGMENTATION>
+  </TOPIC>
+  <TOPIC>
+    <SENTENCE>將來自會有美好的前程</SENTENCE>
+    <SEGMENTATION>
+      <SEGSEQ>將 來 自 會 有 美 好 的 前 程</SEGSEQ>
+      <SEGSEQ>將 來 自 會 有 美 好 的 前程</SEGSEQ>
+      <SEGSEQ>將 來 自 會 有 美好 的 前 程</SEGSEQ>
+      <SEGSEQ>將 來 自 會 有 美好 的 前程</SEGSEQ>
+      <SEGSEQ>將 來自 會 有 美 好 的 前 程</SEGSEQ>
+      <SEGSEQ>將 來自 會 有 美 好 的 前程</SEGSEQ>
+      <SEGSEQ>將 來自 會 有 美好 的 前 程</SEGSEQ>
+      <SEGSEQ>將 來自 會 有 美好 的 前程</SEGSEQ>
+      <SEGSEQ>將來 自 會 有 美 好 的 前 程</SEGSEQ>
+      <SEGSEQ>將來 自 會 有 美 好 的 前程</SEGSEQ>
+      <SEGSEQ>將來 自 會 有 美好 的 前 程</SEGSEQ>
+      <SEGSEQ>將來 自 會 有 美好 的 前程</SEGSEQ>
+    </SEGMENTATION>
+  </TOPIC>
+  <TOPIC>
+    <SENTENCE>我們準備了解救遊客的器材</SENTENCE>
+    <SEGMENTATION>
+      <SEGSEQ>我 們 準 備 了 解 救 遊客 的 器材</SEGSEQ>
+      <SEGSEQ>我 們 準 備 了 解 救 遊客 的 器 材</SEGSEQ>
+      <SEGSEQ>我 們 準 備 了 解 救 遊 客 的 器材</SEGSEQ>
+      <SEGSEQ>我 們 準 備 了 解 救 遊 客 的 器 材</SEGSEQ>
+      <SEGSEQ>我 們 準 備 了 解救 遊客 的 器材</SEGSEQ>
+      <SEGSEQ>我 們 準 備 了 解救 遊客 的 器 材</SEGSEQ>
+      <SEGSEQ>我 們 準 備 了 解救 遊 客 的 器材</SEGSEQ>
+      <SEGSEQ>我 們 準 備 了 解救 遊 客 的 器 材</SEGSEQ>
+      <SEGSEQ>我 們 準 備 了解 救 遊客 的 器材</SEGSEQ>
+      <SEGSEQ>我 們 準 備 了解 救 遊客 的 器 材</SEGSEQ>
+      <SEGSEQ>我 們 準 備 了解 救 遊 客 的 器材</SEGSEQ>
+      <SEGSEQ>我 們 準 備 了解 救 遊 客 的 器 材</SEGSEQ>
+      <SEGSEQ>我 們 準備 了 解 救 遊客 的 器材</SEGSEQ>
+      <SEGSEQ>我 們 準備 了 解 救 遊客 的 器 材</SEGSEQ>
+      <SEGSEQ>我 們 準備 了 解 救 遊 客 的 器材</SEGSEQ>
+      <SEGSEQ>我 們 準備 了 解 救 遊 客 的 器 材</SEGSEQ>
+      <SEGSEQ>我 們 準備 了 解救 遊客 的 器材</SEGSEQ>
+      <SEGSEQ>我 們 準備 了 解救 遊客 的 器 材</SEGSEQ>
+      <SEGSEQ>我 們 準備 了 解救 遊 客 的 器材</SEGSEQ>
+      <SEGSEQ>我 們 準備 了 解救 遊 客 的 器 材</SEGSEQ>
+      <SEGSEQ>我 們 準備 了解 救 遊客 的 器材</SEGSEQ>
+      <SEGSEQ>我 們 準備 了解 救 遊客 的 器 材</SEGSEQ>
+      <SEGSEQ>我 們 準備 了解 救 遊 客 的 器材</SEGSEQ>
+      <SEGSEQ>我 們 準備 了解 救 遊 客 的 器 材</SEGSEQ>
+      <SEGSEQ>我們 準 備 了 解 救 遊客 的 器材</SEGSEQ>
+      <SEGSEQ>我們 準 備 了 解 救 遊客 的 器 材</SEGSEQ>
+      <SEGSEQ>我們 準 備 了 解 救 遊 客 的 器材</SEGSEQ>
+      <SEGSEQ>我們 準 備 了 解 救 遊 客 的 器 材</SEGSEQ>
+      <SEGSEQ>我們 準 備 了 解救 遊客 的 器材</SEGSEQ>
+      <SEGSEQ>我們 準 備 了 解救 遊客 的 器 材</SEGSEQ>
+      <SEGSEQ>我們 準 備 了 解救 遊 客 的 器材</SEGSEQ>
+      <SEGSEQ>我們 準 備 了 解救 遊 客 的 器 材</SEGSEQ>
+      <SEGSEQ>我們 準 備 了解 救 遊客 的 器材</SEGSEQ>
+      <SEGSEQ>我們 準 備 了解 救 遊客 的 器 材</SEGSEQ>
+      <SEGSEQ>我們 準 備 了解 救 遊 客 的 器材</SEGSEQ>
+      <SEGSEQ>我們 準 備 了解 救 遊 客 的 器 材</SEGSEQ>
+      <SEGSEQ>我們 準備 了 解 救 遊客 的 器材</SEGSEQ>
+      <SEGSEQ>我們 準備 了 解 救 遊客 的 器 材</SEGSEQ>
+      <SEGSEQ>我們 準備 了 解 救 遊 客 的 器材</SEGSEQ>
+      <SEGSEQ>我們 準備 了 解 救 遊 客 的 器 材</SEGSEQ>
+      <SEGSEQ>我們 準備 了 解救 遊客 的 器材</SEGSEQ>
+      <SEGSEQ>我們 準備 了 解救 遊客 的 器 材</SEGSEQ>
+      <SEGSEQ>我們 準備 了 解救 遊 客 的 器材</SEGSEQ>
+      <SEGSEQ>我們 準備 了 解救 遊 客 的 器 材</SEGSEQ>
+      <SEGSEQ>我們 準備 了解 救 遊客 的 器材</SEGSEQ>
+      <SEGSEQ>我們 準備 了解 救 遊客 的 器 材</SEGSEQ>
+      <SEGSEQ>我們 準備 了解 救 遊 客 的 器材</SEGSEQ>
+      <SEGSEQ>我們 準備 了解 救 遊 客 的 器 材</SEGSEQ>
+    </SEGMENTATION>
+  </TOPIC>
+  <TOPIC>
+    <SENTENCE>還真是不適合約他們去</SENTENCE>
+    <SEGMENTATION>
+      <SEGSEQ>還 真 是 不 適合 約 他們 去</SEGSEQ>
+      <SEGSEQ>還 真 是 不 適合 約 他 們 去</SEGSEQ>
+      <SEGSEQ>還 真 是 不 適 合約 他們 去</SEGSEQ>
+      <SEGSEQ>還 真 是 不 適 合約 他 們 去</SEGSEQ>
+      <SEGSEQ>還 真 是 不 適 合 約 他們 去</SEGSEQ>
+      <SEGSEQ>還 真 是 不 適 合 約 他 們 去</SEGSEQ>
+      <SEGSEQ>還 真 是 不適 合約 他們 去</SEGSEQ>
+      <SEGSEQ>還 真 是 不適 合約 他 們 去</SEGSEQ>
+      <SEGSEQ>還 真 是 不適 合 約 他們 去</SEGSEQ>
+      <SEGSEQ>還 真 是 不適 合 約 他 們 去</SEGSEQ>
+      <SEGSEQ>還 真是 不 適合 約 他們 去</SEGSEQ>
+      <SEGSEQ>還 真是 不 適合 約 他 們 去</SEGSEQ>
+      <SEGSEQ>還 真是 不 適 合約 他們 去</SEGSEQ>
+      <SEGSEQ>還 真是 不 適 合約 他 們 去</SEGSEQ>
+      <SEGSEQ>還 真是 不 適 合 約 他們 去</SEGSEQ>
+      <SEGSEQ>還 真是 不 適 合 約 他 們 去</SEGSEQ>
+      <SEGSEQ>還 真是 不適 合約 他們 去</SEGSEQ>
+      <SEGSEQ>還 真是 不適 合約 他 們 去</SEGSEQ>
+      <SEGSEQ>還 真是 不適 合 約 他們 去</SEGSEQ>
+      <SEGSEQ>還 真是 不適 合 約 他 們 去</SEGSEQ>
+    </SEGMENTATION>
+  </TOPIC>
+  <TOPIC>
+    <SENTENCE>他拒絕透露裝備的確實數目</SENTENCE>
+    <SEGMENTATION>
+      <SEGSEQ>他 拒絕 透 露 裝 備 的 確實 數 目</SEGSEQ>
+      <SEGSEQ>他 拒絕 透 露 裝 備 的 確實 數目</SEGSEQ>
+      <SEGSEQ>他 拒絕 透 露 裝 備 的 確 實 數 目</SEGSEQ>
+      <SEGSEQ>他 拒絕 透 露 裝 備 的 確 實 數目</SEGSEQ>
+      <SEGSEQ>他 拒絕 透 露 裝 備 的 確 實數 目</SEGSEQ>
+      <SEGSEQ>他 拒絕 透 露 裝 備 的確 實 數 目</SEGSEQ>
+      <SEGSEQ>他 拒絕 透 露 裝 備 的確 實 數目</SEGSEQ>
+      <SEGSEQ>他 拒絕 透 露 裝 備 的確 實數 目</SEGSEQ>
+      <SEGSEQ>他 拒絕 透 露 裝備 的 確實 數 目</SEGSEQ>
+      <SEGSEQ>他 拒絕 透 露 裝備 的 確實 數目</SEGSEQ>
+      <SEGSEQ>他 拒絕 透 露 裝備 的 確 實 數 目</SEGSEQ>
+      <SEGSEQ>他 拒絕 透 露 裝備 的 確 實 數目</SEGSEQ>
+      <SEGSEQ>他 拒絕 透 露 裝備 的 確 實數 目</SEGSEQ>
+      <SEGSEQ>他 拒絕 透 露 裝備 的確 實 數 目</SEGSEQ>
+      <SEGSEQ>他 拒絕 透 露 裝備 的確 實 數目</SEGSEQ>
+      <SEGSEQ>他 拒絕 透 露 裝備 的確 實數 目</SEGSEQ>
+      <SEGSEQ>他 拒絕 透露 裝 備 的 確實 數 目</SEGSEQ>
+      <SEGSEQ>他 拒絕 透露 裝 備 的 確實 數目</SEGSEQ>
+      <SEGSEQ>他 拒絕 透露 裝 備 的 確 實 數 目</SEGSEQ>
+      <SEGSEQ>他 拒絕 透露 裝 備 的 確 實 數目</SEGSEQ>
+      <SEGSEQ>他 拒絕 透露 裝 備 的 確 實數 目</SEGSEQ>
+      <SEGSEQ>他 拒絕 透露 裝 備 的確 實 數 目</SEGSEQ>
+      <SEGSEQ>他 拒絕 透露 裝 備 的確 實 數目</SEGSEQ>
+      <SEGSEQ>他 拒絕 透露 裝 備 的確 實數 目</SEGSEQ>
+      <SEGSEQ>他 拒絕 透露 裝備 的 確實 數 目</SEGSEQ>
+      <SEGSEQ>他 拒絕 透露 裝備 的 確實 數目</SEGSEQ>
+      <SEGSEQ>他 拒絕 透露 裝備 的 確 實 數 目</SEGSEQ>
+      <SEGSEQ>他 拒絕 透露 裝備 的 確 實 數目</SEGSEQ>
+      <SEGSEQ>他 拒絕 透露 裝備 的 確 實數 目</SEGSEQ>
+      <SEGSEQ>他 拒絕 透露 裝備 的確 實 數 目</SEGSEQ>
+      <SEGSEQ>他 拒絕 透露 裝備 的確 實 數目</SEGSEQ>
+      <SEGSEQ>他 拒絕 透露 裝備 的確 實數 目</SEGSEQ>
+      <SEGSEQ>他 拒 絕 透 露 裝 備 的 確實 數 目</SEGSEQ>
+      <SEGSEQ>他 拒 絕 透 露 裝 備 的 確實 數目</SEGSEQ>
+      <SEGSEQ>他 拒 絕 透 露 裝 備 的 確 實 數 目</SEGSEQ>
+      <SEGSEQ>他 拒 絕 透 露 裝 備 的 確 實 數目</SEGSEQ>
+      <SEGSEQ>他 拒 絕 透 露 裝 備 的 確 實數 目</SEGSEQ>
+      <SEGSEQ>他 拒 絕 透 露 裝 備 的確 實 數 目</SEGSEQ>
+      <SEGSEQ>他 拒 絕 透 露 裝 備 的確 實 數目</SEGSEQ>
+      <SEGSEQ>他 拒 絕 透 露 裝 備 的確 實數 目</SEGSEQ>
+      <SEGSEQ>他 拒 絕 透 露 裝備 的 確實 數 目</SEGSEQ>
+      <SEGSEQ>他 拒 絕 透 露 裝備 的 確實 數目</SEGSEQ>
+      <SEGSEQ>他 拒 絕 透 露 裝備 的 確 實 數 目</SEGSEQ>
+      <SEGSEQ>他 拒 絕 透 露 裝備 的 確 實 數目</SEGSEQ>
+      <SEGSEQ>他 拒 絕 透 露 裝備 的 確 實數 目</SEGSEQ>
+      <SEGSEQ>他 拒 絕 透 露 裝備 的確 實 數 目</SEGSEQ>
+      <SEGSEQ>他 拒 絕 透 露 裝備 的確 實 數目</SEGSEQ>
+      <SEGSEQ>他 拒 絕 透 露 裝備 的確 實數 目</SEGSEQ>
+      <SEGSEQ>他 拒 絕 透露 裝 備 的 確實 數 目</SEGSEQ>
+      <SEGSEQ>他 拒 絕 透露 裝 備 的 確實 數目</SEGSEQ>
+      <SEGSEQ>他 拒 絕 透露 裝 備 的 確 實 數 目</SEGSEQ>
+      <SEGSEQ>他 拒 絕 透露 裝 備 的 確 實 數目</SEGSEQ>
+      <SEGSEQ>他 拒 絕 透露 裝 備 的 確 實數 目</SEGSEQ>
+      <SEGSEQ>他 拒 絕 透露 裝 備 的確 實 數 目</SEGSEQ>
+      <SEGSEQ>他 拒 絕 透露 裝 備 的確 實 數目</SEGSEQ>
+      <SEGSEQ>他 拒 絕 透露 裝 備 的確 實數 目</SEGSEQ>
+      <SEGSEQ>他 拒 絕 透露 裝備 的 確實 數 目</SEGSEQ>
+      <SEGSEQ>他 拒 絕 透露 裝備 的 確實 數目</SEGSEQ>
+      <SEGSEQ>他 拒 絕 透露 裝備 的 確 實 數 目</SEGSEQ>
+      <SEGSEQ>他 拒 絕 透露 裝備 的 確 實 數目</SEGSEQ>
+      <SEGSEQ>他 拒 絕 透露 裝備 的 確 實數 目</SEGSEQ>
+      <SEGSEQ>他 拒 絕 透露 裝備 的確 實 數 目</SEGSEQ>
+      <SEGSEQ>他 拒 絕 透露 裝備 的確 實 數目</SEGSEQ>
+      <SEGSEQ>他 拒 絕 透露 裝備 的確 實數 目</SEGSEQ>
+    </SEGMENTATION>
+  </TOPIC>
+</TOPICSET>

@@ -1,4 +1,6 @@
+import os
 import re
+
 
 class Node:
 	def __init__(self, token, isEnd = True):
@@ -168,38 +170,52 @@ class WordSegmentor:
 			r += match
 			
 			if re.compile("[。！？!?]").search(match):
-				r += "\r\n"
+				r += " "
 			elif re.compile("[，；：,:;]").search(match):
-				r += "  "
+				r += " "
 			elif re.compile("[\r\n]").search(match):
 				pass
 			else: r += " "
 		return r
-import os
 
-w = WordSegmentor()
 print("Build Dict")
-input_dir = r"E:\Document\Programming\Python\PythonWork\WikipediaWork\zhwiki_sub_plain_preprocess"
-seg_dir = r"E:\Document\Programming\Python\PythonWork\WikipediaWork\zhwiki_sub_seg\\"
+# w = WordSegmentor()
 
-for dirPath, dirNames, fileNames in os.walk(input_dir):
-	for fileName in fileNames:
-		print(fileName)
-		fin = open(input_dir + "\\" + fileName, "r", encoding="UTF-8")
-		fout = open(seg_dir + fileName, "w", encoding="UTF-8")
-		log = False
-		content = ""
-		for line in fin:
-			if line.startswith("<preserve>"):
-				log = True
-				fout.write(line)
-				continue
-			if line.startswith("</preserve>"):
-				log = False
-				fout.write(w.maximum_match(content).split("\r\n")[0])
-				content = ""
+d = {}
+maxlen = 0
 
-			if log:
-				content += line
-			else:
-				fout.write(line)
+with open("dictionary_main.txt", "r", encoding="UTF-8") as fin:
+	for line in fin:
+		d[line] = True
+		if len(line) > maxlen:
+			maxlen = len(line)
+
+print(maxlen)
+
+# input_dir = r"E:\Document\Programming\Python\PythonWork\WikipediaWork\zhwiki_sub_plain_preprocess"
+# seg_dir = r"E:\Document\Programming\Python\PythonWork\WikipediaWork\zhwiki_sub_seg\\"
+
+# for dirPath, dirNames, fileNames in os.walk(input_dir):
+# 	for fileName in fileNames:
+# 		print(fileName)
+# 		fin = open(input_dir + "\\" + fileName, "r", encoding="UTF-8")
+# 		fout = open(seg_dir + fileName, "w", encoding="UTF-8")
+# 		log = False
+# 		content = ""
+# 		for line in fin:
+# 			if line.startswith("<preserve>"):
+# 				log = True
+# 				fout.write(line)
+# 				continue
+# 			if line.startswith("</preserve>"):
+# 				log = False
+# 				fout.write(w.maximum_match(content).split("\r\n")[0])
+# 				content = ""
+
+# 			if log:
+# 				content += line
+# 			else:
+# 				fout.write(line)
+print("Done")
+while (True):
+	pass
