@@ -1,5 +1,6 @@
 d, d_maxlen = dict(), 0
-with open("lexicon_test.txt", 'r', encoding='utf-8') as fin:
+# with open("lexicon_test.txt", 'r', encoding='utf-8') as fin:
+with open(r"D:\Documents\Dictionary\dictionary_main.txt", 'r', encoding='utf-8') as fin:
     for line in fin:
         s = line.strip()
         d[s] = True
@@ -26,20 +27,32 @@ def seglen(s):
         i -= 1
     return len(s[:i])
 
-fout = open("wseg_output.txt", 'w', encoding='utf-8')
-fout.write('<?xml version="1.0" encoding="utf-8"?>\n')
-fout.write('<TOPICSET>\n')
-with open("wsegInput_test.txt", 'r', encoding='utf-8') as fin:
-    for line in fin:
-        fout.write('  <TOPIC>\n')
-        sen = line.strip()
-        fout.write('    <SENTENCE>' + sen + "</SENTENSE>\n")
-        fout.write("    <SEGMENTATION>\n")
-        id = 1
-        for rr in wseg(sen, "", []):
-            fout.write("      <SEGSEQ id=\"%d\">" % id + rr + "</SEGSEQ>\n")
-            id += 1
-        fout.write("    </SEGMENTATION>\n")
-        fout.write('  </TOPIC>\n')
-fout.write("</TOPICSET>\n")
-fout.close()
+def senseg(s):
+    r = ""
+    while s != "":
+        i = seglen(s)
+        r += s[:i] + ' '
+        s = s[i:]
+        print(r, s)
+    return r[:-1]
+
+if __name__ == "__main__":
+    s = "哈囉你好嗎，衷心感謝，期待再相逢。"
+    print(senseg(s))
+    # fout = open("wseg_output.txt", 'w', encoding='utf-8')
+    # fout.write('<?xml version="1.0" encoding="utf-8"?>\n')
+    # fout.write('<TOPICSET>\n')
+    # with open("wsegInput_test.txt", 'r', encoding='utf-8') as fin:
+    #     for line in fin:
+    #         fout.write('  <TOPIC>\n')
+    #         sen = line.strip()
+    #         fout.write('    <SENTENCE>' + sen + "</SENTENSE>\n")
+    #         fout.write("    <SEGMENTATION>\n")
+    #         id = 1
+    #         for rr in wseg(sen, "", []):
+    #             fout.write("      <SEGSEQ id=\"%d\">" % id + rr + "</SEGSEQ>\n")
+    #             id += 1
+    #         fout.write("    </SEGMENTATION>\n")
+    #         fout.write('  </TOPIC>\n')
+    # fout.write("</TOPICSET>\n")
+    # fout.close()

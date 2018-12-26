@@ -1,6 +1,9 @@
 # PythonWork
 
-My python projects here.
+Just some of my python research here.
+
+## ChampListLOL
++ 從 LOL 官網爬所有英雄名稱下來
 
 ## CoPyMaster
 + 簡易的複製
