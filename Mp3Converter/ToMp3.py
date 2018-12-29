@@ -2,8 +2,19 @@
 import subprocess
 import os
 
+arg = list()
+arg.append('ffmpeg')
+arg.append('-i')
+arg.append('%s')
+arg.append('-vn')
+arg.append('-acodec')
+arg.append('libmp3lame')
+arg.append('%s')
+
 for dirPath, _, fileList in os.walk('./in/'):
 	for filename in fileList:
-		inn = dirPath + filename
-		out = './out/' + filename + '.mp3'
-		subprocess.call('ffmpeg -i "%s" -vn -acodec libmp3lame "%s"' % (inn.encode('utf8').decode('utf8'), out.encode('utf8').decode('utf8')))
+		inn = os.path.join(dirPath, filename)
+		out = os.path.join('./out/', filename + '.mp3')
+		arg[2] = '%s' % inn
+		arg[6] = '%s' % out
+		subprocess.call(arg)
