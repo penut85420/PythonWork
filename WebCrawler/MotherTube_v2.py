@@ -10,7 +10,7 @@ class Worker(Thread):
         self.queue = queue
         self.id = id
         self.dlist = dlist
-    
+
     def run(self):
         while self.queue.qsize() > 0:
             link = self.queue.get()
@@ -25,7 +25,9 @@ class Worker(Thread):
                 print(self.id, 'err\n' + str(e))
 
 if __name__ == "__main__":
-    mother_playlist = Playlist("https://www.youtube.com/playlist?list=LLG5oSI03yyAlKazKyyePiMQ")
+    # https://www.youtube.com/playlist?list=PL8bWHGFzXwgbz9eeVbPAJ8xToHITU1rNg
+    # mother_playlist = Playlist("https://www.youtube.com/playlist?list=LLG5oSI03yyAlKazKyyePiMQ")
+    mother_playlist = Playlist("https://www.youtube.com/playlist?list=PL8bWHGFzXwgbz9eeVbPAJ8xToHITU1rNg")
 
     dlist = list()
     try: dlist = pk.load(open("dlist.pkl", 'rb'))
@@ -36,7 +38,7 @@ if __name__ == "__main__":
     for link in mother_playlist.parse_links():
         if link not in dlist:
             download_queue.put(link)
-    
+
     tlist = list()
     for i in range(16):
         tlist.append(Worker(download_queue, i, dlist))
