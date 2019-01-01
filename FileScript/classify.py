@@ -3,9 +3,10 @@
 import os
 import datetime
 
-parentDir = './Camera'
-targetDir = './Unclassified/DCIM/Camera'
-
+parentDir = './Photos'
+targetDir = './Photos'
+if not os.path.exists(parentDir):
+	os.mkdir(parentDir)
 for dirPath, _, fileList in os.walk(targetDir):
     for filename in fileList:
         t = os.path.getmtime(dirPath + '/' + filename)
@@ -14,5 +15,5 @@ for dirPath, _, fileList in os.walk(targetDir):
 
         if not os.path.exists(os.path.join(parentDir, tag)):
             os.mkdir(os.path.join(parentDir, tag))
-        
+
         os.rename(os.path.join(dirPath, filename), os.path.join(parentDir, tag, filename))
