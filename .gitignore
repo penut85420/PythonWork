@@ -1,8 +1,6 @@
 *.log
 *.xml
 *.ttl
-WikipediaWork/StanfordParser/
-WikipediaWork/__pycache__/
 *.webm
 *.mp3
 *.mp4
