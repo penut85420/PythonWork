@@ -1,5 +1,5 @@
-
-if [$1 == ""]; then
+#!/bin/sh
+if [ "$1" = "" ]; then
 	echo "Usage: ./QuickPush.sh [commit-msg]"
 else
 	git add .
