@@ -1,3 +1,5 @@
+# Rename the bunch of files into serial number
+
 import os
 import datetime
 

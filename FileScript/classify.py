@@ -1,4 +1,4 @@
-# Classify files into yyyymm folder
+# Classify files into yyyymm folder due to last modify date
 
 import os
 import datetime

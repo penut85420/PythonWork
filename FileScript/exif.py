@@ -1,3 +1,5 @@
+# Fix the last modify date of the photos
+
 import PIL.Image
 import PIL.ExifTags
 import os

@@ -1,3 +1,5 @@
+# Reanme files into title format
+
 import os
 
 def getFileExt(s):
@@ -16,4 +18,3 @@ for dirPath, _, fileList in os.walk(targetDir):
         new = new.replace("Nlp ", "NLP ")
         new = os.path.join(dirPath, new)
         os.rename(old, new)
-        
