@@ -18,7 +18,7 @@ j = json.load(open('a.json', 'r', encoding='utf8'))
 for m in j['comments']:
     msglog.write(str(m['content_offset_seconds']) + '\t' + m['message']['body'] + '\n')
 
-while j['_next'] != None:
+while j.get('_next', None):
     print(j['_next'], end='\r')
     r = requests.get(url_next % (_video_id, _client_id, j['_next']))
     with open('a.json', 'w', encoding='utf8') as fout:
@@ -28,3 +28,4 @@ while j['_next'] != None:
         msglog.write(str(m['content_offset_seconds']) + '\t' + m['message']['body'] + '\n')
 
 msglog.close()
+print('\n\n Done!')
